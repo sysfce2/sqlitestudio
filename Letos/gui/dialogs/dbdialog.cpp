@@ -146,6 +146,7 @@ void DbDialog::showEvent(QShowEvent *e)
 void DbDialog::init()
 {
     ui->setupUi(this);
+    setWindowIcon(ICONS.DATABASE);
     connIconTooltip = new ImmediateTooltip(ui->testConnIcon);
     ui->nameEdit->setVisible(false);
     setNameLabelText("");
