@@ -84,7 +84,7 @@
         <translation>OSマネージ版</translation>
     </message>
     <message>
-        <location filename="../dialogs/aboutdialog.cpp" line="98"/>
+        <location filename="../dialogs/aboutdialog.cpp" line="102"/>
         <source>&lt;h3&gt;Table of contents:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</source>
         <translation>&lt;h3&gt;目次:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</translation>
     </message>
@@ -1067,7 +1067,7 @@
     <name>ConfigDialog</name>
     <message>
         <location filename="../dialogs/configdialog.ui" line="14"/>
-        <location filename="../dialogs/configdialog.ui" line="3122"/>
+        <location filename="../dialogs/configdialog.ui" line="3209"/>
         <source>Configuration</source>
         <translation>設定</translation>
     </message>
@@ -1082,964 +1082,1000 @@
         <translation>一般</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="112"/>
+        <location filename="../dialogs/configdialog.ui" line="108"/>
         <source>Keyboard shortcuts</source>
         <translation>キーボードショートカット</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="124"/>
+        <location filename="../dialogs/configdialog.ui" line="116"/>
         <source>Look &amp; feel</source>
         <translation>外観と操作感</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="135"/>
+        <location filename="../dialogs/configdialog.ui" line="123"/>
         <source>Style</source>
         <translation>スタイル</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="147"/>
+        <location filename="../dialogs/configdialog.ui" line="131"/>
         <source>Fonts</source>
         <translation>フォント</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="159"/>
+        <location filename="../dialogs/configdialog.ui" line="139"/>
         <source>Code colors</source>
         <translation>コード色</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="184"/>
-        <location filename="../dialogs/configdialog.ui" line="277"/>
+        <location filename="../dialogs/configdialog.ui" line="156"/>
+        <location filename="../dialogs/configdialog.ui" line="229"/>
         <source>Database list</source>
         <translation>データベースリスト</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1350"/>
+        <location filename="../dialogs/configdialog.ui" line="1302"/>
         <source>Code assistant</source>
         <translation>コードアシスタント</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="196"/>
+        <location filename="../dialogs/configdialog.ui" line="164"/>
         <source>Data browsing</source>
         <translation>データ閲覧</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="172"/>
-        <location filename="../dialogs/configdialog.ui" line="1263"/>
+        <location filename="../dialogs/configdialog.ui" line="148"/>
+        <location filename="../dialogs/configdialog.ui" line="1215"/>
         <source>SQL Editor</source>
         <translation>SQL エディタ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="207"/>
+        <location filename="../dialogs/configdialog.ui" line="171"/>
         <source>Data editors</source>
         <translation>データエディタ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="232"/>
+        <location filename="../dialogs/configdialog.ui" line="188"/>
         <source>Plugins</source>
         <translation>プラグイン</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="243"/>
+        <location filename="../dialogs/configdialog.ui" line="195"/>
         <source>Code formatters</source>
         <translation>コードフォーマッタ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="251"/>
+        <location filename="../dialogs/configdialog.ui" line="203"/>
         <source>Scripting languages</source>
         <translation>スクリプト言語</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="306"/>
+        <location filename="../dialogs/configdialog.ui" line="258"/>
         <source>If switched off, then columns will be sorted in the order they are typed in CREATE TABLE statement.</source>
         <translation>オフにすると、カラムは CREATE TABLE 文に入力された順序で並べられます。</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="309"/>
+        <location filename="../dialogs/configdialog.ui" line="261"/>
         <source>Sort table columns alphabetically</source>
         <translation>テーブルのカラムをアルファベット順に並べ替える</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="345"/>
+        <location filename="../dialogs/configdialog.ui" line="297"/>
         <source>&lt;p&gt;Additional labels are those displayed next to the names on the databases list (they are blue, unless configured otherwise). Enabling this option will result in labels for databases, invalid databases and aggregated nodes (column group, index group, trigger group). For more labels see options below.&lt;p&gt;</source>
         <translation>&lt;p&gt;追加ラベルとは、データベースリストの名前の横に表示されるラベルです（別途設定しない限り青色です）。このオプションを有効にすると、データベース、無効なデータベース、集約ノード（カラムグループ、インデックスグループ、トリガーグループ）にラベルが表示されます。その他のラベルについては下のオプションを参照してください。&lt;p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="348"/>
+        <location filename="../dialogs/configdialog.ui" line="300"/>
         <source>Display additional labels on the list</source>
         <translation>リストに追加ラベルを表示</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="379"/>
+        <location filename="../dialogs/configdialog.ui" line="331"/>
         <source>Display labels for regular tables</source>
         <translation>通常のテーブルのラベルを表示</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="389"/>
+        <location filename="../dialogs/configdialog.ui" line="341"/>
         <source>Virtual tables will be marked with a &apos;virtual&apos; label.</source>
         <translation>仮想テーブルには &apos;virtual&apos; ラベルが付けられます。</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="392"/>
+        <location filename="../dialogs/configdialog.ui" line="344"/>
         <source>Display labels for virtual tables</source>
         <translation>仮想テーブルのラベルを表示</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="332"/>
+        <location filename="../dialogs/configdialog.ui" line="284"/>
         <source>If this option is switched off, then objects will be sorted in order they appear in sqlite_master table (which is in order they were created)</source>
         <translation>このオプションをオフにすると、オブジェクトは sqlite_master テーブルに現れる順序（作成された順序）で並べられます</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="335"/>
+        <location filename="../dialogs/configdialog.ui" line="287"/>
         <source>Sort objects (tables, indexes, triggers and views) alphabetically</source>
         <translation>オブジェクト（テーブル、インデックス、トリガー、ビュー）をアルファベット順に並べ替える</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="408"/>
+        <location filename="../dialogs/configdialog.ui" line="360"/>
         <source>Display system tables and indexes on the list</source>
         <translation>システムテーブルとインデックスをリストに表示</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="431"/>
+        <location filename="../dialogs/configdialog.ui" line="383"/>
         <source>Database dialog window</source>
         <translation>データベースダイアログウィンドウ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="437"/>
+        <location filename="../dialogs/configdialog.ui" line="389"/>
         <source>&lt;p&gt;When adding new database it is marked to be &quot;permanent&quot; (stored in configuration) by default. Checking this option makes every new database to NOT be &quot;permanent&quot; by default.&lt;/p&gt;</source>
         <translation>&lt;p&gt;新しいデータベースを追加すると、デフォルトでは &quot;permanent&quot;（設定に保存）としてマークされます。このオプションをオンにすると、新しいデータベースはデフォルトで &quot;permanent&quot; としてマークされません。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="440"/>
+        <location filename="../dialogs/configdialog.ui" line="392"/>
         <source>Do not mark database to be &quot;permanent&quot; by default</source>
         <translation>デフォルトでデータベースを &quot;permanent&quot; としてマークしない</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="498"/>
+        <location filename="../dialogs/configdialog.ui" line="450"/>
         <source>Data browsing and editing</source>
         <translation>データの閲覧と編集</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="504"/>
-        <location filename="../dialogs/configdialog.ui" line="517"/>
+        <location filename="../dialogs/configdialog.ui" line="456"/>
+        <location filename="../dialogs/configdialog.ui" line="469"/>
         <source>&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</source>
         <translation>&lt;p&gt;設定に保存する Populate Table ダイアログ設定の最大数です。100 で十分なはずです。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="520"/>
+        <location filename="../dialogs/configdialog.ui" line="472"/>
         <source>Number of memorized table populating configurations</source>
         <translation>記憶するテーブル生成設定の数</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="595"/>
+        <location filename="../dialogs/configdialog.ui" line="547"/>
         <source>Use scientific notation for very small real numbers in the grid view</source>
         <translation>グリッドビューで非常に小さい実数に科学表記を使用</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="634"/>
+        <location filename="../dialogs/configdialog.ui" line="586"/>
         <source>Data column width</source>
         <translation>データカラム幅</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="640"/>
+        <location filename="../dialogs/configdialog.ui" line="592"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user enters new value into column and the value is bigger than the current column width, the application will enlarge the column to fit the new value, but not wider than the limit defined in the option above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ユーザーがカラムに新しい値を入力し、その値が現在のカラム幅より大きい場合、アプリケーションは新しい値に合わせてカラムを広げます。ただし、上のオプションで定義された制限より広くはなりません。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="643"/>
+        <location filename="../dialogs/configdialog.ui" line="595"/>
         <source>Enlarge column when entering value longer than current width</source>
         <translation>現在の幅より長い値を入力したときにカラムを広げる</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="659"/>
+        <location filename="../dialogs/configdialog.ui" line="611"/>
         <source>&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit.&lt;/p&gt;</source>
         <translation>&lt;p&gt;データがグリッドビューに読み込まれると、カラム幅は自動的に調整されます。この値は調整時の初期幅を制限しますが、ユーザーはこの制限を超えて手動でカラムサイズを変更できます。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="585"/>
+        <location filename="../dialogs/configdialog.ui" line="537"/>
         <source>Number of data rows per page:</source>
         <translation>ページあたりのデータ行数：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="618"/>
+        <location filename="../dialogs/configdialog.ui" line="570"/>
         <source>&lt;p&gt;When this is enabled and user holds mouse pointer over a cell in any data view (query results, a table data, a view data) a tooltip will appear with details about the cell - it includes details like column data type, constraints, ROWID and others.&lt;/p&gt;</source>
         <translation>&lt;p&gt;これを有効にし、ユーザーが任意のデータビュー（クエリ結果、テーブルデータ、ビューデータ）のセル上にマウスポインタを置くと、セルの詳細を示すツールチップが表示されます。カラムのデータ型、制約、ROWID などの詳細が含まれます。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="621"/>
+        <location filename="../dialogs/configdialog.ui" line="573"/>
         <source>Show column and row details tooltip in data view</source>
         <translation>データビューでカラムと行の詳細ツールチップを表示</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="527"/>
+        <location filename="../dialogs/configdialog.ui" line="479"/>
         <source>&lt;p&gt;When editing a cell which used to have NULL value and entering empty string as new value, then this option determinates whether the new value should remain NULL (have this option enabled), or should it be overwritten with empty string value (have this option disabled).&lt;/p&gt;</source>
         <translation>&lt;p&gt;NULL 値だったセルを編集し、新しい値として空文字列を入力した場合、このオプションは新しい値を NULL のままにするか（このオプションを有効）、空文字列の値で上書きするか（このオプションを無効）を決定します。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="530"/>
+        <location filename="../dialogs/configdialog.ui" line="482"/>
         <source>Keep NULL value when entering empty value</source>
         <translation>空の値を入力したとき NULL 値を保持</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="608"/>
+        <location filename="../dialogs/configdialog.ui" line="560"/>
         <source>Limit number of rows for in case of dozens of columns</source>
         <translation>多数のカラムがある場合に行数を制限</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="739"/>
+        <location filename="../dialogs/configdialog.ui" line="691"/>
         <source>Inserting new row in data grid</source>
         <translation>データグリッドへの新しい行の挿入</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="745"/>
+        <location filename="../dialogs/configdialog.ui" line="697"/>
         <source>Before currently selected row</source>
         <translation>現在選択されている行の前</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="761"/>
+        <location filename="../dialogs/configdialog.ui" line="713"/>
         <source>After currently selected row</source>
         <translation>現在選択されている行の後</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="774"/>
+        <location filename="../dialogs/configdialog.ui" line="726"/>
         <source>At the end of data view</source>
         <translation>データビューの末尾</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="790"/>
+        <location filename="../dialogs/configdialog.ui" line="742"/>
         <source>Table windows</source>
         <translation>テーブルウィンドウ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="796"/>
+        <location filename="../dialogs/configdialog.ui" line="748"/>
         <source>&lt;p&gt;When enabled, Table Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
         <translation>&lt;p&gt;有効にすると、テーブルウィンドウは構造タブではなくデータタブを表示して開きます。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="799"/>
+        <location filename="../dialogs/configdialog.ui" line="751"/>
         <source>Open Table Windows with the data tab for start</source>
         <translation>テーブルウィンドウを最初にデータタブで開く</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="809"/>
+        <location filename="../dialogs/configdialog.ui" line="761"/>
         <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every Table Window, instead of being at second place.&lt;/p&gt;</source>
         <translation>&lt;p&gt;有効にすると、すべてのテーブルウィンドウで &quot;Data&quot; タブが二番目ではなく最初のタブとして配置されます。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="812"/>
+        <location filename="../dialogs/configdialog.ui" line="764"/>
         <source>Place data tab as first tab in a Table Window</source>
         <translation>テーブルウィンドウでデータタブを最初のタブに配置</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="825"/>
+        <location filename="../dialogs/configdialog.ui" line="777"/>
         <source>View windows</source>
         <translation>ビューウィンドウ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="831"/>
+        <location filename="../dialogs/configdialog.ui" line="783"/>
         <source>&lt;p&gt;When enabled, View Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
         <translation>&lt;p&gt;有効にすると、ビューウィンドウは構造タブではなくデータタブを表示して開きます。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="834"/>
+        <location filename="../dialogs/configdialog.ui" line="786"/>
         <source>Open View Windows with the data tab for start</source>
         <translation>ビューウィンドウを最初にデータタブで開く</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="844"/>
+        <location filename="../dialogs/configdialog.ui" line="796"/>
         <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every View Window, instead of being at second place.&lt;/p&gt;</source>
         <translation>&lt;p&gt;有効にすると、すべてのビューウィンドウで &quot;Data&quot; タブが二番目ではなく最初のタブとして配置されます。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="847"/>
+        <location filename="../dialogs/configdialog.ui" line="799"/>
         <source>Place data tab as first tab in a View Window</source>
         <translation>ビューウィンドウでデータタブを最初のタブに配置</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="891"/>
+        <location filename="../dialogs/configdialog.ui" line="843"/>
         <source>Data types</source>
         <translation>データ型</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="944"/>
+        <location filename="../dialogs/configdialog.ui" line="896"/>
         <source>Available editors:</source>
         <translation>利用可能なエディタ：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1061"/>
+        <location filename="../dialogs/configdialog.ui" line="1013"/>
         <source>Schema editing</source>
         <translation>スキーマ編集</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1073"/>
+        <location filename="../dialogs/configdialog.ui" line="1025"/>
         <source>Number of DDL changes kept in history.</source>
         <translation>履歴に保持する DDL 変更の数。</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1086"/>
+        <location filename="../dialogs/configdialog.ui" line="1038"/>
         <source>DDL history size:</source>
         <translation>DDL 履歴サイズ：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1093"/>
+        <location filename="../dialogs/configdialog.ui" line="1045"/>
         <source>Don&apos;t show DDL preview dialog when committing schema changes</source>
         <translation>Don&apos;t show：スキーマ変更のコミット時に DDL プレビューダイアログを表示しない</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1391"/>
-        <location filename="../dialogs/configdialog.ui" line="1407"/>
+        <location filename="../dialogs/configdialog.ui" line="1343"/>
+        <location filename="../dialogs/configdialog.ui" line="1359"/>
         <source>Number of queries kept in the history.</source>
         <translation>履歴に保持するクエリの数。</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1337"/>
+        <location filename="../dialogs/configdialog.ui" line="1289"/>
         <source>Execute only the query under the cursor</source>
         <translation>カーソル下のクエリのみ実行</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1423"/>
+        <location filename="../dialogs/configdialog.ui" line="1375"/>
         <source>Number of memorized query parameters</source>
         <translation>記憶するクエリパラメータの数</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="678"/>
+        <location filename="../dialogs/configdialog.ui" line="630"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit. This value is also used when enlarging column upon new, longer value entered by the user (see option below).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;データがグリッドビューに読み込まれると、カラム幅は自動的に調整されます。この値は調整時の初期幅を制限しますが、ユーザーはこの制限を超えて手動でカラムサイズを変更できます。この値は、ユーザーが新しい長い値を入力したときにカラムを広げる場合にも使用されます（下のオプションを参照）。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="681"/>
+        <location filename="../dialogs/configdialog.ui" line="633"/>
         <source>Limit automatic data column width to (in pixels):</source>
         <translation>自動データ列幅の上限（ピクセル）：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="688"/>
+        <location filename="../dialogs/configdialog.ui" line="640"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Initial width of data columns will be set to at least show complete name of the column in the header. This can still be overwritten by the initial limit of column width specified in pixels (the setting above).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;データカラムの初期幅は、少なくともヘッダーにカラムの完全な名前を表示できるように設定されます。これは、ピクセルで指定されたカラム幅の初期制限（上の設定）によって上書きされる場合があります。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="691"/>
+        <location filename="../dialogs/configdialog.ui" line="643"/>
         <source>Keep at least the width to show complete column name</source>
         <translation>完全なカラム名を表示できる幅を少なくとも保持</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1301"/>
+        <location filename="../dialogs/configdialog.ui" line="1253"/>
         <source>Wrap lines in SQL editor</source>
         <translation>SQL エディタで行を折り返す</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1324"/>
+        <location filename="../dialogs/configdialog.ui" line="1276"/>
         <source>Highlight current query</source>
         <translation>現在のクエリを強調表示</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1106"/>
+        <location filename="../dialogs/configdialog.ui" line="1058"/>
         <source>Updates</source>
         <translation>更新</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1112"/>
+        <location filename="../dialogs/configdialog.ui" line="1064"/>
         <source>Automatically check for updates at startup</source>
         <translation>起動時に自動的に更新を確認</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1125"/>
+        <location filename="../dialogs/configdialog.ui" line="1077"/>
         <source>Session</source>
         <translation>セッション</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1131"/>
+        <location filename="../dialogs/configdialog.ui" line="1083"/>
         <source>Restore last session (active MDI windows) after startup</source>
         <translation>起動後に最後のセッション（アクティブな MDI ウィンドウ）を復元</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1141"/>
+        <location filename="../dialogs/configdialog.ui" line="1093"/>
         <source>Allow multiple instances of the application at the same time</source>
         <translation>同時にアプリケーションの複数インスタンスを許可</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1154"/>
+        <location filename="../dialogs/configdialog.ui" line="1106"/>
         <source>Status Field</source>
         <translation>ステータスフィールド</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1163"/>
+        <location filename="../dialogs/configdialog.ui" line="1115"/>
         <source>Always open Status panel when new message is printed</source>
         <translation>新しいメッセージが表示されたら常にステータスパネルを開く</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1488"/>
+        <location filename="../dialogs/configdialog.ui" line="1440"/>
         <source>Code syntax colors</source>
         <translation>コード構文色</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1674"/>
+        <location filename="../dialogs/configdialog.ui" line="1626"/>
         <source>Keyword foreground</source>
         <translation>キーワード前景色</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1494"/>
+        <location filename="../dialogs/configdialog.ui" line="1446"/>
         <source>Regular foreground</source>
         <translation>通常の前景色</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1584"/>
+        <location filename="../dialogs/configdialog.ui" line="1536"/>
         <source>String foreground</source>
         <translation>文字列前景色</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1854"/>
+        <location filename="../dialogs/configdialog.ui" line="1806"/>
         <source>Comment foreground</source>
         <translation>コメント前景色</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1944"/>
+        <location filename="../dialogs/configdialog.ui" line="1896"/>
         <source>Valid objects foreground</source>
         <translation>有効なオブジェクト前景色</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2255"/>
+        <location filename="../dialogs/configdialog.ui" line="2207"/>
         <source>Current query background</source>
         <translation>現在のクエリ背景色</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2124"/>
+        <location filename="../dialogs/configdialog.ui" line="2076"/>
         <source>Bind parameter foreground</source>
         <translation>バインドパラメータ前景色</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2214"/>
+        <location filename="../dialogs/configdialog.ui" line="2166"/>
         <source>Current line background</source>
         <translation>現在行の背景色</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2299"/>
+        <location filename="../dialogs/configdialog.ui" line="2251"/>
         <source>Matched parenthesis background</source>
         <translation>対応する括弧の背景色</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2283"/>
+        <location filename="../dialogs/configdialog.ui" line="2235"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;現在のクエリの強調表示は、一般設定ページで完全に無効にできます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="219"/>
+        <location filename="../dialogs/configdialog.ui" line="179"/>
         <source>Data renderers</source>
         <translation>データレンダラ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="283"/>
+        <location filename="../dialogs/configdialog.ui" line="235"/>
         <source>Expand tables when connected to a database</source>
         <translation>データベース接続時にテーブルを展開</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="418"/>
+        <location filename="../dialogs/configdialog.ui" line="370"/>
         <source>Expand views when connected to a database</source>
         <translation>データベース接続時にビューを展開</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="319"/>
+        <location filename="../dialogs/configdialog.ui" line="271"/>
         <source>Expanding a table or view also expands the Columns, Indexes and Triggers nodes to show their contents.</source>
         <translation>テーブルまたはビューを展開すると、カラム、インデックス、トリガーの各ノードも展開され、その内容が表示されます。</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="293"/>
+        <location filename="../dialogs/configdialog.ui" line="245"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, the database schema is accessed using the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; table name.&lt;br/&gt;Older SQLite versions used the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt; name, which is still supported as an alias.&lt;br/&gt;You can switch here to use the legacy name instead.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;デフォルトでは、データベーススキーマには &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; テーブル名を使用してアクセスします。&lt;br/&gt;古い SQLite バージョンでは &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt; という名前が使用されており、これは現在もエイリアスとしてサポートされています。&lt;br/&gt;ここで従来の名前を代わりに使用するよう切り替えられます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="296"/>
+        <location filename="../dialogs/configdialog.ui" line="248"/>
         <source>Prefer sqlite_master over sqlite_schema table name</source>
         <translation>sqlite_schema テーブル名より sqlite_master を優先</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="322"/>
+        <location filename="../dialogs/configdialog.ui" line="274"/>
         <source>Expand columns, indexes and triggers together with the table</source>
         <translation>テーブルと一緒にカラム、インデックス、トリガーを展開</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="363"/>
+        <location filename="../dialogs/configdialog.ui" line="315"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows data type next to the column when Columns node is expanded.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;カラムノードを展開したとき、カラムの横にデータ型を表示します。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="366"/>
+        <location filename="../dialogs/configdialog.ui" line="318"/>
         <source>Display column data types</source>
         <translation>カラムのデータ型を表示</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="376"/>
+        <location filename="../dialogs/configdialog.ui" line="328"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows number of columns, indexes and triggers next to each table name.&lt;/p&gt;&lt;p&gt;Requires loading full schema for all tables. For databases with hundreds or thousands of tables, this can significantly impact performance.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;各テーブル名の横に、カラム、インデックス、トリガーの数を表示します。&lt;/p&gt;&lt;p&gt;すべてのテーブルの完全なスキーマを読み込む必要があります。数百または数千のテーブルがあるデータベースでは、パフォーマンスに大きな影響を与える可能性があります。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="405"/>
+        <location filename="../dialogs/configdialog.ui" line="357"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, system tables and indexes are hidden from the list.&lt;br/&gt;Enable this option to display internal SQLite objects, such as &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; and auto-generated indexes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;デフォルトでは、システムテーブルとインデックスはリストから非表示になります。&lt;br/&gt;このオプションを有効にすると、&lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; や自動生成インデックスなどの内部 SQLite オブジェクトが表示されます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="450"/>
+        <location filename="../dialogs/configdialog.ui" line="402"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, database files will be added without showing the standard database dialog. If opening the database with default options fails (e.g. encrypted database or different driver required), the dialog will be shown so the options can be adjusted. When disabled, the dialog will always be shown.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;有効にすると、標準のデータベースダイアログを表示せずにデータベースファイルが追加されます。デフォルトオプションでデータベースを開けない場合（例: 暗号化されたデータベース、または別のドライバが必要な場合）、オプションを調整できるようにダイアログが表示されます。無効にすると、ダイアログは常に表示されます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="453"/>
+        <location filename="../dialogs/configdialog.ui" line="405"/>
         <source>Skip the dialog when possible</source>
         <translation>可能な場合はダイアログをスキップ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="960"/>
+        <location filename="../dialogs/configdialog.ui" line="912"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Define which data editors are available for specific column types in &lt;span style=&quot; font-weight:700;&quot;&gt;Form View&lt;/span&gt; and the &lt;span style=&quot; font-weight:700;&quot;&gt;popup editor dialog&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;フォームビュー&lt;/span&gt;および&lt;span style=&quot; font-weight:700;&quot;&gt;ポップアップエディタダイアログ&lt;/span&gt;で、特定のカラム型に対して利用可能なデータエディタを定義します。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="979"/>
+        <location filename="../dialogs/configdialog.ui" line="931"/>
         <source>Preview of editors for this data type (drag to reorder):</source>
         <translation>このデータ型のエディタのプレビュー（ドラッグして並べ替え）：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1003"/>
+        <location filename="../dialogs/configdialog.ui" line="955"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;テーブルカラムで宣言された特定のデータ型（大文字小文字を区別しない）に使用するセルレンダラを定義できます。指定された型にレンダラが定義されていない場合は、デフォルトレンダラが使用されます。&lt;/p&gt;&lt;p&gt;任意のプラグインが追加のレンダラを提供し、データ型に独自のデフォルトマッピングを設定する場合がありますが、ここで上書きできます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1032"/>
+        <location filename="../dialogs/configdialog.ui" line="984"/>
         <source>Data type</source>
         <translation>データ型</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1037"/>
+        <location filename="../dialogs/configdialog.ui" line="989"/>
         <source>Renderer</source>
         <translation>レンダラ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1334"/>
+        <location filename="../dialogs/configdialog.ui" line="1286"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;複数のクエリがある場合、カーソル下のクエリのみを実行します。&lt;br/&gt;無効にすると、すべてのクエリが実行されます。&lt;br/&gt;選択したクエリを実行したり、ショートカット（単一は %1、すべては %2）を使用したりすることもできます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1321"/>
+        <location filename="../dialogs/configdialog.ui" line="1273"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;カーソル下のクエリを強調表示します。これは &lt;span style=&quot; font-style:italic;&quot;&gt;クエリを実行&lt;/span&gt; を使用したときに実行されるものと同じクエリです。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="592"/>
+        <location filename="../dialogs/configdialog.ui" line="544"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, Letos automatically switches to scientific notation for very small real numbers (e.g. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimal notation is used for values whose magnitude allows a readable decimal representation.&lt;/p&gt;&lt;p&gt;When disabled, real numbers are always displayed using decimal notation, even if this results in very long fractional parts.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;有効にすると、Letos は非常に小さい実数（例: &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;）に対して自動的に科学表記へ切り替えます。&lt;br/&gt;読みやすい小数表記が可能な大きさの値には小数表記が使用されます。&lt;/p&gt;&lt;p&gt;無効にすると、小数部が非常に長くなる場合でも、実数は常に小数表記で表示されます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="572"/>
+        <location filename="../dialogs/configdialog.ui" line="524"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;セルの編集中にEnterを押すと値を確定し、次の行の同じ列へ移動します。&lt;br/&gt;無効にすると、選択は現在のセルに留まります。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="575"/>
+        <location filename="../dialogs/configdialog.ui" line="527"/>
         <source>After editing, Enter moves to the next row</source>
         <translation>編集後、Enterで次の行へ移動</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="605"/>
+        <location filename="../dialogs/configdialog.ui" line="557"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If query results contain dozens (or hundreds) of columns, it is more likely that it will exhaust free memory of your computer by loading several gigabytes of data at once. Letos may try to limit number of results displayed on one page in such cases to protect your computer. If you know that you don&apos;t work with big values in database, you can disable this limit and you will always see as many rows as defined per page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;クエリ結果に数十（または数百）の列が含まれる場合、一度に数ギガバイトのデータを読み込むことでコンピューターの空きメモリを使い果たす可能性が高くなります。そのような場合、Letos はコンピューターを保護するために、ページに表示する結果数を制限しようとする場合があります。データベース内で大きな値を扱わない（don&apos;t）ことが分かっている場合は、この制限を無効にでき、常にページあたりに定義された数の行を表示できます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="540"/>
+        <location filename="../dialogs/configdialog.ui" line="492"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enterで次の行へ移動した後、その行のセル編集を自動的に開始します。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="543"/>
+        <location filename="../dialogs/configdialog.ui" line="495"/>
         <source>Start editing after moving to the next row</source>
         <translation>次の行へ移動後に編集を開始</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="704"/>
+        <location filename="../dialogs/configdialog.ui" line="656"/>
         <source>Column header actions</source>
         <translation>カラムヘッダーの操作</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="710"/>
+        <location filename="../dialogs/configdialog.ui" line="662"/>
         <source>Single-click selects column data; double-click sorts by column</source>
         <translation>シングルクリックでカラムデータを選択、ダブルクリックでカラム順に並べ替え</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="723"/>
+        <location filename="../dialogs/configdialog.ui" line="675"/>
         <source>Single-click sorts by column; Alt+click selects column data</source>
         <translation>シングルクリックでカラム順に並べ替え、Alt+クリックでカラムデータを選択</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1160"/>
+        <location filename="../dialogs/configdialog.ui" line="1112"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user manually closes the Status panel, this option makes sure that if any new message is printed in the Status panel it will be reopened. If it&apos;s disabled, then Status panel can only be open manually by the user from the &amp;quot;View&amp;quot; menu.&lt;/p&gt;&lt;p&gt;You can always hide the Status panel with the Esc key.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ユーザーが手動でステータスパネルを閉じた場合、このオプションにより、ステータスパネルに新しいメッセージが表示されると再び開かれます。無効（it&apos;s disabled）の場合、ステータスパネルはユーザーが &amp;quot;View&amp;quot; メニューから手動でのみ開けます。&lt;/p&gt;&lt;p&gt;Esc キーでいつでもステータスパネルを非表示にできます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1173"/>
+        <location filename="../dialogs/configdialog.ui" line="1125"/>
         <source>Older status messages</source>
         <translation>古いステータスメッセージ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1179"/>
+        <location filename="../dialogs/configdialog.ui" line="1131"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are kept unchanged.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;古いステータスメッセージは変更されずに保持されます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1182"/>
+        <location filename="../dialogs/configdialog.ui" line="1134"/>
         <source>Keep messages</source>
         <translation>メッセージを保持</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1195"/>
+        <location filename="../dialogs/configdialog.ui" line="1147"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages remain visible, but are visually dimmed to make recent messages stand out.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;古いステータスメッセージは表示されたままですが、新しいメッセージが目立つように視覚的に暗く表示されます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1198"/>
+        <location filename="../dialogs/configdialog.ui" line="1150"/>
         <source>Dim older messages</source>
         <translation>古いメッセージを暗く表示</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1211"/>
+        <location filename="../dialogs/configdialog.ui" line="1163"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are automatically removed from the status field.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;古いステータスメッセージはステータスフィールドから自動的に削除されます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1214"/>
+        <location filename="../dialogs/configdialog.ui" line="1166"/>
         <source>Remove older messages</source>
         <translation>古いメッセージを削除</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1230"/>
+        <location filename="../dialogs/configdialog.ui" line="1182"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Letosプロジェクトの支援に関する情報を含むステータスメッセージを時々表示します。これらのリマインダーはまれに表示され、いつでも無効にできます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1233"/>
+        <location filename="../dialogs/configdialog.ui" line="1185"/>
         <source>Show occasional project support reminders</source>
         <translation>プロジェクト支援のリマインダーを時々表示する</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1269"/>
-        <location filename="../dialogs/configdialog.ui" line="1285"/>
+        <location filename="../dialogs/configdialog.ui" line="1221"/>
+        <location filename="../dialogs/configdialog.ui" line="1237"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;クエリ実行時間に表示する小数点以下の最大桁数を指定します。最大 9 桁（ナノ秒）まで設定できます。末尾のゼロは自動的に削除されます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1272"/>
+        <location filename="../dialogs/configdialog.ui" line="1224"/>
         <source>Execution time precision (decimal places)</source>
         <translation>実行時間の精度（小数桁数）</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1298"/>
+        <location filename="../dialogs/configdialog.ui" line="1250"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;有効にすると、エディターの幅より長い行は折り返されるため、水平スクロールは不要になります。&lt;/p&gt;&lt;p&gt;このオプションはグローバルな既定値を定義しますが、個別のSQLエディターウィンドウではローカルに上書きできます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1311"/>
+        <location filename="../dialogs/configdialog.ui" line="1263"/>
         <source>Disable blinking text cursor</source>
         <translation>テキストカーソルの点滅を無効化</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1359"/>
+        <location filename="../dialogs/configdialog.ui" line="1311"/>
         <source>Trigger assistant after typing a dot</source>
         <translation>ドット入力後にアシスタントを起動</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1369"/>
+        <location filename="../dialogs/configdialog.ui" line="1321"/>
         <source>When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</source>
         <translation>有効にすると、空のエディタでコード補完を呼び出した際、構文候補の代わりにコードスニペットが最初に表示されます。コード補完を再度呼び出すと構文候補に切り替わります（逆も同様）。</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1372"/>
+        <location filename="../dialogs/configdialog.ui" line="1324"/>
         <source>Prefer snippets in empty editor</source>
         <translation>空のエディタではスニペットを優先</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1385"/>
+        <location filename="../dialogs/configdialog.ui" line="1337"/>
         <source>History</source>
         <translation>履歴</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1394"/>
+        <location filename="../dialogs/configdialog.ui" line="1346"/>
         <source>Query history size:</source>
         <translation>クエリ履歴サイズ：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1420"/>
-        <location filename="../dialogs/configdialog.ui" line="1430"/>
+        <location filename="../dialogs/configdialog.ui" line="1372"/>
+        <location filename="../dialogs/configdialog.ui" line="1382"/>
         <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
         <translation>&lt;p&gt;履歴に保存するクエリパラメータ（:param、@param、$param、?）の最大数です。同じ名前/位置のパラメータを再利用すると、Letos は直近に記憶された値で事前初期化します（変更は可能です）。1000 で十分なはずです。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1764"/>
+        <location filename="../dialogs/configdialog.ui" line="1716"/>
         <source>Number foreground</source>
         <translation>数値前景色</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2034"/>
+        <location filename="../dialogs/configdialog.ui" line="1986"/>
         <source>BLOB value foreground</source>
         <translation>BLOB 値前景色</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2340"/>
+        <location filename="../dialogs/configdialog.ui" line="2292"/>
         <source>Matched parenthesis foreground</source>
         <translation>対応する括弧の前景色</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2448"/>
-        <location filename="../dialogs/configdialog.ui" line="2556"/>
+        <location filename="../dialogs/configdialog.ui" line="2400"/>
+        <location filename="../dialogs/configdialog.ui" line="2508"/>
         <source>Reset to defaults</source>
         <translation>デフォルトにリセット</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2474"/>
+        <location filename="../dialogs/configdialog.ui" line="2426"/>
         <source>Filter shortcuts by name or key combination</source>
         <translation>名前またはキーの組み合わせでショートカットをフィルタ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2518"/>
+        <location filename="../dialogs/configdialog.ui" line="2470"/>
         <source>Action</source>
         <translation>アクション</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2523"/>
+        <location filename="../dialogs/configdialog.ui" line="2475"/>
         <source>Key combination</source>
         <translation>キーの組み合わせ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2597"/>
-        <location filename="../dialogs/configdialog.ui" line="3112"/>
+        <location filename="../dialogs/configdialog.ui" line="2549"/>
+        <location filename="../dialogs/configdialog.ui" line="3199"/>
         <source>Language</source>
         <translation>言語</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2603"/>
+        <location filename="../dialogs/configdialog.ui" line="2555"/>
         <source>Changing language requires application restart to take effect.</source>
         <translation>言語の変更を反映するにはアプリケーションの再起動が必要です。</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2623"/>
+        <location filename="../dialogs/configdialog.ui" line="2575"/>
         <source>User interface</source>
         <translation type="unfinished">User interface</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2629"/>
-        <location filename="../dialogs/configdialog.ui" line="2639"/>
+        <location filename="../dialogs/configdialog.ui" line="2581"/>
+        <location filename="../dialogs/configdialog.ui" line="2591"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2632"/>
+        <location filename="../dialogs/configdialog.ui" line="2584"/>
         <source>Interface scale</source>
         <translation type="unfinished">Interface scale</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2649"/>
+        <location filename="../dialogs/configdialog.ui" line="2601"/>
         <source>Toolbar icon size</source>
         <translation type="unfinished">Toolbar icon size</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2669"/>
+        <location filename="../dialogs/configdialog.ui" line="2621"/>
         <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
         <translation>&lt;p&gt;コンパクトレイアウトは UI 上のすべての余白と間隔を最小限に減らし、より多くのデータを表示するためのスペースを作ります。インターフェイスの見た目は少し簡素になりますが、一度により多くのデータを表示できます。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2672"/>
+        <location filename="../dialogs/configdialog.ui" line="2624"/>
         <source>Use compact layout</source>
         <translation>コンパクトレイアウトを使用</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2688"/>
+        <location filename="../dialogs/configdialog.ui" line="2640"/>
+        <source>Icon set</source>
+        <translation type="unfinished">Icon set</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2646"/>
+        <source>License</source>
+        <translation type="unfinished">License</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2653"/>
+        <source>Choose icon set (requires restart)</source>
+        <translation type="unfinished">Choose icon set (requires restart)</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2725"/>
+        <source>Description</source>
+        <translation type="unfinished">Description</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2735"/>
+        <source>Author</source>
+        <translation type="unfinished">Author</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2749"/>
+        <source>URL</source>
+        <translation type="unfinished">URL</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2783"/>
         <source>Main window dock areas</source>
         <translation>メインウィンドウのドック領域</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2694"/>
+        <location filename="../dialogs/configdialog.ui" line="2789"/>
         <source>Left and right areas occupy corners</source>
         <translation>左右の領域が角を占有</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2714"/>
+        <location filename="../dialogs/configdialog.ui" line="2805"/>
         <source>Top and bottom areas occupy corners</source>
         <translation>上下の領域が角を占有</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2646"/>
-        <location filename="../dialogs/configdialog.ui" line="2656"/>
+        <location filename="../dialogs/configdialog.ui" line="2598"/>
+        <location filename="../dialogs/configdialog.ui" line="2608"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;デフォルトサイズに対する割合で表されます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2836"/>
+        <location filename="../dialogs/configdialog.ui" line="2923"/>
         <source>Hide built-in plugins</source>
         <translation>組み込みプラグインを非表示</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2865"/>
+        <location filename="../dialogs/configdialog.ui" line="2952"/>
         <source>Current style:</source>
         <translation>現在のスタイル：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2882"/>
+        <location filename="../dialogs/configdialog.ui" line="2742"/>
+        <location filename="../dialogs/configdialog.ui" line="2969"/>
         <source>Preview</source>
         <translation>プレビュー</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2892"/>
+        <location filename="../dialogs/configdialog.ui" line="2979"/>
         <source>Enabled</source>
         <translation>有効</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3068"/>
+        <location filename="../dialogs/configdialog.ui" line="3155"/>
         <source>Disabled</source>
         <translation>無効</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3117"/>
+        <location filename="../dialogs/configdialog.ui" line="3204"/>
         <source>Active formatter plugin</source>
         <translation>アクティブなフォーマッタプラグイン</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3155"/>
+        <location filename="../dialogs/configdialog.ui" line="3242"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;ヒント:&lt;/span&gt; ここで利用できる設定に加えて、ほとんどのインターフェイス要素では、&lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; を押しながら、フォントサイズを変更したい要素の上で &lt;span style=&quot; font-weight:700;&quot;&gt;マウスホイール&lt;/span&gt; をスクロールすることで、フォントサイズを動的に調整できます。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3174"/>
+        <location filename="../dialogs/configdialog.ui" line="3261"/>
         <source>SQL editor font</source>
         <translation>SQL エディタフォント</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3190"/>
+        <location filename="../dialogs/configdialog.ui" line="3277"/>
         <source>Database list font</source>
         <translation>データベースリストフォント</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3206"/>
+        <location filename="../dialogs/configdialog.ui" line="3293"/>
         <source>Database list additional label font</source>
         <translation>データベースリスト追加ラベルフォント</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3222"/>
+        <location filename="../dialogs/configdialog.ui" line="3309"/>
         <source>Data view font</source>
         <translation>データビューフォント</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3238"/>
+        <location filename="../dialogs/configdialog.ui" line="3325"/>
         <source>Status field font</source>
         <translation>ステータスフィールドフォント</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1356"/>
+        <location filename="../dialogs/configdialog.ui" line="1308"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;このオプションを有効にすると、たとえばユーザーが &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; と入力してテーブルのカラムを提案する場合などに、コードアシスタントが起動します。オプションが無効な場合、ユーザーはアシスタントのホットキーを明示的に押す必要があります。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="447"/>
+        <location filename="../dialogs/configdialog.cpp" line="467"/>
         <source>The new interface scale will be applied after restarting Letos.</source>
         <translation type="unfinished">The new interface scale will be applied after restarting Letos.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1144"/>
+        <location filename="../dialogs/configdialog.cpp" line="825"/>
+        <source>Restart the application to apply the new icon set.</source>
+        <translation type="unfinished">Restart the application to apply the new icon set.</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.cpp" line="1175"/>
         <source>Description:</source>
         <comment>plugin details</comment>
         <translation>説明：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1145"/>
+        <location filename="../dialogs/configdialog.cpp" line="1176"/>
         <source>Category:</source>
         <comment>plugin details</comment>
         <translation>カテゴリ：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1146"/>
+        <location filename="../dialogs/configdialog.cpp" line="1177"/>
         <source>Version:</source>
         <comment>plugin details</comment>
         <translation>バージョン：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1147"/>
+        <location filename="../dialogs/configdialog.cpp" line="1178"/>
         <source>Author:</source>
         <comment>plugin details</comment>
         <translation>作者：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1149"/>
+        <location filename="../dialogs/configdialog.cpp" line="1180"/>
         <source>Internal name:</source>
         <comment>plugin details</comment>
         <translation>内部名：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1150"/>
+        <location filename="../dialogs/configdialog.cpp" line="1181"/>
         <source>Dependencies:</source>
         <comment>plugin details</comment>
         <translation>依存関係：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1151"/>
+        <location filename="../dialogs/configdialog.cpp" line="1182"/>
         <source>Conflicts:</source>
         <comment>plugin details</comment>
         <translation>競合：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1152"/>
+        <location filename="../dialogs/configdialog.cpp" line="1183"/>
         <source>File:</source>
         <comment>plugin details</comment>
         <translation>ファイル：</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1157"/>
+        <location filename="../dialogs/configdialog.cpp" line="1188"/>
         <source>Plugin details</source>
         <translation>プラグイン詳細</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1778"/>
+        <location filename="../dialogs/configdialog.cpp" line="1888"/>
         <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
         <translation>プラグインはチェック/チェック解除するとすぐに読み込み/解除されますが、起動時に読み込むプラグインの変更済みリストは、設定ダイアログ全体をコミットするまで保存されません。</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1836"/>
+        <location filename="../dialogs/configdialog.cpp" line="1946"/>
         <source>%1 (built-in)</source>
         <comment>plugins manager in configuration dialog</comment>
         <translation>%1（組み込み）</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1878"/>
+        <location filename="../dialogs/configdialog.cpp" line="1988"/>
         <source>Details</source>
         <translation>詳細</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1892"/>
+        <location filename="../dialogs/configdialog.cpp" line="2002"/>
         <source>No plugins in this category.</source>
         <translation>このカテゴリにプラグインはありません。</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1992"/>
-        <location filename="../dialogs/configdialog.cpp" line="2021"/>
+        <location filename="../dialogs/configdialog.cpp" line="2102"/>
+        <location filename="../dialogs/configdialog.cpp" line="2131"/>
         <source>Add new data type</source>
         <translation>新しいデータ型を追加</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1996"/>
-        <location filename="../dialogs/configdialog.cpp" line="2025"/>
+        <location filename="../dialogs/configdialog.cpp" line="2106"/>
+        <location filename="../dialogs/configdialog.cpp" line="2135"/>
         <source>Rename selected data type</source>
         <translation>選択したデータ型の名前を変更</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2000"/>
-        <location filename="../dialogs/configdialog.cpp" line="2029"/>
+        <location filename="../dialogs/configdialog.cpp" line="2110"/>
+        <location filename="../dialogs/configdialog.cpp" line="2139"/>
         <source>Delete selected data type</source>
         <translation>選択したデータ型を削除</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2113"/>
+        <location filename="../dialogs/configdialog.cpp" line="2223"/>
         <source>Clear hotkey for this action</source>
         <translation>このアクションのホットキーをクリア</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2125"/>
+        <location filename="../dialogs/configdialog.cpp" line="2235"/>
         <source>Restore original hotkey for this action</source>
         <translation>このアクションの元のホットキーを復元</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2167"/>
+        <location filename="../dialogs/configdialog.cpp" line="2277"/>
         <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
         <translation>ここでは、コードの構文強調表示に使用する色を設定できます。これらは SQL だけでなく、JavaScript などの異なる言語間で共有されます。既定ではテーマに基づく色が使用されます。独自の色を定義するには、特定の色の横にあるチェックボックスを選択してカスタム色を有効にしてください。</translation>
     </message>
@@ -2422,7 +2458,7 @@ Browsing other pages will be possible after the row counting is done.</source>
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="45"/>
-        <location filename="../dialogs/dbdialog.cpp" line="194"/>
+        <location filename="../dialogs/dbdialog.cpp" line="196"/>
         <source>File</source>
         <translation>ファイル</translation>
     </message>
@@ -2437,110 +2473,110 @@ Browsing other pages will be possible after the row counting is done.</source>
         <translation>新しいデータベースファイルを作成</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="89"/>
+        <location filename="../dialogs/dbdialog.ui" line="85"/>
         <source>Name (on the list)</source>
         <translation>名前 (一覧上)</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="117"/>
+        <location filename="../dialogs/dbdialog.ui" line="113"/>
         <source>Change</source>
         <translation>変更</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="127"/>
+        <location filename="../dialogs/dbdialog.ui" line="123"/>
         <source>Options</source>
         <translation>オプション</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="133"/>
+        <location filename="../dialogs/dbdialog.ui" line="129"/>
         <source>&lt;p&gt;Enable this if you want the database to be stored in configuration file and restored every time Letos is started.&lt;/p&gt;</source>
         <extracomment>aasfd</extracomment>
         <translation>&lt;p&gt;データベースを設定ファイルに保存し、Letos の起動時に毎回復元したい場合は、これを有効にしてください。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="136"/>
+        <location filename="../dialogs/dbdialog.ui" line="132"/>
         <source>Permanent (keep it in configuration)</source>
         <translation>永続的 (設定に保持)</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="180"/>
+        <location filename="../dialogs/dbdialog.ui" line="176"/>
         <source>Test connection</source>
         <translation>接続をテスト</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="355"/>
+        <location filename="../dialogs/dbdialog.cpp" line="357"/>
         <source>Browse</source>
         <translation>参照</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="528"/>
+        <location filename="../dialogs/dbdialog.cpp" line="530"/>
         <source>Database type not selected.</source>
         <translation>データベース型が選択されていません。</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="535"/>
+        <location filename="../dialogs/dbdialog.cpp" line="537"/>
         <source>Database path not specified.</source>
         <translation>データベースパスが指定されていません。</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="568"/>
+        <location filename="../dialogs/dbdialog.cpp" line="570"/>
         <source>Enter an unique database name.</source>
         <translation>一意のデータベース名を入力してください。</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="578"/>
+        <location filename="../dialogs/dbdialog.cpp" line="580"/>
         <source>This name is already in use. Please enter unique name.</source>
         <translation>この名前は既に使用されています。一意の名前を入力してください。</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="585"/>
+        <location filename="../dialogs/dbdialog.cpp" line="587"/>
         <source>&lt;p&gt;Automatic name generation was disabled, because the name was edited manually. To restore automatic generation please erase contents of the name field.&lt;/p&gt;</source>
         <translation>&lt;p&gt;名前が手動で編集されたため、自動名前生成は無効になりました。自動生成を復元するには、名前フィールドの内容を消去してください。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="594"/>
+        <location filename="../dialogs/dbdialog.cpp" line="596"/>
         <source>Enter a database file path.</source>
         <translation>データベースファイルのパスを入力してください。</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="600"/>
+        <location filename="../dialogs/dbdialog.cpp" line="602"/>
         <source>You&apos;re using a relative file path, which will be resolved to &quot;%1&quot; according to the application&apos;s working directory. It&apos;s always better to use absolute file path to avoid unexpected database location.</source>
         <translation>You&apos;re using：相対ファイルパスを使用しています。このパスは、アプリケーション&apos;s 作業ディレクトリに基づいて &quot;%1&quot; に解決されます。It&apos;s always better：予期しないデータベースの場所を避けるため、絶対ファイルパスを使用することを常に推奨します。</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="610"/>
+        <location filename="../dialogs/dbdialog.cpp" line="612"/>
         <source>This database is already on the list under name: %1</source>
         <translation>このデータベースは既に次の名前で一覧にあります: %1</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="632"/>
+        <location filename="../dialogs/dbdialog.cpp" line="634"/>
         <source>Select a database type.</source>
         <translation>データベース型を選択してください。</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="657"/>
+        <location filename="../dialogs/dbdialog.cpp" line="659"/>
         <source>Automatic</source>
         <comment>database name</comment>
         <translation>自動</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="658"/>
+        <location filename="../dialogs/dbdialog.cpp" line="660"/>
         <source>Change</source>
         <comment>database name</comment>
         <translation>変更</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="667"/>
+        <location filename="../dialogs/dbdialog.cpp" line="669"/>
         <source>(empty)</source>
         <translation>(空)</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="837"/>
+        <location filename="../dialogs/dbdialog.cpp" line="839"/>
         <source>Choose a location for the new database file</source>
         <translation>新しいデータベースファイルの場所を選択</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="838"/>
+        <location filename="../dialogs/dbdialog.cpp" line="840"/>
         <source>Browse for existing database file on local computer</source>
         <translation>ローカルコンピューター上の既存のデータベースファイルを参照</translation>
     </message>
@@ -2624,7 +2660,7 @@ Browsing other pages will be possible after the row counting is done.</source>
         <translation>データベース</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2556"/>
+        <location filename="../dbtree/dbtree.cpp" line="2565"/>
         <source>Filter by name</source>
         <translation>名前でフィルター</translation>
     </message>
@@ -2875,7 +2911,7 @@ Browsing other pages will be possible after the row counting is done.</source>
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="190"/>
-        <location filename="../dbtree/dbtree.cpp" line="1938"/>
+        <location filename="../dbtree/dbtree.cpp" line="1947"/>
         <source>Erase table data</source>
         <translation>テーブルデータを消去</translation>
     </message>
@@ -2931,140 +2967,140 @@ Browsing other pages will be possible after the row counting is done.</source>
         <translation>ビュー用のクエリを生成</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1326"/>
-        <location filename="../dbtree/dbtree.cpp" line="1329"/>
+        <location filename="../dbtree/dbtree.cpp" line="1334"/>
+        <location filename="../dbtree/dbtree.cpp" line="1337"/>
         <source>Create group</source>
         <translation>グループを作成</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1326"/>
+        <location filename="../dbtree/dbtree.cpp" line="1334"/>
         <source>Group name</source>
         <translation>グループ名</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1329"/>
+        <location filename="../dbtree/dbtree.cpp" line="1337"/>
         <source>Entry with name %1 already exists in group %2.</source>
         <translation>名前 %1 のエントリはグループ %2 に既に存在します。</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1366"/>
+        <location filename="../dbtree/dbtree.cpp" line="1374"/>
         <source>Delete group</source>
         <translation>グループを削除</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1367"/>
+        <location filename="../dbtree/dbtree.cpp" line="1375"/>
         <source>Are you sure you want to delete groups: %1?
 All objects from these groups will be moved to respective parent groups.</source>
         <translation>グループ %1 を削除してもよろしいですか？
 これらのグループ内のすべてのオブジェクトは、それぞれの親グループに移動されます。</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1499"/>
+        <location filename="../dbtree/dbtree.cpp" line="1507"/>
         <source>Are you sure you want to remove database &apos;%1&apos; from the list?</source>
         <translation>データベース &apos;%1&apos; を一覧から削除してもよろしいですか？</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1507"/>
+        <location filename="../dbtree/dbtree.cpp" line="1515"/>
         <source>Are you sure you want to remove following databases from the list:
 %1</source>
         <translation>次のデータベースを一覧から削除してもよろしいですか:
 %1</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1509"/>
+        <location filename="../dbtree/dbtree.cpp" line="1517"/>
         <source>Remove database</source>
         <translation>データベースを削除</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1564"/>
-        <location filename="../dbtree/dbtree.cpp" line="1769"/>
+        <location filename="../dbtree/dbtree.cpp" line="1572"/>
+        <location filename="../dbtree/dbtree.cpp" line="1777"/>
         <source>Cannot import, because no import plugin is loaded.</source>
         <translation>インポートプラグインが読み込まれていないため、インポートできません。</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1584"/>
-        <location filename="../dbtree/dbtree.cpp" line="1744"/>
-        <location filename="../dbtree/dbtree.cpp" line="1813"/>
+        <location filename="../dbtree/dbtree.cpp" line="1592"/>
+        <location filename="../dbtree/dbtree.cpp" line="1752"/>
+        <location filename="../dbtree/dbtree.cpp" line="1822"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>エクスポートプラグインが読み込まれていないため、エクスポートできません。</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1859"/>
+        <location filename="../dbtree/dbtree.cpp" line="1868"/>
         <source>Vacuum (%1)</source>
         <translation>Vacuum（%1）</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1873"/>
+        <location filename="../dbtree/dbtree.cpp" line="1882"/>
         <source>Integrity check (%1)</source>
         <translation>整合性チェック (%1)</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1909"/>
+        <location filename="../dbtree/dbtree.cpp" line="1918"/>
         <source>Reset autoincrement</source>
         <translation>自動インクリメントをリセット</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1909"/>
+        <location filename="../dbtree/dbtree.cpp" line="1918"/>
         <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
         <translation>テーブル &apos;%1&apos; の自動インクリメント値をリセットしてもよろしいですか？</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1916"/>
+        <location filename="../dbtree/dbtree.cpp" line="1925"/>
         <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
         <translation>テーブル &apos;%1&apos; の自動インクリメント値をリセットしようとしてエラーが発生しました: %2</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1918"/>
+        <location filename="../dbtree/dbtree.cpp" line="1927"/>
         <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
         <translation>テーブル &apos;%1&apos; の自動インクリメント値は正常にリセットされました。</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1938"/>
+        <location filename="../dbtree/dbtree.cpp" line="1947"/>
         <source>Are you sure you want to delete all data from table(s): %1?</source>
         <translation>テーブル(s)：%1 からすべてのデータを削除してもよろしいですか？</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1950"/>
+        <location filename="../dbtree/dbtree.cpp" line="1959"/>
         <source>An error occurred while trying to delete data from table &apos;%1&apos;: %2</source>
         <translation>テーブル &apos;%1&apos; からデータを削除しようとしてエラーが発生しました: %2</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1954"/>
+        <location filename="../dbtree/dbtree.cpp" line="1963"/>
         <source>All data has been deleted for table &apos;%1&apos;.</source>
         <translation>テーブル &apos;%1&apos; のすべてのデータが削除されました。</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2093"/>
+        <location filename="../dbtree/dbtree.cpp" line="2102"/>
         <source>Following objects will be deleted: %1.</source>
         <translation>次のオブジェクトが削除されます: %1。</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2096"/>
+        <location filename="../dbtree/dbtree.cpp" line="2105"/>
         <source>Following databases will be removed from list: %1.</source>
         <translation>次のデータベースが一覧から削除されます: %1。</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2099"/>
+        <location filename="../dbtree/dbtree.cpp" line="2108"/>
         <source>Remainig objects from deleted group will be moved in place where the group used to be.</source>
         <translation>削除されたグループ内の残りのオブジェクトは、そのグループがあった場所に移動されます。</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2101"/>
+        <location filename="../dbtree/dbtree.cpp" line="2110"/>
         <source>%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</source>
         <translation>%1&lt;br&gt;&lt;br&gt;続行してもよろしいですか？</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2103"/>
+        <location filename="../dbtree/dbtree.cpp" line="2112"/>
         <source>Delete objects</source>
         <translation>オブジェクトを削除</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2582"/>
+        <location filename="../dbtree/dbtree.cpp" line="2591"/>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;接続済みです。&lt;/p&gt;&lt;p&gt;切断するにはここをクリックするか、データベースを中クリックしてください。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2590"/>
+        <location filename="../dbtree/dbtree.cpp" line="2599"/>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;切断済みです。&lt;/p&gt;&lt;p&gt;接続するにはここをクリックするか、データベースをダブルクリックしてください。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -3099,148 +3135,148 @@ All objects from these groups will be moved to respective parent groups.</source
 <context>
     <name>DbTreeModel</name>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="493"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="494"/>
         <source>Database: %1</source>
         <comment>dbtree tooltip</comment>
         <translation>データベース: %1</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="494"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="495"/>
         <source>URI:</source>
         <comment>dbtree tooltip</comment>
         <translation>URI：</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="498"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="499"/>
         <source>Format:</source>
         <comment>dbtree tooltip</comment>
         <translation>形式：</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="501"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="502"/>
         <source>File size:</source>
         <comment>dbtree tooltip</comment>
         <translation>ファイルサイズ：</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="504"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="505"/>
         <source>Encoding:</source>
         <comment>dbtree tooltip</comment>
         <translation>エンコーディング：</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="509"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="510"/>
         <source>Error:</source>
         <comment>dbtree tooltip</comment>
         <translation>エラー：</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="513"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="514"/>
         <source>Double-click to edit this database</source>
         <comment>dbtree tooltip</comment>
         <translation>このデータベースを編集するにはダブルクリック</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="515"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="516"/>
         <source>Double-click to connect to this database</source>
         <comment>dbtree tooltip</comment>
         <translation>このデータベースに接続するにはダブルクリック</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="525"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="526"/>
         <source>Table : %1</source>
         <comment>dbtree tooltip</comment>
         <translation>テーブル: %1</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="548"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="549"/>
         <source>Columns (%1):</source>
         <comment>dbtree tooltip</comment>
         <translation>列（%1）：</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="551"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="552"/>
         <source>Indexes (%1):</source>
         <comment>dbtree tooltip</comment>
         <translation>インデックス（%1）：</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="554"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="555"/>
         <source>Triggers (%1):</source>
         <comment>dbtree tooltip</comment>
         <translation>トリガー（%1）：</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1342"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1343"/>
         <source>Copy</source>
         <translation>コピー</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1343"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1344"/>
         <source>Move</source>
         <translation>移動</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1345"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1346"/>
         <source>Include data</source>
         <translation>データを含める</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1346"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1347"/>
         <source>Include indexes</source>
         <translation>インデックスを含める</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1347"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1348"/>
         <source>Include triggers</source>
         <translation>トリガーを含める</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1349"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1350"/>
         <source>Abort</source>
         <translation>中止</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1408"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1409"/>
         <source>Could not add dropped database file &apos;%1&apos; automatically. Manual setup is necessary.</source>
         <translation>ドロップされたデータベースファイル &apos;%1&apos; を自動的に追加できませんでした。手動設定が必要です。</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1487"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1488"/>
         <source>Referenced tables</source>
         <translation>参照されるテーブル</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1488"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1489"/>
         <source>Do you want to include following referenced tables as well:
 %1</source>
         <translation>次の参照先テーブルも含めますか:
 %1</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1497"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1498"/>
         <source>Name conflict</source>
         <translation>名前の競合</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1498"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1499"/>
         <source>Following object already exists in the target database.
 Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</source>
         <translation>次のオブジェクトは対象データベースに既に存在します。
 新しい一意の名前を入力するか、操作を中止するには &apos;%1&apos; を押してください：</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1511"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1512"/>
         <source>SQL statements conversion</source>
         <translation>SQL 文の変換</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1519"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1520"/>
         <source>Following error occurred while converting SQL statements to the target SQLite version:</source>
         <translation>SQL 文を対象の SQLite バージョンに変換中に次のエラーが発生しました：</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1520"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1521"/>
         <source>Would you like to ignore those errors and proceed?</source>
         <translation>これらのエラーを無視して続行しますか？</translation>
     </message>
@@ -3917,70 +3953,70 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation>エクスポート形式のオプション</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="69"/>
+        <location filename="../dialogs/exportdialog.cpp" line="70"/>
         <source>Cancel</source>
         <translation>キャンセル</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="197"/>
-        <location filename="../dialogs/exportdialog.cpp" line="221"/>
-        <location filename="../dialogs/exportdialog.cpp" line="246"/>
-        <location filename="../dialogs/exportdialog.cpp" line="271"/>
+        <location filename="../dialogs/exportdialog.cpp" line="198"/>
+        <location filename="../dialogs/exportdialog.cpp" line="222"/>
+        <location filename="../dialogs/exportdialog.cpp" line="247"/>
+        <location filename="../dialogs/exportdialog.cpp" line="272"/>
         <source>Select database to export.</source>
         <translation>エクスポートするデータベースを選択してください。</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="198"/>
+        <location filename="../dialogs/exportdialog.cpp" line="199"/>
         <source>Select table to export.</source>
         <translation>エクスポートするテーブルを選択してください。</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="222"/>
+        <location filename="../dialogs/exportdialog.cpp" line="223"/>
         <source>Select view to export.</source>
         <translation>エクスポートするビューを選択してください。</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="247"/>
+        <location filename="../dialogs/exportdialog.cpp" line="248"/>
         <source>Enter valid query to export.</source>
         <translation>エクスポートする有効なクエリを入力してください。</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="272"/>
+        <location filename="../dialogs/exportdialog.cpp" line="273"/>
         <source>Select at least one object to export.</source>
         <translation>エクスポートするオブジェクトを少なくとも一つ選択してください。</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="295"/>
+        <location filename="../dialogs/exportdialog.cpp" line="296"/>
         <source>You must provide a file name to export to.</source>
         <translation>エクスポート先のファイル名を指定する必要があります。</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="302"/>
+        <location filename="../dialogs/exportdialog.cpp" line="303"/>
         <source>Path you provided is an existing directory. You cannot overwrite it.</source>
         <translation>指定したパスは既存のディレクトリです。上書きできません。</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="308"/>
+        <location filename="../dialogs/exportdialog.cpp" line="309"/>
         <source>The directory &apos;%1&apos; does not exist.</source>
         <translation>ディレクトリ &apos;%1&apos; は存在しません。</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="314"/>
+        <location filename="../dialogs/exportdialog.cpp" line="315"/>
         <source>The file &apos;%1&apos; exists and will be overwritten.</source>
         <translation>ファイル &apos;%1&apos; は存在し、上書きされます。</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="555"/>
+        <location filename="../dialogs/exportdialog.cpp" line="556"/>
         <source>All files (*)</source>
         <translation>すべてのファイル (*)</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="558"/>
+        <location filename="../dialogs/exportdialog.cpp" line="559"/>
         <source>Pick file to export to</source>
         <translation>エクスポート先のファイルを選択</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="985"/>
+        <location filename="../dialogs/exportdialog.cpp" line="986"/>
         <source>Internal error during export. This is a bug. Please report it.</source>
         <translation>エクスポート中に内部エラーが発生しました。これはバグです。報告してください。</translation>
     </message>
@@ -4364,6 +4400,14 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
     </message>
 </context>
 <context>
+    <name>IconManager</name>
+    <message>
+        <location filename="../iconmanager.cpp" line="295"/>
+        <source>Mix of icons from various sources, including svgrepo.com and other open-source icon sets.</source>
+        <translation type="unfinished">Mix of icons from various sources, including svgrepo.com and other open-source icon sets.</translation>
+    </message>
+</context>
+<context>
     <name>ImportDialog</name>
     <message>
         <location filename="../dialogs/importdialog.ui" line="14"/>
@@ -4426,42 +4470,42 @@ Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</
         <translation>データソースのオプション</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="131"/>
+        <location filename="../dialogs/importdialog.cpp" line="132"/>
         <source>Cancel</source>
         <translation>キャンセル</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="162"/>
+        <location filename="../dialogs/importdialog.cpp" line="163"/>
         <source>If you type table name that doesn&apos;t exist, it will be created.</source>
         <translation>存在しないテーブル名を入力すると、そのテーブルが作成されます。doesn&apos;t exist。</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="162"/>
+        <location filename="../dialogs/importdialog.cpp" line="163"/>
         <source>Enter the table name</source>
         <translation>テーブル名を入力してください</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="180"/>
+        <location filename="../dialogs/importdialog.cpp" line="181"/>
         <source>Select import plugin.</source>
         <translation>インポートプラグインを選択してください。</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="189"/>
+        <location filename="../dialogs/importdialog.cpp" line="190"/>
         <source>You must provide a file to import from.</source>
         <translation>インポート元のファイルを指定する必要があります。</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="196"/>
+        <location filename="../dialogs/importdialog.cpp" line="197"/>
         <source>The file &apos;%1&apos; does not exist.</source>
         <translation>ファイル &apos;%1&apos; は存在しません。</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="202"/>
+        <location filename="../dialogs/importdialog.cpp" line="203"/>
         <source>Path you provided is a directory. A regular file is required.</source>
         <translation>指定したパスはディレクトリです。通常のファイルが必要です。</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="395"/>
+        <location filename="../dialogs/importdialog.cpp" line="396"/>
         <source>Pick file to import from</source>
         <translation>インポート元ファイルを選択</translation>
     </message>
@@ -7627,12 +7671,12 @@ Such deletion will be permanent. Are you sure you want to delete them?</source>
         <translation>ステータス</translation>
     </message>
     <message>
-        <location filename="../statusfield.cpp" line="190"/>
+        <location filename="../statusfield.cpp" line="191"/>
         <source>Copy</source>
         <translation>コピー</translation>
     </message>
     <message>
-        <location filename="../statusfield.cpp" line="197"/>
+        <location filename="../statusfield.cpp" line="198"/>
         <source>Clear</source>
         <translation>クリア</translation>
     </message>

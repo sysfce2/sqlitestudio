@@ -84,7 +84,7 @@
         <translation>Bản phân phối do hệ điều hành quản lý.</translation>
     </message>
     <message>
-        <location filename="../dialogs/aboutdialog.cpp" line="98"/>
+        <location filename="../dialogs/aboutdialog.cpp" line="102"/>
         <source>&lt;h3&gt;Table of contents:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</source>
         <translation>&lt;h3&gt;Mục lục:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</translation>
     </message>
@@ -1067,7 +1067,7 @@
     <name>ConfigDialog</name>
     <message>
         <location filename="../dialogs/configdialog.ui" line="14"/>
-        <location filename="../dialogs/configdialog.ui" line="3122"/>
+        <location filename="../dialogs/configdialog.ui" line="3209"/>
         <source>Configuration</source>
         <translation>Cấu hình</translation>
     </message>
@@ -1082,964 +1082,1000 @@
         <translation>Chung</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="112"/>
+        <location filename="../dialogs/configdialog.ui" line="108"/>
         <source>Keyboard shortcuts</source>
         <translation>Phím tắt bàn phím</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="124"/>
+        <location filename="../dialogs/configdialog.ui" line="116"/>
         <source>Look &amp; feel</source>
         <translation>Giao diện &amp; cảm giác</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="135"/>
+        <location filename="../dialogs/configdialog.ui" line="123"/>
         <source>Style</source>
         <translation>Kiểu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="147"/>
+        <location filename="../dialogs/configdialog.ui" line="131"/>
         <source>Fonts</source>
         <translation>Phông chữ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="159"/>
+        <location filename="../dialogs/configdialog.ui" line="139"/>
         <source>Code colors</source>
         <translation>Màu mã</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="184"/>
-        <location filename="../dialogs/configdialog.ui" line="277"/>
+        <location filename="../dialogs/configdialog.ui" line="156"/>
+        <location filename="../dialogs/configdialog.ui" line="229"/>
         <source>Database list</source>
         <translation>Danh sách cơ sở dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1350"/>
+        <location filename="../dialogs/configdialog.ui" line="1302"/>
         <source>Code assistant</source>
         <translation>Trợ lý mã</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="196"/>
+        <location filename="../dialogs/configdialog.ui" line="164"/>
         <source>Data browsing</source>
         <translation>Duyệt dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="172"/>
-        <location filename="../dialogs/configdialog.ui" line="1263"/>
+        <location filename="../dialogs/configdialog.ui" line="148"/>
+        <location filename="../dialogs/configdialog.ui" line="1215"/>
         <source>SQL Editor</source>
         <translation>Trình biên tập SQL</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="207"/>
+        <location filename="../dialogs/configdialog.ui" line="171"/>
         <source>Data editors</source>
         <translation>Trình biên tập dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="232"/>
+        <location filename="../dialogs/configdialog.ui" line="188"/>
         <source>Plugins</source>
         <translation>Plugin</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="243"/>
+        <location filename="../dialogs/configdialog.ui" line="195"/>
         <source>Code formatters</source>
         <translation>Trình định dạng mã</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="251"/>
+        <location filename="../dialogs/configdialog.ui" line="203"/>
         <source>Scripting languages</source>
         <translation>Ngôn ngữ kịch bản</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="306"/>
+        <location filename="../dialogs/configdialog.ui" line="258"/>
         <source>If switched off, then columns will be sorted in the order they are typed in CREATE TABLE statement.</source>
         <translation>Nếu tắt, các cột sẽ được sắp xếp theo thứ tự chúng được nhập trong câu lệnh CREATE TABLE.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="309"/>
+        <location filename="../dialogs/configdialog.ui" line="261"/>
         <source>Sort table columns alphabetically</source>
         <translation>Sắp xếp cột bảng theo bảng chữ cái</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="345"/>
+        <location filename="../dialogs/configdialog.ui" line="297"/>
         <source>&lt;p&gt;Additional labels are those displayed next to the names on the databases list (they are blue, unless configured otherwise). Enabling this option will result in labels for databases, invalid databases and aggregated nodes (column group, index group, trigger group). For more labels see options below.&lt;p&gt;</source>
         <translation>&lt;p&gt;Nhãn bổ sung là các nhãn hiển thị bên cạnh tên trong danh sách cơ sở dữ liệu (chúng có màu xanh dương, trừ khi được cấu hình khác). Bật tùy chọn này sẽ tạo nhãn cho cơ sở dữ liệu, cơ sở dữ liệu không hợp lệ và các nút gộp (nhóm cột, nhóm chỉ mục, nhóm trigger). Để có thêm nhãn, xem các tùy chọn bên dưới.&lt;p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="348"/>
+        <location filename="../dialogs/configdialog.ui" line="300"/>
         <source>Display additional labels on the list</source>
         <translation>Hiển thị nhãn bổ sung trên danh sách</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="379"/>
+        <location filename="../dialogs/configdialog.ui" line="331"/>
         <source>Display labels for regular tables</source>
         <translation>Hiển thị nhãn cho bảng thông thường</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="389"/>
+        <location filename="../dialogs/configdialog.ui" line="341"/>
         <source>Virtual tables will be marked with a &apos;virtual&apos; label.</source>
         <translation>Bảng ảo sẽ được đánh dấu bằng nhãn &apos;ảo&apos;.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="392"/>
+        <location filename="../dialogs/configdialog.ui" line="344"/>
         <source>Display labels for virtual tables</source>
         <translation>Hiển thị nhãn cho bảng ảo</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="332"/>
+        <location filename="../dialogs/configdialog.ui" line="284"/>
         <source>If this option is switched off, then objects will be sorted in order they appear in sqlite_master table (which is in order they were created)</source>
         <translation>Nếu tùy chọn này bị tắt, các đối tượng sẽ được sắp xếp theo thứ tự chúng xuất hiện trong bảng sqlite_master (tức là theo thứ tự chúng được tạo)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="335"/>
+        <location filename="../dialogs/configdialog.ui" line="287"/>
         <source>Sort objects (tables, indexes, triggers and views) alphabetically</source>
         <translation>Sắp xếp đối tượng (bảng, chỉ mục, trigger và khung nhìn) theo bảng chữ cái</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="408"/>
+        <location filename="../dialogs/configdialog.ui" line="360"/>
         <source>Display system tables and indexes on the list</source>
         <translation>Hiển thị bảng và chỉ mục hệ thống trong danh sách</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="431"/>
+        <location filename="../dialogs/configdialog.ui" line="383"/>
         <source>Database dialog window</source>
         <translation>Cửa sổ hộp thoại cơ sở dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="437"/>
+        <location filename="../dialogs/configdialog.ui" line="389"/>
         <source>&lt;p&gt;When adding new database it is marked to be &quot;permanent&quot; (stored in configuration) by default. Checking this option makes every new database to NOT be &quot;permanent&quot; by default.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Khi thêm cơ sở dữ liệu mới, theo mặc định nó được đánh dấu là &quot;vĩnh viễn&quot; (được lưu trong cấu hình). Chọn tùy chọn này khiến mọi cơ sở dữ liệu mới mặc định KHÔNG là &quot;vĩnh viễn&quot;.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="440"/>
+        <location filename="../dialogs/configdialog.ui" line="392"/>
         <source>Do not mark database to be &quot;permanent&quot; by default</source>
         <translation>Không đánh dấu cơ sở dữ liệu là &quot;vĩnh viễn&quot; theo mặc định</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="498"/>
+        <location filename="../dialogs/configdialog.ui" line="450"/>
         <source>Data browsing and editing</source>
         <translation>Duyệt và chỉnh sửa dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="504"/>
-        <location filename="../dialogs/configdialog.ui" line="517"/>
+        <location filename="../dialogs/configdialog.ui" line="456"/>
+        <location filename="../dialogs/configdialog.ui" line="469"/>
         <source>&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Số cấu hình tối đa của hộp thoại Điền dữ liệu vào bảng được lưu trong cấu hình. Giá trị 100 nên là đủ.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="520"/>
+        <location filename="../dialogs/configdialog.ui" line="472"/>
         <source>Number of memorized table populating configurations</source>
         <translation>Số cấu hình điền dữ liệu bảng được ghi nhớ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="595"/>
+        <location filename="../dialogs/configdialog.ui" line="547"/>
         <source>Use scientific notation for very small real numbers in the grid view</source>
         <translation>Dùng ký hiệu khoa học cho các số thực rất nhỏ trong khung nhìn lưới</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="634"/>
+        <location filename="../dialogs/configdialog.ui" line="586"/>
         <source>Data column width</source>
         <translation>Độ rộng cột dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="640"/>
+        <location filename="../dialogs/configdialog.ui" line="592"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user enters new value into column and the value is bigger than the current column width, the application will enlarge the column to fit the new value, but not wider than the limit defined in the option above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Khi người dùng nhập giá trị mới vào cột và giá trị lớn hơn độ rộng cột hiện tại, ứng dụng sẽ mở rộng cột để vừa với giá trị mới, nhưng không rộng hơn giới hạn được định nghĩa trong tùy chọn phía trên.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="643"/>
+        <location filename="../dialogs/configdialog.ui" line="595"/>
         <source>Enlarge column when entering value longer than current width</source>
         <translation>Mở rộng cột khi nhập giá trị dài hơn độ rộng hiện tại</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="659"/>
+        <location filename="../dialogs/configdialog.ui" line="611"/>
         <source>&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Khi dữ liệu được đọc vào khung nhìn lưới, độ rộng cột được tự động điều chỉnh. Giá trị này giới hạn độ rộng ban đầu cho việc điều chỉnh, nhưng người dùng vẫn có thể đổi kích thước cột thủ công vượt quá giới hạn này.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="585"/>
+        <location filename="../dialogs/configdialog.ui" line="537"/>
         <source>Number of data rows per page:</source>
         <translation>Số hàng dữ liệu trên mỗi trang:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="618"/>
+        <location filename="../dialogs/configdialog.ui" line="570"/>
         <source>&lt;p&gt;When this is enabled and user holds mouse pointer over a cell in any data view (query results, a table data, a view data) a tooltip will appear with details about the cell - it includes details like column data type, constraints, ROWID and others.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Khi bật tùy chọn này và người dùng giữ con trỏ chuột trên một ô trong bất kỳ khung nhìn dữ liệu nào (kết quả truy vấn, dữ liệu bảng, dữ liệu khung nhìn), một chú giải công cụ sẽ xuất hiện với chi tiết về ô - bao gồm các chi tiết như kiểu dữ liệu cột, ràng buộc, ROWID và những thứ khác.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="621"/>
+        <location filename="../dialogs/configdialog.ui" line="573"/>
         <source>Show column and row details tooltip in data view</source>
         <translation>Hiển thị chú giải chi tiết cột và hàng trong khung nhìn dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="527"/>
+        <location filename="../dialogs/configdialog.ui" line="479"/>
         <source>&lt;p&gt;When editing a cell which used to have NULL value and entering empty string as new value, then this option determinates whether the new value should remain NULL (have this option enabled), or should it be overwritten with empty string value (have this option disabled).&lt;/p&gt;</source>
         <translation>&lt;p&gt;Khi chỉnh sửa một ô từng có giá trị NULL và nhập chuỗi rỗng làm giá trị mới, tùy chọn này xác định giá trị mới nên vẫn là NULL (khi bật tùy chọn này), hay nên bị ghi đè bằng giá trị chuỗi rỗng (khi tắt tùy chọn này).&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="530"/>
+        <location filename="../dialogs/configdialog.ui" line="482"/>
         <source>Keep NULL value when entering empty value</source>
         <translation>Giữ giá trị NULL khi nhập giá trị rỗng</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="608"/>
+        <location filename="../dialogs/configdialog.ui" line="560"/>
         <source>Limit number of rows for in case of dozens of columns</source>
         <translation>Giới hạn số hàng trong trường hợp có hàng chục cột</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="739"/>
+        <location filename="../dialogs/configdialog.ui" line="691"/>
         <source>Inserting new row in data grid</source>
         <translation>Chèn hàng mới trong lưới dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="745"/>
+        <location filename="../dialogs/configdialog.ui" line="697"/>
         <source>Before currently selected row</source>
         <translation>Trước hàng hiện đang chọn</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="761"/>
+        <location filename="../dialogs/configdialog.ui" line="713"/>
         <source>After currently selected row</source>
         <translation>Sau hàng hiện đang chọn</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="774"/>
+        <location filename="../dialogs/configdialog.ui" line="726"/>
         <source>At the end of data view</source>
         <translation>Ở cuối khung nhìn dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="790"/>
+        <location filename="../dialogs/configdialog.ui" line="742"/>
         <source>Table windows</source>
         <translation>Cửa sổ bảng</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="796"/>
+        <location filename="../dialogs/configdialog.ui" line="748"/>
         <source>&lt;p&gt;When enabled, Table Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Khi bật, Cửa sổ bảng sẽ hiển thị với thẻ dữ liệu thay vì thẻ cấu trúc.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="799"/>
+        <location filename="../dialogs/configdialog.ui" line="751"/>
         <source>Open Table Windows with the data tab for start</source>
         <translation>Mở Cửa sổ bảng với thẻ dữ liệu lúc bắt đầu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="809"/>
+        <location filename="../dialogs/configdialog.ui" line="761"/>
         <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every Table Window, instead of being at second place.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Khi bật, thẻ &quot;Dữ liệu&quot; sẽ được đặt làm thẻ đầu tiên trong mọi Cửa sổ bảng, thay vì ở vị trí thứ hai.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="812"/>
+        <location filename="../dialogs/configdialog.ui" line="764"/>
         <source>Place data tab as first tab in a Table Window</source>
         <translation>Đặt thẻ dữ liệu làm thẻ đầu tiên trong Cửa sổ bảng</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="825"/>
+        <location filename="../dialogs/configdialog.ui" line="777"/>
         <source>View windows</source>
         <translation>Cửa sổ khung nhìn</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="831"/>
+        <location filename="../dialogs/configdialog.ui" line="783"/>
         <source>&lt;p&gt;When enabled, View Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Khi bật, Cửa sổ khung nhìn sẽ hiển thị với thẻ dữ liệu thay vì thẻ cấu trúc.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="834"/>
+        <location filename="../dialogs/configdialog.ui" line="786"/>
         <source>Open View Windows with the data tab for start</source>
         <translation>Mở Cửa sổ khung nhìn với thẻ dữ liệu lúc bắt đầu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="844"/>
+        <location filename="../dialogs/configdialog.ui" line="796"/>
         <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every View Window, instead of being at second place.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Khi bật, thẻ &quot;Dữ liệu&quot; sẽ được đặt làm thẻ đầu tiên trong mọi Cửa sổ khung nhìn, thay vì ở vị trí thứ hai.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="847"/>
+        <location filename="../dialogs/configdialog.ui" line="799"/>
         <source>Place data tab as first tab in a View Window</source>
         <translation>Đặt thẻ dữ liệu làm thẻ đầu tiên trong Cửa sổ khung nhìn</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="891"/>
+        <location filename="../dialogs/configdialog.ui" line="843"/>
         <source>Data types</source>
         <translation>Kiểu dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="944"/>
+        <location filename="../dialogs/configdialog.ui" line="896"/>
         <source>Available editors:</source>
         <translation>Trình biên tập có sẵn:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1061"/>
+        <location filename="../dialogs/configdialog.ui" line="1013"/>
         <source>Schema editing</source>
         <translation>Chỉnh sửa lược đồ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1073"/>
+        <location filename="../dialogs/configdialog.ui" line="1025"/>
         <source>Number of DDL changes kept in history.</source>
         <translation>Số thay đổi DDL được giữ trong lịch sử.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1086"/>
+        <location filename="../dialogs/configdialog.ui" line="1038"/>
         <source>DDL history size:</source>
         <translation>Kích thước lịch sử DDL:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1093"/>
+        <location filename="../dialogs/configdialog.ui" line="1045"/>
         <source>Don&apos;t show DDL preview dialog when committing schema changes</source>
         <translation>Không&apos; hiển thị hộp thoại xem trước DDL khi xác nhận thay đổi lược đồ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1391"/>
-        <location filename="../dialogs/configdialog.ui" line="1407"/>
+        <location filename="../dialogs/configdialog.ui" line="1343"/>
+        <location filename="../dialogs/configdialog.ui" line="1359"/>
         <source>Number of queries kept in the history.</source>
         <translation>Số truy vấn được giữ trong lịch sử.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1337"/>
+        <location filename="../dialogs/configdialog.ui" line="1289"/>
         <source>Execute only the query under the cursor</source>
         <translation>Chỉ thực thi truy vấn dưới con trỏ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1423"/>
+        <location filename="../dialogs/configdialog.ui" line="1375"/>
         <source>Number of memorized query parameters</source>
         <translation>Số tham số truy vấn được ghi nhớ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="678"/>
+        <location filename="../dialogs/configdialog.ui" line="630"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit. This value is also used when enlarging column upon new, longer value entered by the user (see option below).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Khi dữ liệu được đọc vào khung nhìn lưới, độ rộng cột được tự động điều chỉnh. Giá trị này giới hạn độ rộng ban đầu cho việc điều chỉnh, nhưng người dùng vẫn có thể đổi kích thước cột thủ công vượt quá giới hạn này. Giá trị này cũng được dùng khi mở rộng cột sau khi người dùng nhập giá trị mới dài hơn (xem tùy chọn bên dưới).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="681"/>
+        <location filename="../dialogs/configdialog.ui" line="633"/>
         <source>Limit automatic data column width to (in pixels):</source>
         <translation>Giới hạn độ rộng cột dữ liệu tự động thành (theo pixel):</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="688"/>
+        <location filename="../dialogs/configdialog.ui" line="640"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Initial width of data columns will be set to at least show complete name of the column in the header. This can still be overwritten by the initial limit of column width specified in pixels (the setting above).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Độ rộng ban đầu của các cột dữ liệu sẽ được đặt ít nhất đủ để hiển thị tên cột đầy đủ trong tiêu đề. Điều này vẫn có thể bị ghi đè bởi giới hạn ban đầu của độ rộng cột được chỉ định bằng pixel (thiết lập phía trên).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="691"/>
+        <location filename="../dialogs/configdialog.ui" line="643"/>
         <source>Keep at least the width to show complete column name</source>
         <translation>Giữ ít nhất độ rộng để hiển thị tên cột đầy đủ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1301"/>
+        <location filename="../dialogs/configdialog.ui" line="1253"/>
         <source>Wrap lines in SQL editor</source>
         <translation>Ngắt dòng trong trình biên tập SQL</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1324"/>
+        <location filename="../dialogs/configdialog.ui" line="1276"/>
         <source>Highlight current query</source>
         <translation>Tô sáng truy vấn hiện tại</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1106"/>
+        <location filename="../dialogs/configdialog.ui" line="1058"/>
         <source>Updates</source>
         <translation>Cập nhật</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1112"/>
+        <location filename="../dialogs/configdialog.ui" line="1064"/>
         <source>Automatically check for updates at startup</source>
         <translation>Tự động kiểm tra cập nhật khi khởi động</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1125"/>
+        <location filename="../dialogs/configdialog.ui" line="1077"/>
         <source>Session</source>
         <translation>Phiên</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1131"/>
+        <location filename="../dialogs/configdialog.ui" line="1083"/>
         <source>Restore last session (active MDI windows) after startup</source>
         <translation>Khôi phục phiên cuối (các cửa sổ MDI đang hoạt động) sau khi khởi động</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1141"/>
+        <location filename="../dialogs/configdialog.ui" line="1093"/>
         <source>Allow multiple instances of the application at the same time</source>
         <translation>Cho phép nhiều phiên bản của ứng dụng cùng lúc</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1154"/>
+        <location filename="../dialogs/configdialog.ui" line="1106"/>
         <source>Status Field</source>
         <translation>Trường trạng thái</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1163"/>
+        <location filename="../dialogs/configdialog.ui" line="1115"/>
         <source>Always open Status panel when new message is printed</source>
         <translation>Luôn mở bảng Trạng thái khi thông báo mới được in</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1488"/>
+        <location filename="../dialogs/configdialog.ui" line="1440"/>
         <source>Code syntax colors</source>
         <translation>Màu cú pháp mã</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1674"/>
+        <location filename="../dialogs/configdialog.ui" line="1626"/>
         <source>Keyword foreground</source>
         <translation>Màu chữ từ khóa</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1494"/>
+        <location filename="../dialogs/configdialog.ui" line="1446"/>
         <source>Regular foreground</source>
         <translation>Màu chữ thông thường</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1584"/>
+        <location filename="../dialogs/configdialog.ui" line="1536"/>
         <source>String foreground</source>
         <translation>Màu chữ chuỗi</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1854"/>
+        <location filename="../dialogs/configdialog.ui" line="1806"/>
         <source>Comment foreground</source>
         <translation>Màu chữ chú thích</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1944"/>
+        <location filename="../dialogs/configdialog.ui" line="1896"/>
         <source>Valid objects foreground</source>
         <translation>Màu chữ đối tượng hợp lệ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2255"/>
+        <location filename="../dialogs/configdialog.ui" line="2207"/>
         <source>Current query background</source>
         <translation>Màu nền truy vấn hiện tại</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2124"/>
+        <location filename="../dialogs/configdialog.ui" line="2076"/>
         <source>Bind parameter foreground</source>
         <translation>Màu chữ tham số bind</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2214"/>
+        <location filename="../dialogs/configdialog.ui" line="2166"/>
         <source>Current line background</source>
         <translation>Màu nền dòng hiện tại</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2299"/>
+        <location filename="../dialogs/configdialog.ui" line="2251"/>
         <source>Matched parenthesis background</source>
         <translation>Màu nền ngoặc khớp</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2283"/>
+        <location filename="../dialogs/configdialog.ui" line="2235"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Bạn có thể tắt hoàn toàn việc tô sáng truy vấn hiện tại trên trang thiết lập Chung.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="219"/>
+        <location filename="../dialogs/configdialog.ui" line="179"/>
         <source>Data renderers</source>
         <translation>Trình kết xuất dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="283"/>
+        <location filename="../dialogs/configdialog.ui" line="235"/>
         <source>Expand tables when connected to a database</source>
         <translation>Mở rộng bảng khi kết nối tới cơ sở dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="418"/>
+        <location filename="../dialogs/configdialog.ui" line="370"/>
         <source>Expand views when connected to a database</source>
         <translation>Mở rộng khung nhìn khi kết nối tới cơ sở dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="319"/>
+        <location filename="../dialogs/configdialog.ui" line="271"/>
         <source>Expanding a table or view also expands the Columns, Indexes and Triggers nodes to show their contents.</source>
         <translation>Mở rộng một bảng hoặc khung nhìn cũng mở rộng các nút Cột, Chỉ mục và Trigger để hiển thị nội dung của chúng.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="293"/>
+        <location filename="../dialogs/configdialog.ui" line="245"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, the database schema is accessed using the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; table name.&lt;br/&gt;Older SQLite versions used the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt; name, which is still supported as an alias.&lt;br/&gt;You can switch here to use the legacy name instead.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Theo mặc định, lược đồ cơ sở dữ liệu được truy cập bằng tên bảng &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt;.&lt;br/&gt;Các phiên bản SQLite cũ hơn dùng tên &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt;, tên này vẫn được hỗ trợ như một bí danh.&lt;br/&gt;Bạn có thể chuyển ở đây để dùng tên kế thừa thay thế.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="296"/>
+        <location filename="../dialogs/configdialog.ui" line="248"/>
         <source>Prefer sqlite_master over sqlite_schema table name</source>
         <translation>Ưu tiên tên bảng sqlite_master hơn sqlite_schema</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="322"/>
+        <location filename="../dialogs/configdialog.ui" line="274"/>
         <source>Expand columns, indexes and triggers together with the table</source>
         <translation>Mở rộng cột, chỉ mục và trigger cùng với bảng</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="363"/>
+        <location filename="../dialogs/configdialog.ui" line="315"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows data type next to the column when Columns node is expanded.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hiển thị kiểu dữ liệu bên cạnh cột khi nút Cột được mở rộng.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="366"/>
+        <location filename="../dialogs/configdialog.ui" line="318"/>
         <source>Display column data types</source>
         <translation>Hiển thị kiểu dữ liệu cột</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="376"/>
+        <location filename="../dialogs/configdialog.ui" line="328"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows number of columns, indexes and triggers next to each table name.&lt;/p&gt;&lt;p&gt;Requires loading full schema for all tables. For databases with hundreds or thousands of tables, this can significantly impact performance.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hiển thị số lượng cột, chỉ mục và trigger bên cạnh tên mỗi bảng.&lt;/p&gt;&lt;p&gt;Yêu cầu tải lược đồ đầy đủ cho tất cả bảng. Với các cơ sở dữ liệu có hàng trăm hoặc hàng nghìn bảng, điều này có thể ảnh hưởng đáng kể đến hiệu năng.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="405"/>
+        <location filename="../dialogs/configdialog.ui" line="357"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, system tables and indexes are hidden from the list.&lt;br/&gt;Enable this option to display internal SQLite objects, such as &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; and auto-generated indexes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Theo mặc định, bảng và chỉ mục hệ thống bị ẩn khỏi danh sách.&lt;br/&gt;Bật tùy chọn này để hiển thị các đối tượng SQLite nội bộ, chẳng hạn như &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; và các chỉ mục được tự động tạo.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="450"/>
+        <location filename="../dialogs/configdialog.ui" line="402"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, database files will be added without showing the standard database dialog. If opening the database with default options fails (e.g. encrypted database or different driver required), the dialog will be shown so the options can be adjusted. When disabled, the dialog will always be shown.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Khi bật, các tệp cơ sở dữ liệu sẽ được thêm mà không hiển thị hộp thoại cơ sở dữ liệu tiêu chuẩn. Nếu mở cơ sở dữ liệu với tùy chọn mặc định thất bại (ví dụ: cơ sở dữ liệu được mã hóa hoặc cần driver khác), hộp thoại sẽ được hiển thị để có thể điều chỉnh tùy chọn. Khi tắt, hộp thoại sẽ luôn được hiển thị.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="453"/>
+        <location filename="../dialogs/configdialog.ui" line="405"/>
         <source>Skip the dialog when possible</source>
         <translation>Bỏ qua hộp thoại khi có thể</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="960"/>
+        <location filename="../dialogs/configdialog.ui" line="912"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Define which data editors are available for specific column types in &lt;span style=&quot; font-weight:700;&quot;&gt;Form View&lt;/span&gt; and the &lt;span style=&quot; font-weight:700;&quot;&gt;popup editor dialog&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Xác định những trình biên tập dữ liệu nào khả dụng cho các kiểu cột cụ thể trong &lt;span style=&quot; font-weight:700;&quot;&gt;Khung nhìn biểu mẫu&lt;/span&gt; và &lt;span style=&quot; font-weight:700;&quot;&gt;hộp thoại trình biên tập bật lên&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="979"/>
+        <location filename="../dialogs/configdialog.ui" line="931"/>
         <source>Preview of editors for this data type (drag to reorder):</source>
         <translation>Xem trước trình biên tập cho kiểu dữ liệu này (kéo để sắp xếp lại):</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1003"/>
+        <location filename="../dialogs/configdialog.ui" line="955"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Bạn có thể xác định trình kết xuất ô nào được dùng cho các kiểu dữ liệu cụ thể được khai báo trên cột bảng (không phân biệt chữ hoa/thường). Nếu không có trình kết xuất nào được định nghĩa cho một kiểu nhất định, trình kết xuất mặc định sẽ được dùng.&lt;/p&gt;&lt;p&gt;Các plugin tùy chọn có thể cung cấp thêm trình kết xuất và đặt ánh xạ mặc định riêng của chúng cho kiểu dữ liệu, bạn vẫn có thể ghi đè tại đây.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1032"/>
+        <location filename="../dialogs/configdialog.ui" line="984"/>
         <source>Data type</source>
         <translation>Kiểu dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1037"/>
+        <location filename="../dialogs/configdialog.ui" line="989"/>
         <source>Renderer</source>
         <translation>Trình kết xuất</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1334"/>
+        <location filename="../dialogs/configdialog.ui" line="1286"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Khi có nhiều truy vấn, chỉ thực thi truy vấn dưới con trỏ.&lt;br/&gt;Khi tắt, tất cả truy vấn sẽ được thực thi.&lt;br/&gt;Bạn cũng có thể thực thi các truy vấn đã chọn hoặc dùng phím tắt (%1 cho một truy vấn, %2 cho tất cả).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1321"/>
+        <location filename="../dialogs/configdialog.ui" line="1273"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Tô sáng truy vấn dưới con trỏ - cùng truy vấn sẽ được thực thi khi dùng &lt;span style=&quot; font-style:italic;&quot;&gt;Thực thi truy vấn&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="592"/>
+        <location filename="../dialogs/configdialog.ui" line="544"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, Letos automatically switches to scientific notation for very small real numbers (e.g. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimal notation is used for values whose magnitude allows a readable decimal representation.&lt;/p&gt;&lt;p&gt;When disabled, real numbers are always displayed using decimal notation, even if this results in very long fractional parts.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Khi bật, Letos tự động chuyển sang ký hiệu khoa học cho các số thực rất nhỏ (ví dụ: &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Ký hiệu thập phân được dùng cho các giá trị có độ lớn cho phép biểu diễn thập phân dễ đọc.&lt;/p&gt;&lt;p&gt;Khi tắt, số thực luôn được hiển thị bằng ký hiệu thập phân, ngay cả khi điều này tạo ra phần thập phân rất dài.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="572"/>
+        <location filename="../dialogs/configdialog.ui" line="524"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Khi chỉnh sửa một ô, nhấn Enter sẽ chấp nhận giá trị và chuyển đến cùng cột ở hàng tiếp theo.&lt;br/&gt;Nếu tắt, vùng chọn vẫn ở ô hiện tại.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="575"/>
+        <location filename="../dialogs/configdialog.ui" line="527"/>
         <source>After editing, Enter moves to the next row</source>
         <translation>Sau khi chỉnh sửa, Enter chuyển đến hàng tiếp theo</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="605"/>
+        <location filename="../dialogs/configdialog.ui" line="557"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If query results contain dozens (or hundreds) of columns, it is more likely that it will exhaust free memory of your computer by loading several gigabytes of data at once. Letos may try to limit number of results displayed on one page in such cases to protect your computer. If you know that you don&apos;t work with big values in database, you can disable this limit and you will always see as many rows as defined per page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Nếu kết quả truy vấn chứa hàng chục (hoặc hàng trăm) cột, nhiều khả năng việc tải vài gigabyte dữ liệu cùng lúc sẽ làm cạn bộ nhớ trống của máy tính. Letos có thể cố gắng giới hạn số kết quả hiển thị trên một trang trong các trường hợp như vậy để bảo vệ máy tính của bạn. Nếu bạn biết rằng mình không&apos; làm việc với các giá trị lớn trong cơ sở dữ liệu, bạn có thể tắt giới hạn này và sẽ luôn thấy số hàng đúng như được định nghĩa cho mỗi trang.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="540"/>
+        <location filename="../dialogs/configdialog.ui" line="492"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Tự động bắt đầu chỉnh sửa ô ở hàng tiếp theo sau khi chuyển đến đó bằng Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="543"/>
+        <location filename="../dialogs/configdialog.ui" line="495"/>
         <source>Start editing after moving to the next row</source>
         <translation>Bắt đầu chỉnh sửa sau khi chuyển đến hàng tiếp theo</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="704"/>
+        <location filename="../dialogs/configdialog.ui" line="656"/>
         <source>Column header actions</source>
         <translation>Hành động tiêu đề cột</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="710"/>
+        <location filename="../dialogs/configdialog.ui" line="662"/>
         <source>Single-click selects column data; double-click sorts by column</source>
         <translation>Nhấp một lần chọn dữ liệu cột; nhấp đúp sắp xếp theo cột</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="723"/>
+        <location filename="../dialogs/configdialog.ui" line="675"/>
         <source>Single-click sorts by column; Alt+click selects column data</source>
         <translation>Nhấp một lần sắp xếp theo cột; Alt+nhấp chọn dữ liệu cột</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1160"/>
+        <location filename="../dialogs/configdialog.ui" line="1112"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user manually closes the Status panel, this option makes sure that if any new message is printed in the Status panel it will be reopened. If it&apos;s disabled, then Status panel can only be open manually by the user from the &amp;quot;View&amp;quot; menu.&lt;/p&gt;&lt;p&gt;You can always hide the Status panel with the Esc key.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Khi người dùng đóng bảng Trạng thái theo cách thủ công, tùy chọn này đảm bảo rằng nếu có bất kỳ thông báo mới nào được in trong bảng Trạng thái thì bảng sẽ được mở lại. Nếu tùy chọn này&apos; bị tắt, bảng Trạng thái chỉ có thể được người dùng mở thủ công từ menu &amp;quot;Xem&amp;quot;.&lt;/p&gt;&lt;p&gt;Bạn luôn có thể ẩn bảng Trạng thái bằng phím Esc.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1173"/>
+        <location filename="../dialogs/configdialog.ui" line="1125"/>
         <source>Older status messages</source>
         <translation>Thông báo trạng thái cũ hơn</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1179"/>
+        <location filename="../dialogs/configdialog.ui" line="1131"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are kept unchanged.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Các thông báo trạng thái cũ hơn được giữ nguyên.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1182"/>
+        <location filename="../dialogs/configdialog.ui" line="1134"/>
         <source>Keep messages</source>
         <translation>Giữ thông báo</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1195"/>
+        <location filename="../dialogs/configdialog.ui" line="1147"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages remain visible, but are visually dimmed to make recent messages stand out.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Các thông báo trạng thái cũ hơn vẫn hiển thị, nhưng được làm mờ trực quan để thông báo gần đây nổi bật hơn.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1198"/>
+        <location filename="../dialogs/configdialog.ui" line="1150"/>
         <source>Dim older messages</source>
         <translation>Làm mờ thông báo cũ hơn</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1211"/>
+        <location filename="../dialogs/configdialog.ui" line="1163"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are automatically removed from the status field.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Các thông báo trạng thái cũ hơn được tự động xóa khỏi trường trạng thái.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1214"/>
+        <location filename="../dialogs/configdialog.ui" line="1166"/>
         <source>Remove older messages</source>
         <translation>Xóa thông báo cũ hơn</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1230"/>
+        <location filename="../dialogs/configdialog.ui" line="1182"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Thỉnh thoảng hiển thị thông báo trạng thái với thông tin về việc hỗ trợ dự án Letos. Những lời nhắc này xuất hiện không thường xuyên và có thể được tắt bất kỳ lúc nào.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1233"/>
+        <location filename="../dialogs/configdialog.ui" line="1185"/>
         <source>Show occasional project support reminders</source>
         <translation>Thỉnh thoảng hiển thị lời nhắc hỗ trợ dự án</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1269"/>
-        <location filename="../dialogs/configdialog.ui" line="1285"/>
+        <location filename="../dialogs/configdialog.ui" line="1221"/>
+        <location filename="../dialogs/configdialog.ui" line="1237"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Chỉ định số chữ số thập phân tối đa được hiển thị cho thời gian thực thi truy vấn. Có thể cấu hình tối đa 9 chữ số (nano giây). Các số không ở cuối được tự động cắt bỏ.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1272"/>
+        <location filename="../dialogs/configdialog.ui" line="1224"/>
         <source>Execution time precision (decimal places)</source>
         <translation>Độ chính xác thời gian thực thi (chữ số thập phân)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1298"/>
+        <location filename="../dialogs/configdialog.ui" line="1250"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Nếu được bật, các dòng dài hơn chiều rộng của trình soạn thảo sẽ được ngắt dòng, vì vậy sẽ không cần cuộn ngang.&lt;/p&gt;&lt;p&gt;Tùy chọn này xác định mặc định toàn cục, trong khi từng cửa sổ trình soạn thảo SQL có thể ghi đè cục bộ.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1311"/>
+        <location filename="../dialogs/configdialog.ui" line="1263"/>
         <source>Disable blinking text cursor</source>
         <translation>Tắt con trỏ văn bản nhấp nháy</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1359"/>
+        <location filename="../dialogs/configdialog.ui" line="1311"/>
         <source>Trigger assistant after typing a dot</source>
         <translation>Kích hoạt trợ lý sau khi gõ dấu chấm</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1369"/>
+        <location filename="../dialogs/configdialog.ui" line="1321"/>
         <source>When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</source>
         <translation>Khi bật, việc gọi hoàn thành mã trong trình biên tập trống sẽ hiển thị đoạn mã trước thay vì gợi ý cú pháp. Gọi hoàn thành mã lần nữa sẽ chuyển sang gợi ý cú pháp (và ngược lại).</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1372"/>
+        <location filename="../dialogs/configdialog.ui" line="1324"/>
         <source>Prefer snippets in empty editor</source>
         <translation>Ưu tiên đoạn mã trong trình biên tập trống</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1385"/>
+        <location filename="../dialogs/configdialog.ui" line="1337"/>
         <source>History</source>
         <translation>Lịch sử</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1394"/>
+        <location filename="../dialogs/configdialog.ui" line="1346"/>
         <source>Query history size:</source>
         <translation>Kích thước lịch sử truy vấn:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1420"/>
-        <location filename="../dialogs/configdialog.ui" line="1430"/>
+        <location filename="../dialogs/configdialog.ui" line="1372"/>
+        <location filename="../dialogs/configdialog.ui" line="1382"/>
         <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Số lượng tối đa các tham số truy vấn (:param, @param, $param, ?) được lưu trong lịch sử. Khi bạn dùng lại tham số có cùng tên/vị trí, Letos sẽ khởi tạo sẵn tham số đó bằng giá trị được ghi nhớ gần đây nhất (bạn vẫn có thể thay đổi giá trị này). Giá trị 1000 là đủ dùng.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1764"/>
+        <location filename="../dialogs/configdialog.ui" line="1716"/>
         <source>Number foreground</source>
         <translation>Màu chữ số</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2034"/>
+        <location filename="../dialogs/configdialog.ui" line="1986"/>
         <source>BLOB value foreground</source>
         <translation>Màu chữ giá trị BLOB</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2340"/>
+        <location filename="../dialogs/configdialog.ui" line="2292"/>
         <source>Matched parenthesis foreground</source>
         <translation>Màu chữ dấu ngoặc khớp</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2448"/>
-        <location filename="../dialogs/configdialog.ui" line="2556"/>
+        <location filename="../dialogs/configdialog.ui" line="2400"/>
+        <location filename="../dialogs/configdialog.ui" line="2508"/>
         <source>Reset to defaults</source>
         <translation>Đặt lại về mặc định</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2474"/>
+        <location filename="../dialogs/configdialog.ui" line="2426"/>
         <source>Filter shortcuts by name or key combination</source>
         <translation>Lọc phím tắt theo tên hoặc tổ hợp phím</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2518"/>
+        <location filename="../dialogs/configdialog.ui" line="2470"/>
         <source>Action</source>
         <translation>Hành động</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2523"/>
+        <location filename="../dialogs/configdialog.ui" line="2475"/>
         <source>Key combination</source>
         <translation>Tổ hợp phím</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2597"/>
-        <location filename="../dialogs/configdialog.ui" line="3112"/>
+        <location filename="../dialogs/configdialog.ui" line="2549"/>
+        <location filename="../dialogs/configdialog.ui" line="3199"/>
         <source>Language</source>
         <translation>Ngôn ngữ</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2603"/>
+        <location filename="../dialogs/configdialog.ui" line="2555"/>
         <source>Changing language requires application restart to take effect.</source>
         <translation>Việc thay đổi ngôn ngữ yêu cầu khởi động lại ứng dụng để có hiệu lực.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2623"/>
+        <location filename="../dialogs/configdialog.ui" line="2575"/>
         <source>User interface</source>
         <translation type="unfinished">User interface</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2629"/>
-        <location filename="../dialogs/configdialog.ui" line="2639"/>
+        <location filename="../dialogs/configdialog.ui" line="2581"/>
+        <location filename="../dialogs/configdialog.ui" line="2591"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2632"/>
+        <location filename="../dialogs/configdialog.ui" line="2584"/>
         <source>Interface scale</source>
         <translation type="unfinished">Interface scale</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2649"/>
+        <location filename="../dialogs/configdialog.ui" line="2601"/>
         <source>Toolbar icon size</source>
         <translation type="unfinished">Toolbar icon size</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2669"/>
+        <location filename="../dialogs/configdialog.ui" line="2621"/>
         <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Bố cục gọn giảm tất cả lề và khoảng cách trên giao diện người dùng xuống mức tối thiểu, tạo thêm không gian để hiển thị nhiều dữ liệu hơn. Điều này làm giao diện kém thẩm mỹ hơn một chút, nhưng cho phép hiển thị nhiều dữ liệu hơn cùng lúc.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2672"/>
+        <location filename="../dialogs/configdialog.ui" line="2624"/>
         <source>Use compact layout</source>
         <translation>Sử dụng bố cục gọn</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2688"/>
+        <location filename="../dialogs/configdialog.ui" line="2640"/>
+        <source>Icon set</source>
+        <translation type="unfinished">Icon set</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2646"/>
+        <source>License</source>
+        <translation type="unfinished">License</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2653"/>
+        <source>Choose icon set (requires restart)</source>
+        <translation type="unfinished">Choose icon set (requires restart)</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2725"/>
+        <source>Description</source>
+        <translation type="unfinished">Description</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2735"/>
+        <source>Author</source>
+        <translation type="unfinished">Author</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2749"/>
+        <source>URL</source>
+        <translation type="unfinished">URL</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2783"/>
         <source>Main window dock areas</source>
         <translation>Vùng neo của cửa sổ chính</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2694"/>
+        <location filename="../dialogs/configdialog.ui" line="2789"/>
         <source>Left and right areas occupy corners</source>
         <translation>Vùng trái và phải chiếm các góc</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2714"/>
+        <location filename="../dialogs/configdialog.ui" line="2805"/>
         <source>Top and bottom areas occupy corners</source>
         <translation>Vùng trên và dưới chiếm các góc</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2646"/>
-        <location filename="../dialogs/configdialog.ui" line="2656"/>
+        <location filename="../dialogs/configdialog.ui" line="2598"/>
+        <location filename="../dialogs/configdialog.ui" line="2608"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Được biểu thị bằng phần trăm của kích thước mặc định.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2836"/>
+        <location filename="../dialogs/configdialog.ui" line="2923"/>
         <source>Hide built-in plugins</source>
         <translation>Ẩn plugin tích hợp</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2865"/>
+        <location filename="../dialogs/configdialog.ui" line="2952"/>
         <source>Current style:</source>
         <translation>Kiểu hiện tại:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2882"/>
+        <location filename="../dialogs/configdialog.ui" line="2742"/>
+        <location filename="../dialogs/configdialog.ui" line="2969"/>
         <source>Preview</source>
         <translation>Xem trước</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2892"/>
+        <location filename="../dialogs/configdialog.ui" line="2979"/>
         <source>Enabled</source>
         <translation>Đã bật</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3068"/>
+        <location filename="../dialogs/configdialog.ui" line="3155"/>
         <source>Disabled</source>
         <translation>Đã tắt</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3117"/>
+        <location filename="../dialogs/configdialog.ui" line="3204"/>
         <source>Active formatter plugin</source>
         <translation>Plugin định dạng đang hoạt động</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3155"/>
+        <location filename="../dialogs/configdialog.ui" line="3242"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Mẹo:&lt;/span&gt; Ngoài các thiết lập có sẵn tại đây, kích thước phông chữ cũng có thể được điều chỉnh động trong hầu hết các thành phần giao diện bằng cách giữ &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; và cuộn &lt;span style=&quot; font-weight:700;&quot;&gt;bánh xe chuột&lt;/span&gt; trên thành phần có kích thước phông chữ bạn muốn thay đổi.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3174"/>
+        <location filename="../dialogs/configdialog.ui" line="3261"/>
         <source>SQL editor font</source>
         <translation>Phông chữ trình soạn thảo SQL</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3190"/>
+        <location filename="../dialogs/configdialog.ui" line="3277"/>
         <source>Database list font</source>
         <translation>Phông chữ danh sách cơ sở dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3206"/>
+        <location filename="../dialogs/configdialog.ui" line="3293"/>
         <source>Database list additional label font</source>
         <translation>Phông chữ nhãn bổ sung của danh sách cơ sở dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3222"/>
+        <location filename="../dialogs/configdialog.ui" line="3309"/>
         <source>Data view font</source>
         <translation>Phông chữ khung xem dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3238"/>
+        <location filename="../dialogs/configdialog.ui" line="3325"/>
         <source>Status field font</source>
         <translation>Phông chữ trường trạng thái</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1356"/>
+        <location filename="../dialogs/configdialog.ui" line="1308"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Nếu tùy chọn này được bật, trợ lý mã sẽ được kích hoạt trong các trường hợp người dùng nhập, ví dụ &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; để đề xuất các cột của bảng. Nếu tùy chọn này bị tắt, người dùng sẽ phải nhấn rõ phím tắt của trợ lý.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="447"/>
+        <location filename="../dialogs/configdialog.cpp" line="467"/>
         <source>The new interface scale will be applied after restarting Letos.</source>
         <translation type="unfinished">The new interface scale will be applied after restarting Letos.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1144"/>
+        <location filename="../dialogs/configdialog.cpp" line="825"/>
+        <source>Restart the application to apply the new icon set.</source>
+        <translation type="unfinished">Restart the application to apply the new icon set.</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.cpp" line="1175"/>
         <source>Description:</source>
         <comment>plugin details</comment>
         <translation>Mô tả:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1145"/>
+        <location filename="../dialogs/configdialog.cpp" line="1176"/>
         <source>Category:</source>
         <comment>plugin details</comment>
         <translation>Danh mục:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1146"/>
+        <location filename="../dialogs/configdialog.cpp" line="1177"/>
         <source>Version:</source>
         <comment>plugin details</comment>
         <translation>Phiên bản:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1147"/>
+        <location filename="../dialogs/configdialog.cpp" line="1178"/>
         <source>Author:</source>
         <comment>plugin details</comment>
         <translation>Tác giả:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1149"/>
+        <location filename="../dialogs/configdialog.cpp" line="1180"/>
         <source>Internal name:</source>
         <comment>plugin details</comment>
         <translation>Tên nội bộ:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1150"/>
+        <location filename="../dialogs/configdialog.cpp" line="1181"/>
         <source>Dependencies:</source>
         <comment>plugin details</comment>
         <translation>Phụ thuộc:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1151"/>
+        <location filename="../dialogs/configdialog.cpp" line="1182"/>
         <source>Conflicts:</source>
         <comment>plugin details</comment>
         <translation>Xung đột:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1152"/>
+        <location filename="../dialogs/configdialog.cpp" line="1183"/>
         <source>File:</source>
         <comment>plugin details</comment>
         <translation>Tệp:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1157"/>
+        <location filename="../dialogs/configdialog.cpp" line="1188"/>
         <source>Plugin details</source>
         <translation>Chi tiết plugin</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1778"/>
+        <location filename="../dialogs/configdialog.cpp" line="1888"/>
         <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
         <translation>Plugin được tải/gỡ tải ngay lập tức khi được chọn/bỏ chọn, nhưng danh sách plugin đã sửa đổi để tải khi khởi động sẽ không được lưu cho đến khi bạn xác nhận toàn bộ hộp thoại cấu hình.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1836"/>
+        <location filename="../dialogs/configdialog.cpp" line="1946"/>
         <source>%1 (built-in)</source>
         <comment>plugins manager in configuration dialog</comment>
         <translation>%1 (tích hợp)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1878"/>
+        <location filename="../dialogs/configdialog.cpp" line="1988"/>
         <source>Details</source>
         <translation>Chi tiết</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1892"/>
+        <location filename="../dialogs/configdialog.cpp" line="2002"/>
         <source>No plugins in this category.</source>
         <translation>Không có plugin nào trong danh mục này.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1992"/>
-        <location filename="../dialogs/configdialog.cpp" line="2021"/>
+        <location filename="../dialogs/configdialog.cpp" line="2102"/>
+        <location filename="../dialogs/configdialog.cpp" line="2131"/>
         <source>Add new data type</source>
         <translation>Thêm kiểu dữ liệu mới</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1996"/>
-        <location filename="../dialogs/configdialog.cpp" line="2025"/>
+        <location filename="../dialogs/configdialog.cpp" line="2106"/>
+        <location filename="../dialogs/configdialog.cpp" line="2135"/>
         <source>Rename selected data type</source>
         <translation>Đổi tên kiểu dữ liệu đã chọn</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2000"/>
-        <location filename="../dialogs/configdialog.cpp" line="2029"/>
+        <location filename="../dialogs/configdialog.cpp" line="2110"/>
+        <location filename="../dialogs/configdialog.cpp" line="2139"/>
         <source>Delete selected data type</source>
         <translation>Xóa kiểu dữ liệu đã chọn</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2113"/>
+        <location filename="../dialogs/configdialog.cpp" line="2223"/>
         <source>Clear hotkey for this action</source>
         <translation>Xóa phím nóng cho hành động này</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2125"/>
+        <location filename="../dialogs/configdialog.cpp" line="2235"/>
         <source>Restore original hotkey for this action</source>
         <translation>Khôi phục phím nóng gốc cho hành động này</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2167"/>
+        <location filename="../dialogs/configdialog.cpp" line="2277"/>
         <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
         <translation>Tại đây bạn có thể cấu hình màu cho tô sáng cú pháp mã. Chúng được dùng chung giữa các ngôn ngữ khác nhau - không chỉ SQL mà còn JavaScript và các ngôn ngữ khác. Theo mặc định, màu dựa trên chủ đề được sử dụng. Để định nghĩa màu riêng, hãy bật màu tùy chỉnh bằng cách chọn hộp kiểm cạnh màu cụ thể.</translation>
     </message>
@@ -2422,7 +2458,7 @@ Có thể duyệt các trang khác sau khi việc đếm hàng hoàn tất.</tra
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="45"/>
-        <location filename="../dialogs/dbdialog.cpp" line="194"/>
+        <location filename="../dialogs/dbdialog.cpp" line="196"/>
         <source>File</source>
         <translation>Tệp</translation>
     </message>
@@ -2437,110 +2473,110 @@ Có thể duyệt các trang khác sau khi việc đếm hàng hoàn tất.</tra
         <translation>Tạo cơ sở dữ liệu mới</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="89"/>
+        <location filename="../dialogs/dbdialog.ui" line="85"/>
         <source>Name (on the list)</source>
         <translation>Tên (trên danh sách)</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="117"/>
+        <location filename="../dialogs/dbdialog.ui" line="113"/>
         <source>Change</source>
         <translation>Thay đổi</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="127"/>
+        <location filename="../dialogs/dbdialog.ui" line="123"/>
         <source>Options</source>
         <translation>Tùy chọn</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="133"/>
+        <location filename="../dialogs/dbdialog.ui" line="129"/>
         <source>&lt;p&gt;Enable this if you want the database to be stored in configuration file and restored every time Letos is started.&lt;/p&gt;</source>
         <extracomment>aasfd</extracomment>
         <translation>&lt;p&gt;Bật tùy chọn này nếu bạn muốn cơ sở dữ liệu được lưu trong tệp cấu hình và được khôi phục mỗi khi Letos khởi động.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="136"/>
+        <location filename="../dialogs/dbdialog.ui" line="132"/>
         <source>Permanent (keep it in configuration)</source>
         <translation>Lâu dài (giữ trong cấu hình)</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="180"/>
+        <location filename="../dialogs/dbdialog.ui" line="176"/>
         <source>Test connection</source>
         <translation>Kiểm tra kết nối</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="355"/>
+        <location filename="../dialogs/dbdialog.cpp" line="357"/>
         <source>Browse</source>
         <translation>Duyệt</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="528"/>
+        <location filename="../dialogs/dbdialog.cpp" line="530"/>
         <source>Database type not selected.</source>
         <translation>Chưa chọn kiểu cơ sở dữ liệu.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="535"/>
+        <location filename="../dialogs/dbdialog.cpp" line="537"/>
         <source>Database path not specified.</source>
         <translation>Chưa chỉ định đường dẫn cơ sở dữ liệu.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="568"/>
+        <location filename="../dialogs/dbdialog.cpp" line="570"/>
         <source>Enter an unique database name.</source>
         <translation>Nhập một tên cơ sở dữ liệu duy nhất.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="578"/>
+        <location filename="../dialogs/dbdialog.cpp" line="580"/>
         <source>This name is already in use. Please enter unique name.</source>
         <translation>Tên này đã được sử dụng. Vui lòng nhập tên duy nhất.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="585"/>
+        <location filename="../dialogs/dbdialog.cpp" line="587"/>
         <source>&lt;p&gt;Automatic name generation was disabled, because the name was edited manually. To restore automatic generation please erase contents of the name field.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Tạo tên tự động đã bị tắt vì tên đã được chỉnh sửa thủ công. Để khôi phục tạo tự động, vui lòng xóa nội dung của trường tên.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="594"/>
+        <location filename="../dialogs/dbdialog.cpp" line="596"/>
         <source>Enter a database file path.</source>
         <translation>Nhập đường dẫn tệp cơ sở dữ liệu.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="600"/>
+        <location filename="../dialogs/dbdialog.cpp" line="602"/>
         <source>You&apos;re using a relative file path, which will be resolved to &quot;%1&quot; according to the application&apos;s working directory. It&apos;s always better to use absolute file path to avoid unexpected database location.</source>
         <translation>Bạn&apos; đang sử dụng đường dẫn tệp tương đối, đường dẫn này sẽ được phân giải thành &quot;%1&quot; theo thư mục làm việc của ứng dụng&apos;. Luôn&apos; tốt hơn khi dùng đường dẫn tệp tuyệt đối để tránh vị trí cơ sở dữ liệu ngoài ý muốn.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="610"/>
+        <location filename="../dialogs/dbdialog.cpp" line="612"/>
         <source>This database is already on the list under name: %1</source>
         <translation>Cơ sở dữ liệu này đã có trong danh sách dưới tên: %1</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="632"/>
+        <location filename="../dialogs/dbdialog.cpp" line="634"/>
         <source>Select a database type.</source>
         <translation>Chọn một kiểu cơ sở dữ liệu.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="657"/>
+        <location filename="../dialogs/dbdialog.cpp" line="659"/>
         <source>Automatic</source>
         <comment>database name</comment>
         <translation>Tự động</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="658"/>
+        <location filename="../dialogs/dbdialog.cpp" line="660"/>
         <source>Change</source>
         <comment>database name</comment>
         <translation>Thay đổi</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="667"/>
+        <location filename="../dialogs/dbdialog.cpp" line="669"/>
         <source>(empty)</source>
         <translation>(trống)</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="837"/>
+        <location filename="../dialogs/dbdialog.cpp" line="839"/>
         <source>Choose a location for the new database file</source>
         <translation>Chọn vị trí cho tệp cơ sở dữ liệu mới</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="838"/>
+        <location filename="../dialogs/dbdialog.cpp" line="840"/>
         <source>Browse for existing database file on local computer</source>
         <translation>Duyệt tìm tệp cơ sở dữ liệu hiện có trên máy tính cục bộ</translation>
     </message>
@@ -2624,7 +2660,7 @@ Có thể duyệt các trang khác sau khi việc đếm hàng hoàn tất.</tra
         <translation>Cơ sở dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2556"/>
+        <location filename="../dbtree/dbtree.cpp" line="2565"/>
         <source>Filter by name</source>
         <translation>Lọc theo tên</translation>
     </message>
@@ -2875,7 +2911,7 @@ Có thể duyệt các trang khác sau khi việc đếm hàng hoàn tất.</tra
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="190"/>
-        <location filename="../dbtree/dbtree.cpp" line="1938"/>
+        <location filename="../dbtree/dbtree.cpp" line="1947"/>
         <source>Erase table data</source>
         <translation>Xóa dữ liệu bảng</translation>
     </message>
@@ -2931,140 +2967,140 @@ Có thể duyệt các trang khác sau khi việc đếm hàng hoàn tất.</tra
         <translation>Tạo truy vấn cho view</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1326"/>
-        <location filename="../dbtree/dbtree.cpp" line="1329"/>
+        <location filename="../dbtree/dbtree.cpp" line="1334"/>
+        <location filename="../dbtree/dbtree.cpp" line="1337"/>
         <source>Create group</source>
         <translation>Tạo nhóm</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1326"/>
+        <location filename="../dbtree/dbtree.cpp" line="1334"/>
         <source>Group name</source>
         <translation>Tên nhóm</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1329"/>
+        <location filename="../dbtree/dbtree.cpp" line="1337"/>
         <source>Entry with name %1 already exists in group %2.</source>
         <translation>Mục có tên %1 đã tồn tại trong nhóm %2.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1366"/>
+        <location filename="../dbtree/dbtree.cpp" line="1374"/>
         <source>Delete group</source>
         <translation>Xóa nhóm</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1367"/>
+        <location filename="../dbtree/dbtree.cpp" line="1375"/>
         <source>Are you sure you want to delete groups: %1?
 All objects from these groups will be moved to respective parent groups.</source>
         <translation>Bạn có chắc chắn muốn xóa các nhóm: %1 không?
 Tất cả đối tượng từ các nhóm này sẽ được chuyển vào các nhóm cha tương ứng.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1499"/>
+        <location filename="../dbtree/dbtree.cpp" line="1507"/>
         <source>Are you sure you want to remove database &apos;%1&apos; from the list?</source>
         <translation>Bạn có chắc chắn muốn gỡ cơ sở dữ liệu &apos;%1&apos; khỏi danh sách không?</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1507"/>
+        <location filename="../dbtree/dbtree.cpp" line="1515"/>
         <source>Are you sure you want to remove following databases from the list:
 %1</source>
         <translation>Bạn có chắc chắn muốn gỡ các cơ sở dữ liệu sau khỏi danh sách:
 %1</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1509"/>
+        <location filename="../dbtree/dbtree.cpp" line="1517"/>
         <source>Remove database</source>
         <translation>Xóa cơ sở dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1564"/>
-        <location filename="../dbtree/dbtree.cpp" line="1769"/>
+        <location filename="../dbtree/dbtree.cpp" line="1572"/>
+        <location filename="../dbtree/dbtree.cpp" line="1777"/>
         <source>Cannot import, because no import plugin is loaded.</source>
         <translation>Không thể nhập vì không có plugin nhập nào được tải.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1584"/>
-        <location filename="../dbtree/dbtree.cpp" line="1744"/>
-        <location filename="../dbtree/dbtree.cpp" line="1813"/>
+        <location filename="../dbtree/dbtree.cpp" line="1592"/>
+        <location filename="../dbtree/dbtree.cpp" line="1752"/>
+        <location filename="../dbtree/dbtree.cpp" line="1822"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>Không thể xuất vì không có plugin xuất nào được tải.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1859"/>
+        <location filename="../dbtree/dbtree.cpp" line="1868"/>
         <source>Vacuum (%1)</source>
         <translation>Hút chân không (%1)</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1873"/>
+        <location filename="../dbtree/dbtree.cpp" line="1882"/>
         <source>Integrity check (%1)</source>
         <translation>Kiểm tra tính toàn vẹn (%1)</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1909"/>
+        <location filename="../dbtree/dbtree.cpp" line="1918"/>
         <source>Reset autoincrement</source>
         <translation>Đặt lại autoincrement</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1909"/>
+        <location filename="../dbtree/dbtree.cpp" line="1918"/>
         <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
         <translation>Bạn có chắc chắn muốn đặt lại giá trị autoincrement cho bảng &apos;%1&apos; không?</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1916"/>
+        <location filename="../dbtree/dbtree.cpp" line="1925"/>
         <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
         <translation>Đã xảy ra lỗi khi cố đặt lại giá trị autoincrement cho bảng &apos;%1&apos;: %2</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1918"/>
+        <location filename="../dbtree/dbtree.cpp" line="1927"/>
         <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
         <translation>Giá trị autoincrement cho bảng &apos;%1&apos; đã được đặt lại thành công.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1938"/>
+        <location filename="../dbtree/dbtree.cpp" line="1947"/>
         <source>Are you sure you want to delete all data from table(s): %1?</source>
         <translation>Bạn có chắc chắn muốn xóa tất cả dữ liệu khỏi (các) bảng: %1 không?</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1950"/>
+        <location filename="../dbtree/dbtree.cpp" line="1959"/>
         <source>An error occurred while trying to delete data from table &apos;%1&apos;: %2</source>
         <translation>Đã xảy ra lỗi khi cố xóa dữ liệu khỏi bảng &apos;%1&apos;: %2</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1954"/>
+        <location filename="../dbtree/dbtree.cpp" line="1963"/>
         <source>All data has been deleted for table &apos;%1&apos;.</source>
         <translation>Tất cả dữ liệu đã được xóa khỏi bảng &apos;%1&apos;.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2093"/>
+        <location filename="../dbtree/dbtree.cpp" line="2102"/>
         <source>Following objects will be deleted: %1.</source>
         <translation>Các đối tượng sau sẽ bị xóa: %1.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2096"/>
+        <location filename="../dbtree/dbtree.cpp" line="2105"/>
         <source>Following databases will be removed from list: %1.</source>
         <translation>Các cơ sở dữ liệu sau sẽ bị gỡ khỏi danh sách: %1.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2099"/>
+        <location filename="../dbtree/dbtree.cpp" line="2108"/>
         <source>Remainig objects from deleted group will be moved in place where the group used to be.</source>
         <translation>Các đối tượng còn lại từ nhóm đã xóa sẽ được chuyển đến vị trí trước đây của nhóm đó.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2101"/>
+        <location filename="../dbtree/dbtree.cpp" line="2110"/>
         <source>%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</source>
         <translation>%1&lt;br&gt;&lt;br&gt;Bạn có chắc chắn muốn tiếp tục không?</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2103"/>
+        <location filename="../dbtree/dbtree.cpp" line="2112"/>
         <source>Delete objects</source>
         <translation>Xóa đối tượng</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2582"/>
+        <location filename="../dbtree/dbtree.cpp" line="2591"/>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Đã kết nối.&lt;/p&gt;&lt;p&gt;Nhấp vào đây để ngắt kết nối, hoặc nhấp chuột giữa vào cơ sở dữ liệu.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2590"/>
+        <location filename="../dbtree/dbtree.cpp" line="2599"/>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Đã ngắt kết nối.&lt;/p&gt;&lt;p&gt;Nhấp vào đây để kết nối, hoặc nhấp đúp vào cơ sở dữ liệu.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -3099,148 +3135,148 @@ Tất cả đối tượng từ các nhóm này sẽ được chuyển vào các
 <context>
     <name>DbTreeModel</name>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="493"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="494"/>
         <source>Database: %1</source>
         <comment>dbtree tooltip</comment>
         <translation>Cơ sở dữ liệu: %1</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="494"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="495"/>
         <source>URI:</source>
         <comment>dbtree tooltip</comment>
         <translation>URI (định danh tài nguyên):</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="498"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="499"/>
         <source>Format:</source>
         <comment>dbtree tooltip</comment>
         <translation>Định dạng:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="501"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="502"/>
         <source>File size:</source>
         <comment>dbtree tooltip</comment>
         <translation>Kích thước tệp:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="504"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="505"/>
         <source>Encoding:</source>
         <comment>dbtree tooltip</comment>
         <translation>Mã hóa:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="509"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="510"/>
         <source>Error:</source>
         <comment>dbtree tooltip</comment>
         <translation>Lỗi:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="513"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="514"/>
         <source>Double-click to edit this database</source>
         <comment>dbtree tooltip</comment>
         <translation>Nhấp đúp để sửa cơ sở dữ liệu này</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="515"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="516"/>
         <source>Double-click to connect to this database</source>
         <comment>dbtree tooltip</comment>
         <translation>Nhấp đúp để kết nối tới cơ sở dữ liệu này</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="525"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="526"/>
         <source>Table : %1</source>
         <comment>dbtree tooltip</comment>
         <translation>Bảng : %1</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="548"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="549"/>
         <source>Columns (%1):</source>
         <comment>dbtree tooltip</comment>
         <translation>Cột (%1):</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="551"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="552"/>
         <source>Indexes (%1):</source>
         <comment>dbtree tooltip</comment>
         <translation>Chỉ mục (%1):</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="554"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="555"/>
         <source>Triggers (%1):</source>
         <comment>dbtree tooltip</comment>
         <translation>Trigger (%1):</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1342"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1343"/>
         <source>Copy</source>
         <translation>Sao chép</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1343"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1344"/>
         <source>Move</source>
         <translation>Di chuyển</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1345"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1346"/>
         <source>Include data</source>
         <translation>Bao gồm dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1346"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1347"/>
         <source>Include indexes</source>
         <translation>Bao gồm chỉ mục</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1347"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1348"/>
         <source>Include triggers</source>
         <translation>Bao gồm trigger</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1349"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1350"/>
         <source>Abort</source>
         <translation>Hủy bỏ</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1408"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1409"/>
         <source>Could not add dropped database file &apos;%1&apos; automatically. Manual setup is necessary.</source>
         <translation>Không thể tự động thêm tệp cơ sở dữ liệu được thả &apos;%1&apos;. Cần thiết lập thủ công.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1487"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1488"/>
         <source>Referenced tables</source>
         <translation>Bảng được tham chiếu</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1488"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1489"/>
         <source>Do you want to include following referenced tables as well:
 %1</source>
         <translation>Bạn có muốn bao gồm cả các bảng được tham chiếu sau không:
 %1</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1497"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1498"/>
         <source>Name conflict</source>
         <translation>Xung đột tên</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1498"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1499"/>
         <source>Following object already exists in the target database.
 Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</source>
         <translation>Đối tượng sau đã tồn tại trong cơ sở dữ liệu đích.
 Vui lòng nhập tên mới, duy nhất, hoặc nhấn &apos;%1&apos; để hủy thao tác:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1511"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1512"/>
         <source>SQL statements conversion</source>
         <translation>Chuyển đổi câu lệnh SQL</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1519"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1520"/>
         <source>Following error occurred while converting SQL statements to the target SQLite version:</source>
         <translation>Lỗi sau đã xảy ra khi chuyển đổi các câu lệnh SQL sang phiên bản SQLite đích:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1520"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1521"/>
         <source>Would you like to ignore those errors and proceed?</source>
         <translation>Bạn có muốn bỏ qua các lỗi đó và tiếp tục không?</translation>
     </message>
@@ -3917,70 +3953,70 @@ Vui lòng nhập tên mới, duy nhất, hoặc nhấn &apos;%1&apos; để hủ
         <translation>Tùy chọn định dạng xuất</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="69"/>
+        <location filename="../dialogs/exportdialog.cpp" line="70"/>
         <source>Cancel</source>
         <translation>Hủy</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="197"/>
-        <location filename="../dialogs/exportdialog.cpp" line="221"/>
-        <location filename="../dialogs/exportdialog.cpp" line="246"/>
-        <location filename="../dialogs/exportdialog.cpp" line="271"/>
+        <location filename="../dialogs/exportdialog.cpp" line="198"/>
+        <location filename="../dialogs/exportdialog.cpp" line="222"/>
+        <location filename="../dialogs/exportdialog.cpp" line="247"/>
+        <location filename="../dialogs/exportdialog.cpp" line="272"/>
         <source>Select database to export.</source>
         <translation>Chọn cơ sở dữ liệu để xuất.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="198"/>
+        <location filename="../dialogs/exportdialog.cpp" line="199"/>
         <source>Select table to export.</source>
         <translation>Chọn bảng để xuất.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="222"/>
+        <location filename="../dialogs/exportdialog.cpp" line="223"/>
         <source>Select view to export.</source>
         <translation>Chọn view để xuất.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="247"/>
+        <location filename="../dialogs/exportdialog.cpp" line="248"/>
         <source>Enter valid query to export.</source>
         <translation>Nhập truy vấn hợp lệ để xuất.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="272"/>
+        <location filename="../dialogs/exportdialog.cpp" line="273"/>
         <source>Select at least one object to export.</source>
         <translation>Chọn ít nhất một đối tượng để xuất.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="295"/>
+        <location filename="../dialogs/exportdialog.cpp" line="296"/>
         <source>You must provide a file name to export to.</source>
         <translation>Bạn phải cung cấp tên tệp để xuất vào.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="302"/>
+        <location filename="../dialogs/exportdialog.cpp" line="303"/>
         <source>Path you provided is an existing directory. You cannot overwrite it.</source>
         <translation>Đường dẫn bạn cung cấp là một thư mục hiện có. Bạn không thể ghi đè lên nó.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="308"/>
+        <location filename="../dialogs/exportdialog.cpp" line="309"/>
         <source>The directory &apos;%1&apos; does not exist.</source>
         <translation>Thư mục &apos;%1&apos; không tồn tại.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="314"/>
+        <location filename="../dialogs/exportdialog.cpp" line="315"/>
         <source>The file &apos;%1&apos; exists and will be overwritten.</source>
         <translation>Tệp &apos;%1&apos; tồn tại và sẽ bị ghi đè.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="555"/>
+        <location filename="../dialogs/exportdialog.cpp" line="556"/>
         <source>All files (*)</source>
         <translation>Tất cả tệp (*)</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="558"/>
+        <location filename="../dialogs/exportdialog.cpp" line="559"/>
         <source>Pick file to export to</source>
         <translation>Chọn tệp để xuất vào</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="985"/>
+        <location filename="../dialogs/exportdialog.cpp" line="986"/>
         <source>Internal error during export. This is a bug. Please report it.</source>
         <translation>Lỗi nội bộ trong khi xuất. Đây là lỗi phần mềm. Vui lòng báo cáo lỗi này.</translation>
     </message>
@@ -4364,6 +4400,14 @@ Vui lòng nhập tên mới, duy nhất, hoặc nhấn &apos;%1&apos; để hủ
     </message>
 </context>
 <context>
+    <name>IconManager</name>
+    <message>
+        <location filename="../iconmanager.cpp" line="295"/>
+        <source>Mix of icons from various sources, including svgrepo.com and other open-source icon sets.</source>
+        <translation type="unfinished">Mix of icons from various sources, including svgrepo.com and other open-source icon sets.</translation>
+    </message>
+</context>
+<context>
     <name>ImportDialog</name>
     <message>
         <location filename="../dialogs/importdialog.ui" line="14"/>
@@ -4426,42 +4470,42 @@ Vui lòng nhập tên mới, duy nhất, hoặc nhấn &apos;%1&apos; để hủ
         <translation>Tùy chọn nguồn dữ liệu</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="131"/>
+        <location filename="../dialogs/importdialog.cpp" line="132"/>
         <source>Cancel</source>
         <translation>Hủy</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="162"/>
+        <location filename="../dialogs/importdialog.cpp" line="163"/>
         <source>If you type table name that doesn&apos;t exist, it will be created.</source>
         <translation>Nếu bạn nhập tên bảng không&apos; tồn tại, bảng đó sẽ được tạo.</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="162"/>
+        <location filename="../dialogs/importdialog.cpp" line="163"/>
         <source>Enter the table name</source>
         <translation>Nhập tên bảng</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="180"/>
+        <location filename="../dialogs/importdialog.cpp" line="181"/>
         <source>Select import plugin.</source>
         <translation>Chọn plugin nhập.</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="189"/>
+        <location filename="../dialogs/importdialog.cpp" line="190"/>
         <source>You must provide a file to import from.</source>
         <translation>Bạn phải cung cấp tệp để nhập từ đó.</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="196"/>
+        <location filename="../dialogs/importdialog.cpp" line="197"/>
         <source>The file &apos;%1&apos; does not exist.</source>
         <translation>Tệp &apos;%1&apos; không tồn tại.</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="202"/>
+        <location filename="../dialogs/importdialog.cpp" line="203"/>
         <source>Path you provided is a directory. A regular file is required.</source>
         <translation>Đường dẫn bạn cung cấp là một thư mục. Cần một tệp thông thường.</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="395"/>
+        <location filename="../dialogs/importdialog.cpp" line="396"/>
         <source>Pick file to import from</source>
         <translation>Chọn tệp để nhập từ đó</translation>
     </message>
@@ -7627,12 +7671,12 @@ Việc xóa này sẽ là vĩnh viễn. Bạn có chắc chắn muốn xóa chú
         <translation>Trạng thái</translation>
     </message>
     <message>
-        <location filename="../statusfield.cpp" line="190"/>
+        <location filename="../statusfield.cpp" line="191"/>
         <source>Copy</source>
         <translation>Sao chép</translation>
     </message>
     <message>
-        <location filename="../statusfield.cpp" line="197"/>
+        <location filename="../statusfield.cpp" line="198"/>
         <source>Clear</source>
         <translation>Xóa sạch</translation>
     </message>

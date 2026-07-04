@@ -84,7 +84,7 @@
         <translation>Operációs rendszer által kezelt disztribúció.</translation>
     </message>
     <message>
-        <location filename="../dialogs/aboutdialog.cpp" line="98"/>
+        <location filename="../dialogs/aboutdialog.cpp" line="102"/>
         <source>&lt;h3&gt;Table of contents:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</source>
         <translation>&lt;h3&gt;Tartalomjegyzék:&lt;/h3&gt;&lt;ol&gt;%2&lt;/ol&gt;</translation>
     </message>
@@ -1067,7 +1067,7 @@
     <name>ConfigDialog</name>
     <message>
         <location filename="../dialogs/configdialog.ui" line="14"/>
-        <location filename="../dialogs/configdialog.ui" line="3122"/>
+        <location filename="../dialogs/configdialog.ui" line="3209"/>
         <source>Configuration</source>
         <translation>Konfiguráció</translation>
     </message>
@@ -1082,964 +1082,1000 @@
         <translation>Általános</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="112"/>
+        <location filename="../dialogs/configdialog.ui" line="108"/>
         <source>Keyboard shortcuts</source>
         <translation>Billentyűparancsok</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="124"/>
+        <location filename="../dialogs/configdialog.ui" line="116"/>
         <source>Look &amp; feel</source>
         <translation>Megjelenés és működés</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="135"/>
+        <location filename="../dialogs/configdialog.ui" line="123"/>
         <source>Style</source>
         <translation>Stílus</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="147"/>
+        <location filename="../dialogs/configdialog.ui" line="131"/>
         <source>Fonts</source>
         <translation>Betűkészletek</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="159"/>
+        <location filename="../dialogs/configdialog.ui" line="139"/>
         <source>Code colors</source>
         <translation>Kódszínek</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="184"/>
-        <location filename="../dialogs/configdialog.ui" line="277"/>
+        <location filename="../dialogs/configdialog.ui" line="156"/>
+        <location filename="../dialogs/configdialog.ui" line="229"/>
         <source>Database list</source>
         <translation>Adatbázislista</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1350"/>
+        <location filename="../dialogs/configdialog.ui" line="1302"/>
         <source>Code assistant</source>
         <translation>Kódsegéd</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="196"/>
+        <location filename="../dialogs/configdialog.ui" line="164"/>
         <source>Data browsing</source>
         <translation>Adatok böngészése</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="172"/>
-        <location filename="../dialogs/configdialog.ui" line="1263"/>
+        <location filename="../dialogs/configdialog.ui" line="148"/>
+        <location filename="../dialogs/configdialog.ui" line="1215"/>
         <source>SQL Editor</source>
         <translation>SQL-szerkesztő</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="207"/>
+        <location filename="../dialogs/configdialog.ui" line="171"/>
         <source>Data editors</source>
         <translation>Adatszerkesztők</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="232"/>
+        <location filename="../dialogs/configdialog.ui" line="188"/>
         <source>Plugins</source>
         <translation>Bővítmények</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="243"/>
+        <location filename="../dialogs/configdialog.ui" line="195"/>
         <source>Code formatters</source>
         <translation>Kódformázók</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="251"/>
+        <location filename="../dialogs/configdialog.ui" line="203"/>
         <source>Scripting languages</source>
         <translation>Szkriptnyelvek</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="306"/>
+        <location filename="../dialogs/configdialog.ui" line="258"/>
         <source>If switched off, then columns will be sorted in the order they are typed in CREATE TABLE statement.</source>
         <translation>Ha ki van kapcsolva, az oszlopok abban a sorrendben lesznek rendezve, ahogyan a CREATE TABLE utasításban szerepelnek.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="309"/>
+        <location filename="../dialogs/configdialog.ui" line="261"/>
         <source>Sort table columns alphabetically</source>
         <translation>Táblázatoszlopok rendezése ábécé szerint</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="345"/>
+        <location filename="../dialogs/configdialog.ui" line="297"/>
         <source>&lt;p&gt;Additional labels are those displayed next to the names on the databases list (they are blue, unless configured otherwise). Enabling this option will result in labels for databases, invalid databases and aggregated nodes (column group, index group, trigger group). For more labels see options below.&lt;p&gt;</source>
         <translation>&lt;p&gt;A további címkék azok, amelyek az adatbázislistán a nevek mellett jelennek meg (kékek, hacsak nincs másképp konfigurálva). Az opció engedélyezése címkéket eredményez az adatbázisokhoz, érvénytelen adatbázisokhoz és összesített csomópontokhoz (oszlopcsoport, indexcsoport, triggercsoport). További címkékért lásd az alábbi opciókat.&lt;p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="348"/>
+        <location filename="../dialogs/configdialog.ui" line="300"/>
         <source>Display additional labels on the list</source>
         <translation>További címkék megjelenítése a listán</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="379"/>
+        <location filename="../dialogs/configdialog.ui" line="331"/>
         <source>Display labels for regular tables</source>
         <translation>Címkék megjelenítése normál táblákhoz</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="389"/>
+        <location filename="../dialogs/configdialog.ui" line="341"/>
         <source>Virtual tables will be marked with a &apos;virtual&apos; label.</source>
         <translation>A virtuális táblák &apos;virtuális&apos; címkével lesznek megjelölve.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="392"/>
+        <location filename="../dialogs/configdialog.ui" line="344"/>
         <source>Display labels for virtual tables</source>
         <translation>Címkék megjelenítése virtuális táblákhoz</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="332"/>
+        <location filename="../dialogs/configdialog.ui" line="284"/>
         <source>If this option is switched off, then objects will be sorted in order they appear in sqlite_master table (which is in order they were created)</source>
         <translation>Ha ez az opció ki van kapcsolva, az objektumok abban a sorrendben lesznek rendezve, ahogyan az sqlite_master táblában megjelennek (vagyis létrehozásuk sorrendjében)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="335"/>
+        <location filename="../dialogs/configdialog.ui" line="287"/>
         <source>Sort objects (tables, indexes, triggers and views) alphabetically</source>
         <translation>Objektumok (táblák, indexek, triggerek és nézetek) rendezése ábécé szerint</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="408"/>
+        <location filename="../dialogs/configdialog.ui" line="360"/>
         <source>Display system tables and indexes on the list</source>
         <translation>Rendszertáblák és indexek megjelenítése a listán</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="431"/>
+        <location filename="../dialogs/configdialog.ui" line="383"/>
         <source>Database dialog window</source>
         <translation>Adatbázis párbeszédablak</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="437"/>
+        <location filename="../dialogs/configdialog.ui" line="389"/>
         <source>&lt;p&gt;When adding new database it is marked to be &quot;permanent&quot; (stored in configuration) by default. Checking this option makes every new database to NOT be &quot;permanent&quot; by default.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Új adatbázis hozzáadásakor az alapértelmezés szerint &quot;állandóként&quot; (a konfigurációban tároltként) van megjelölve. Az opció bejelölése azt eredményezi, hogy minden új adatbázis alapértelmezés szerint NEM lesz &quot;állandó&quot;.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="440"/>
+        <location filename="../dialogs/configdialog.ui" line="392"/>
         <source>Do not mark database to be &quot;permanent&quot; by default</source>
         <translation>Ne jelölje az adatbázist alapértelmezés szerint &quot;állandóként&quot;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="498"/>
+        <location filename="../dialogs/configdialog.ui" line="450"/>
         <source>Data browsing and editing</source>
         <translation>Adatok böngészése és szerkesztése</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="504"/>
-        <location filename="../dialogs/configdialog.ui" line="517"/>
+        <location filename="../dialogs/configdialog.ui" line="456"/>
+        <location filename="../dialogs/configdialog.ui" line="469"/>
         <source>&lt;p&gt;Maximum number of configurations of Populate Table dialog stored in configuration. Value of 100 should be sufficient.&lt;/p&gt;</source>
         <translation>&lt;p&gt;A Tábla feltöltése párbeszédablak konfigurációiból a konfigurációban tárolt maximális szám. A 100-as érték elegendő kell legyen.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="520"/>
+        <location filename="../dialogs/configdialog.ui" line="472"/>
         <source>Number of memorized table populating configurations</source>
         <translation>Megjegyzett táblafeltöltési konfigurációk száma</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="595"/>
+        <location filename="../dialogs/configdialog.ui" line="547"/>
         <source>Use scientific notation for very small real numbers in the grid view</source>
         <translation>Tudományos jelölés használata nagyon kis valós számokhoz a rácsnézetben</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="634"/>
+        <location filename="../dialogs/configdialog.ui" line="586"/>
         <source>Data column width</source>
         <translation>Adatoszlop szélessége</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="640"/>
+        <location filename="../dialogs/configdialog.ui" line="592"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user enters new value into column and the value is bigger than the current column width, the application will enlarge the column to fit the new value, but not wider than the limit defined in the option above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Amikor a felhasználó új értéket ír be egy oszlopba, és az érték nagyobb a jelenlegi oszlopszélességnél, az alkalmazás megnöveli az oszlopot, hogy illeszkedjen az új értékhez, de nem szélesebbre, mint a fenti opcióban meghatározott korlát.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="643"/>
+        <location filename="../dialogs/configdialog.ui" line="595"/>
         <source>Enlarge column when entering value longer than current width</source>
         <translation>Oszlop megnövelése, ha a megadott érték hosszabb a jelenlegi szélességnél</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="659"/>
+        <location filename="../dialogs/configdialog.ui" line="611"/>
         <source>&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Amikor az adatok beolvasásra kerülnek a rácsnézetbe, az oszlopok szélessége automatikusan igazodik. Ez az érték korlátozza az igazítás kezdeti szélességét, de a felhasználó továbbra is átméretezheti kézzel az oszlopot ezen korlát fölé.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="585"/>
+        <location filename="../dialogs/configdialog.ui" line="537"/>
         <source>Number of data rows per page:</source>
         <translation>Adatsorok száma oldalanként:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="618"/>
+        <location filename="../dialogs/configdialog.ui" line="570"/>
         <source>&lt;p&gt;When this is enabled and user holds mouse pointer over a cell in any data view (query results, a table data, a view data) a tooltip will appear with details about the cell - it includes details like column data type, constraints, ROWID and others.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Ha ez engedélyezve van, és a felhasználó az egérmutatót bármely adatnézetben (lekérdezési eredmények, táblaadatok, nézetadatok) egy cella fölé viszi, megjelenik egy elemleírás a cella részleteivel – például az oszlop adattípusával, megszorításokkal, ROWID-val és egyebekkel.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="621"/>
+        <location filename="../dialogs/configdialog.ui" line="573"/>
         <source>Show column and row details tooltip in data view</source>
         <translation>Oszlop- és sorrészletek elemleírásának megjelenítése adatnézetben</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="527"/>
+        <location filename="../dialogs/configdialog.ui" line="479"/>
         <source>&lt;p&gt;When editing a cell which used to have NULL value and entering empty string as new value, then this option determinates whether the new value should remain NULL (have this option enabled), or should it be overwritten with empty string value (have this option disabled).&lt;/p&gt;</source>
         <translation>&lt;p&gt;Amikor egy korábban NULL értékű cellát szerkeszt, és új értékként üres karakterláncot ad meg, ez az opció határozza meg, hogy az új érték maradjon-e NULL (engedélyezett opció esetén), vagy felül legyen írva üres karakterlánc értékkel (letiltott opció esetén).&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="530"/>
+        <location filename="../dialogs/configdialog.ui" line="482"/>
         <source>Keep NULL value when entering empty value</source>
         <translation>NULL érték megtartása üres érték megadásakor</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="608"/>
+        <location filename="../dialogs/configdialog.ui" line="560"/>
         <source>Limit number of rows for in case of dozens of columns</source>
         <translation>Sorok számának korlátozása több tucat oszlop esetén</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="739"/>
+        <location filename="../dialogs/configdialog.ui" line="691"/>
         <source>Inserting new row in data grid</source>
         <translation>Új sor beszúrása az adatrácsba</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="745"/>
+        <location filename="../dialogs/configdialog.ui" line="697"/>
         <source>Before currently selected row</source>
         <translation>A jelenleg kijelölt sor elé</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="761"/>
+        <location filename="../dialogs/configdialog.ui" line="713"/>
         <source>After currently selected row</source>
         <translation>A jelenleg kijelölt sor után</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="774"/>
+        <location filename="../dialogs/configdialog.ui" line="726"/>
         <source>At the end of data view</source>
         <translation>Az adatnézet végére</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="790"/>
+        <location filename="../dialogs/configdialog.ui" line="742"/>
         <source>Table windows</source>
         <translation>Táblaablakok</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="796"/>
+        <location filename="../dialogs/configdialog.ui" line="748"/>
         <source>&lt;p&gt;When enabled, Table Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Ha engedélyezve van, a Táblaablakok a struktúra lap helyett az adatok lappal jelennek meg.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="799"/>
+        <location filename="../dialogs/configdialog.ui" line="751"/>
         <source>Open Table Windows with the data tab for start</source>
         <translation>Táblaablakok megnyitása indításkor az adatok lappal</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="809"/>
+        <location filename="../dialogs/configdialog.ui" line="761"/>
         <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every Table Window, instead of being at second place.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Ha engedélyezve van, az &quot;Adatok&quot; lap minden Táblaablakban első lapként lesz elhelyezve, nem pedig második helyen.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="812"/>
+        <location filename="../dialogs/configdialog.ui" line="764"/>
         <source>Place data tab as first tab in a Table Window</source>
         <translation>Adatok lap első lapként való elhelyezése a Táblaablakban</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="825"/>
+        <location filename="../dialogs/configdialog.ui" line="777"/>
         <source>View windows</source>
         <translation>Nézetablakok</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="831"/>
+        <location filename="../dialogs/configdialog.ui" line="783"/>
         <source>&lt;p&gt;When enabled, View Windows will show up with the data tab, instead of the structure tab.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Ha engedélyezve van, a Nézetablakok a struktúra lap helyett az adatok lappal jelennek meg.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="834"/>
+        <location filename="../dialogs/configdialog.ui" line="786"/>
         <source>Open View Windows with the data tab for start</source>
         <translation>Nézetablakok megnyitása indításkor az adatok lappal</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="844"/>
+        <location filename="../dialogs/configdialog.ui" line="796"/>
         <source>&lt;p&gt;When enabled the &quot;Data&quot; tab will be placed as first tab in every View Window, instead of being at second place.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Ha engedélyezve van, az &quot;Adatok&quot; lap minden Nézetablakban első lapként lesz elhelyezve, nem pedig második helyen.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="847"/>
+        <location filename="../dialogs/configdialog.ui" line="799"/>
         <source>Place data tab as first tab in a View Window</source>
         <translation>Adatok lap első lapként való elhelyezése a Nézetablakban</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="891"/>
+        <location filename="../dialogs/configdialog.ui" line="843"/>
         <source>Data types</source>
         <translation>Adattípusok</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="944"/>
+        <location filename="../dialogs/configdialog.ui" line="896"/>
         <source>Available editors:</source>
         <translation>Elérhető szerkesztők:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1061"/>
+        <location filename="../dialogs/configdialog.ui" line="1013"/>
         <source>Schema editing</source>
         <translation>Séma szerkesztése</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1073"/>
+        <location filename="../dialogs/configdialog.ui" line="1025"/>
         <source>Number of DDL changes kept in history.</source>
         <translation>Az előzményekben megőrzött DDL-módosítások száma.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1086"/>
+        <location filename="../dialogs/configdialog.ui" line="1038"/>
         <source>DDL history size:</source>
         <translation>DDL előzmények mérete:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1093"/>
+        <location filename="../dialogs/configdialog.ui" line="1045"/>
         <source>Don&apos;t show DDL preview dialog when committing schema changes</source>
         <translation>Ne jelenjen meg a DDL előnézeti párbeszédablak a sémamódosítások véglegesítésekor</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1391"/>
-        <location filename="../dialogs/configdialog.ui" line="1407"/>
+        <location filename="../dialogs/configdialog.ui" line="1343"/>
+        <location filename="../dialogs/configdialog.ui" line="1359"/>
         <source>Number of queries kept in the history.</source>
         <translation>Az előzményekben megőrzött lekérdezések száma.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1337"/>
+        <location filename="../dialogs/configdialog.ui" line="1289"/>
         <source>Execute only the query under the cursor</source>
         <translation>Csak a kurzor alatti lekérdezés végrehajtása</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1423"/>
+        <location filename="../dialogs/configdialog.ui" line="1375"/>
         <source>Number of memorized query parameters</source>
         <translation>Megjegyzett lekérdezési paraméterek száma</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="678"/>
+        <location filename="../dialogs/configdialog.ui" line="630"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When the data is read into grid view columns width is automatically adjusted. This value limits the initial width for the adjustment, but user can still resize the column manually over this limit. This value is also used when enlarging column upon new, longer value entered by the user (see option below).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Amikor az adatok beolvasásra kerülnek a rácsnézetbe, az oszlopok szélessége automatikusan igazodik. Ez az érték korlátozza az igazítás kezdeti szélességét, de a felhasználó továbbra is átméretezheti kézzel az oszlopot ezen korlát fölé. Ez az érték akkor is használatos, amikor az oszlopot a felhasználó által megadott új, hosszabb érték miatt növeli meg a program (lásd az alábbi opciót).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="681"/>
+        <location filename="../dialogs/configdialog.ui" line="633"/>
         <source>Limit automatic data column width to (in pixels):</source>
         <translation>Automatikus adatoszlop-szélesség korlátozása erre (képpontban):</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="688"/>
+        <location filename="../dialogs/configdialog.ui" line="640"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Initial width of data columns will be set to at least show complete name of the column in the header. This can still be overwritten by the initial limit of column width specified in pixels (the setting above).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Az adatoszlopok kezdeti szélessége legalább akkorára lesz állítva, hogy a fejlécben az oszlop teljes neve látható legyen. Ezt továbbra is felülírhatja a képpontban megadott kezdeti oszlopszélesség-korlát (a fenti beállítás).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="691"/>
+        <location filename="../dialogs/configdialog.ui" line="643"/>
         <source>Keep at least the width to show complete column name</source>
         <translation>Legalább a teljes oszlopnév megjelenítéséhez szükséges szélesség megtartása</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1301"/>
+        <location filename="../dialogs/configdialog.ui" line="1253"/>
         <source>Wrap lines in SQL editor</source>
         <translation>Sorok tördelése az SQL-szerkesztőben</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1324"/>
+        <location filename="../dialogs/configdialog.ui" line="1276"/>
         <source>Highlight current query</source>
         <translation>Aktuális lekérdezés kiemelése</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1106"/>
+        <location filename="../dialogs/configdialog.ui" line="1058"/>
         <source>Updates</source>
         <translation>Frissítések</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1112"/>
+        <location filename="../dialogs/configdialog.ui" line="1064"/>
         <source>Automatically check for updates at startup</source>
         <translation>Frissítések automatikus keresése indításkor</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1125"/>
+        <location filename="../dialogs/configdialog.ui" line="1077"/>
         <source>Session</source>
         <translation>Munkamenet</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1131"/>
+        <location filename="../dialogs/configdialog.ui" line="1083"/>
         <source>Restore last session (active MDI windows) after startup</source>
         <translation>Utolsó munkamenet visszaállítása (aktív MDI ablakok) indítás után</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1141"/>
+        <location filename="../dialogs/configdialog.ui" line="1093"/>
         <source>Allow multiple instances of the application at the same time</source>
         <translation>Az alkalmazás több példányának egyidejű engedélyezése</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1154"/>
+        <location filename="../dialogs/configdialog.ui" line="1106"/>
         <source>Status Field</source>
         <translation>Állapotmező</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1163"/>
+        <location filename="../dialogs/configdialog.ui" line="1115"/>
         <source>Always open Status panel when new message is printed</source>
         <translation>Állapotpanel mindig megnyitása új üzenet kiírásakor</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1488"/>
+        <location filename="../dialogs/configdialog.ui" line="1440"/>
         <source>Code syntax colors</source>
         <translation>Kódszintaxis színei</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1674"/>
+        <location filename="../dialogs/configdialog.ui" line="1626"/>
         <source>Keyword foreground</source>
         <translation>Kulcsszó előtérszíne</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1494"/>
+        <location filename="../dialogs/configdialog.ui" line="1446"/>
         <source>Regular foreground</source>
         <translation>Normál előtérszín</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1584"/>
+        <location filename="../dialogs/configdialog.ui" line="1536"/>
         <source>String foreground</source>
         <translation>Karakterlánc előtérszíne</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1854"/>
+        <location filename="../dialogs/configdialog.ui" line="1806"/>
         <source>Comment foreground</source>
         <translation>Megjegyzés előtérszíne</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1944"/>
+        <location filename="../dialogs/configdialog.ui" line="1896"/>
         <source>Valid objects foreground</source>
         <translation>Érvényes objektumok előtérszíne</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2255"/>
+        <location filename="../dialogs/configdialog.ui" line="2207"/>
         <source>Current query background</source>
         <translation>Aktuális lekérdezés háttérszíne</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2124"/>
+        <location filename="../dialogs/configdialog.ui" line="2076"/>
         <source>Bind parameter foreground</source>
         <translation>Kötési paraméter előtérszíne</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2214"/>
+        <location filename="../dialogs/configdialog.ui" line="2166"/>
         <source>Current line background</source>
         <translation>Aktuális sor háttérszíne</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2299"/>
+        <location filename="../dialogs/configdialog.ui" line="2251"/>
         <source>Matched parenthesis background</source>
         <translation>Illeszkedő zárójel háttérszíne</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2283"/>
+        <location filename="../dialogs/configdialog.ui" line="2235"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can disable current query highlighting entirely on the General settings page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Az aktuális lekérdezés kiemelését teljesen letilthatja az Általános beállítások oldalon.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="219"/>
+        <location filename="../dialogs/configdialog.ui" line="179"/>
         <source>Data renderers</source>
         <translation>Adatmegjelenítők</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="283"/>
+        <location filename="../dialogs/configdialog.ui" line="235"/>
         <source>Expand tables when connected to a database</source>
         <translation>Táblák kibontása adatbázishoz kapcsolódáskor</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="418"/>
+        <location filename="../dialogs/configdialog.ui" line="370"/>
         <source>Expand views when connected to a database</source>
         <translation>Nézetek kibontása adatbázishoz kapcsolódáskor</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="319"/>
+        <location filename="../dialogs/configdialog.ui" line="271"/>
         <source>Expanding a table or view also expands the Columns, Indexes and Triggers nodes to show their contents.</source>
         <translation>Egy tábla vagy nézet kibontása a Tartalmuk megjelenítéséhez az Oszlopok, Indexek és Triggerek csomópontokat is kibontja.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="293"/>
+        <location filename="../dialogs/configdialog.ui" line="245"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, the database schema is accessed using the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; table name.&lt;br/&gt;Older SQLite versions used the &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt; name, which is still supported as an alias.&lt;br/&gt;You can switch here to use the legacy name instead.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Alapértelmezés szerint az adatbázisséma a &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; táblanév használatával érhető el.&lt;br/&gt;A régebbi SQLite-verziók a &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_master&lt;/span&gt; nevet használták, amely továbbra is támogatott álnévként.&lt;br/&gt;Itt átválthat a régi név használatára.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="296"/>
+        <location filename="../dialogs/configdialog.ui" line="248"/>
         <source>Prefer sqlite_master over sqlite_schema table name</source>
         <translation>Az sqlite_master táblanév előnyben részesítése az sqlite_schema helyett</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="322"/>
+        <location filename="../dialogs/configdialog.ui" line="274"/>
         <source>Expand columns, indexes and triggers together with the table</source>
         <translation>Oszlopok, indexek és triggerek kibontása a táblával együtt</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="363"/>
+        <location filename="../dialogs/configdialog.ui" line="315"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows data type next to the column when Columns node is expanded.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Megjeleníti az adattípust az oszlop mellett, amikor az Oszlopok csomópont ki van bontva.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="366"/>
+        <location filename="../dialogs/configdialog.ui" line="318"/>
         <source>Display column data types</source>
         <translation>Oszlopok adattípusainak megjelenítése</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="376"/>
+        <location filename="../dialogs/configdialog.ui" line="328"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Shows number of columns, indexes and triggers next to each table name.&lt;/p&gt;&lt;p&gt;Requires loading full schema for all tables. For databases with hundreds or thousands of tables, this can significantly impact performance.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Megjeleníti az oszlopok, indexek és triggerek számát minden táblanév mellett.&lt;/p&gt;&lt;p&gt;Ehhez minden tábla teljes sémájának betöltése szükséges. Több száz vagy több ezer táblát tartalmazó adatbázisoknál ez jelentősen befolyásolhatja a teljesítményt.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="405"/>
+        <location filename="../dialogs/configdialog.ui" line="357"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;By default, system tables and indexes are hidden from the list.&lt;br/&gt;Enable this option to display internal SQLite objects, such as &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; and auto-generated indexes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Alapértelmezés szerint a rendszertáblák és indexek rejtve vannak a listán.&lt;br/&gt;Engedélyezze ezt az opciót a belső SQLite-objektumok, például a &lt;span style=&quot; font-family:&apos;Courier New&apos;;&quot;&gt;sqlite_schema&lt;/span&gt; és az automatikusan generált indexek megjelenítéséhez.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="450"/>
+        <location filename="../dialogs/configdialog.ui" line="402"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, database files will be added without showing the standard database dialog. If opening the database with default options fails (e.g. encrypted database or different driver required), the dialog will be shown so the options can be adjusted. When disabled, the dialog will always be shown.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ha engedélyezve van, az adatbázisfájlok a szokásos adatbázis párbeszédablak megjelenítése nélkül lesznek hozzáadva. Ha az adatbázis megnyitása az alapértelmezett opciókkal sikertelen (pl. titkosított adatbázis vagy más illesztőprogram szükséges), a párbeszédablak megjelenik, hogy az opciók módosíthatók legyenek. Ha le van tiltva, a párbeszédablak mindig megjelenik.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="453"/>
+        <location filename="../dialogs/configdialog.ui" line="405"/>
         <source>Skip the dialog when possible</source>
         <translation>Párbeszédablak kihagyása, amikor lehetséges</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="960"/>
+        <location filename="../dialogs/configdialog.ui" line="912"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Define which data editors are available for specific column types in &lt;span style=&quot; font-weight:700;&quot;&gt;Form View&lt;/span&gt; and the &lt;span style=&quot; font-weight:700;&quot;&gt;popup editor dialog&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adja meg, mely adatszerkesztők legyenek elérhetők adott oszloptípusokhoz az &lt;span style=&quot; font-weight:700;&quot;&gt;Űrlapnézetben&lt;/span&gt; és a &lt;span style=&quot; font-weight:700;&quot;&gt;felugró szerkesztő párbeszédablakban&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="979"/>
+        <location filename="../dialogs/configdialog.ui" line="931"/>
         <source>Preview of editors for this data type (drag to reorder):</source>
         <translation>Szerkesztők előnézete ehhez az adattípushoz (húzza az átrendezéshez):</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1003"/>
+        <location filename="../dialogs/configdialog.ui" line="955"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;You can define which cell renderers are used for specific data types declared on table columns (case-insensitive). If no renderer is defined for a given type, the default renderer is used.&lt;/p&gt;&lt;p&gt;Optional plugins may provide additional renderers and set their own default mappings for data types, which you can still override here.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Meghatározhatja, mely cellamegjelenítők legyenek használva a táblaoszlopokon deklarált adott adattípusokhoz (kis- és nagybetűktől függetlenül). Ha egy adott típushoz nincs megjelenítő definiálva, az alapértelmezett megjelenítő lesz használva.&lt;/p&gt;&lt;p&gt;Az opcionális bővítmények további megjelenítőket biztosíthatnak, és saját alapértelmezett leképezéseket állíthatnak be az adattípusokhoz, amelyeket itt továbbra is felülbírálhat.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1032"/>
+        <location filename="../dialogs/configdialog.ui" line="984"/>
         <source>Data type</source>
         <translation>Adattípus</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1037"/>
+        <location filename="../dialogs/configdialog.ui" line="989"/>
         <source>Renderer</source>
         <translation>Megjelenítő</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1334"/>
+        <location filename="../dialogs/configdialog.ui" line="1286"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When multiple queries are present, executes only the query under the cursor.&lt;br/&gt;When disabled, all queries are executed.&lt;br/&gt;You can also execute selected queries or use shortcuts (%1 for single, %2 for all).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ha több lekérdezés van jelen, csak a kurzor alatti lekérdezést hajtja végre.&lt;br/&gt;Ha le van tiltva, minden lekérdezés végrehajtásra kerül.&lt;br/&gt;Kijelölt lekérdezéseket is végrehajthat, vagy használhat gyorsbillentyűket (%1 egyhez, %2 mindhez).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1321"/>
+        <location filename="../dialogs/configdialog.ui" line="1273"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Highlights the query under the cursor - the same query that will be executed when using &lt;span style=&quot; font-style:italic;&quot;&gt;Execute query&lt;/span&gt;.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Kiemeli a kurzor alatti lekérdezést – ugyanazt a lekérdezést, amely a &lt;span style=&quot; font-style:italic;&quot;&gt;Lekérdezés végrehajtása&lt;/span&gt; használatakor végrehajtásra kerül.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="592"/>
+        <location filename="../dialogs/configdialog.ui" line="544"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When enabled, Letos automatically switches to scientific notation for very small real numbers (e.g. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Decimal notation is used for values whose magnitude allows a readable decimal representation.&lt;/p&gt;&lt;p&gt;When disabled, real numbers are always displayed using decimal notation, even if this results in very long fractional parts.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ha engedélyezve van, a Letos automatikusan tudományos jelölésre vált nagyon kis valós számoknál (pl. &lt;span style=&quot; font-style:italic;&quot;&gt;5.3e-21&lt;/span&gt;).&lt;br/&gt;Tizedes jelölés használatos azoknál az értékeknél, amelyek nagysága olvasható tizedes ábrázolást tesz lehetővé.&lt;/p&gt;&lt;p&gt;Ha le van tiltva, a valós számok mindig tizedes jelöléssel jelennek meg, még akkor is, ha ez nagyon hosszú törtrészeket eredményez.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="572"/>
+        <location filename="../dialogs/configdialog.ui" line="524"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When editing a cell, pressing Enter accepts the value and moves to the same column in the next row.&lt;br/&gt;If disabled, the selection stays on the current cell.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Cella szerkesztésekor az Enter megnyomása elfogadja az értéket, és a következő sor ugyanazon oszlopába lép.&lt;br/&gt;Ha le van tiltva, a kijelölés az aktuális cellán marad.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="575"/>
+        <location filename="../dialogs/configdialog.ui" line="527"/>
         <source>After editing, Enter moves to the next row</source>
         <translation>Szerkesztés után az Enter a következő sorra lép</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="605"/>
+        <location filename="../dialogs/configdialog.ui" line="557"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If query results contain dozens (or hundreds) of columns, it is more likely that it will exhaust free memory of your computer by loading several gigabytes of data at once. Letos may try to limit number of results displayed on one page in such cases to protect your computer. If you know that you don&apos;t work with big values in database, you can disable this limit and you will always see as many rows as defined per page.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ha a lekérdezési eredmények több tucat (vagy több száz) oszlopot tartalmaznak, nagyobb valószínűséggel kimerítik a számítógép szabad memóriáját azáltal, hogy egyszerre több gigabájtnyi adatot töltenek be. Ilyen esetekben a Letos megpróbálhatja korlátozni az egy oldalon megjelenített eredmények számát a számítógép védelme érdekében. Ha tudja, hogy nem dolgozik nagy értékekkel az adatbázisban, letilthatja ezt a korlátot, és mindig annyi sort fog látni, amennyi oldalanként meg van adva.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="540"/>
+        <location filename="../dialogs/configdialog.ui" line="492"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically starts editing the cell in the next row after moving to it with Enter.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatikusan megkezdi a következő sor cellájának szerkesztését, miután Enterrel oda lépett.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="543"/>
+        <location filename="../dialogs/configdialog.ui" line="495"/>
         <source>Start editing after moving to the next row</source>
         <translation>Szerkesztés indítása a következő sorra lépés után</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="704"/>
+        <location filename="../dialogs/configdialog.ui" line="656"/>
         <source>Column header actions</source>
         <translation>Oszlopfejléc-műveletek</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="710"/>
+        <location filename="../dialogs/configdialog.ui" line="662"/>
         <source>Single-click selects column data; double-click sorts by column</source>
         <translation>Egy kattintás kijelöli az oszlop adatait; dupla kattintás oszlop szerint rendez</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="723"/>
+        <location filename="../dialogs/configdialog.ui" line="675"/>
         <source>Single-click sorts by column; Alt+click selects column data</source>
         <translation>Egy kattintás oszlop szerint rendez; Alt+kattintás kijelöli az oszlop adatait</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1160"/>
+        <location filename="../dialogs/configdialog.ui" line="1112"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When user manually closes the Status panel, this option makes sure that if any new message is printed in the Status panel it will be reopened. If it&apos;s disabled, then Status panel can only be open manually by the user from the &amp;quot;View&amp;quot; menu.&lt;/p&gt;&lt;p&gt;You can always hide the Status panel with the Esc key.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Amikor a felhasználó kézzel bezárja az Állapotpanelt, ez a beállítás biztosítja, hogy ha bármilyen új üzenet jelenik meg az Állapotpanelen, az újra megnyíljon. Ha le van tiltva, akkor az Állapotpanelt a felhasználó csak kézzel nyithatja meg a &amp;quot;Nézet&amp;quot; menüből.&lt;/p&gt;&lt;p&gt;Az Állapotpanelt bármikor elrejtheti az Esc billentyűvel.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1173"/>
+        <location filename="../dialogs/configdialog.ui" line="1125"/>
         <source>Older status messages</source>
         <translation>Régebbi állapotüzenetek</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1179"/>
+        <location filename="../dialogs/configdialog.ui" line="1131"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are kept unchanged.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A régebbi állapotüzenetek változatlanok maradnak.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1182"/>
+        <location filename="../dialogs/configdialog.ui" line="1134"/>
         <source>Keep messages</source>
         <translation>Üzenetek megtartása</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1195"/>
+        <location filename="../dialogs/configdialog.ui" line="1147"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages remain visible, but are visually dimmed to make recent messages stand out.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A régebbi állapotüzenetek láthatók maradnak, de vizuálisan halványítva vannak, hogy a friss üzenetek kiemelkedjenek.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1198"/>
+        <location filename="../dialogs/configdialog.ui" line="1150"/>
         <source>Dim older messages</source>
         <translation>Régebbi üzenetek halványítása</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1211"/>
+        <location filename="../dialogs/configdialog.ui" line="1163"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Older status messages are automatically removed from the status field.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A régebbi állapotüzenetek automatikusan el lesznek távolítva az állapotmezőből.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1214"/>
+        <location filename="../dialogs/configdialog.ui" line="1166"/>
         <source>Remove older messages</source>
         <translation>Régebbi üzenetek eltávolítása</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1230"/>
+        <location filename="../dialogs/configdialog.ui" line="1182"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Occasionally show a status message with information about supporting the Letos project. These reminders appear infrequently and can be disabled at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Időnként állapotüzenet megjelenítése a Letos projekt támogatásával kapcsolatos információkkal. Ezek az emlékeztetők ritkán jelennek meg, és bármikor letilthatók.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1233"/>
+        <location filename="../dialogs/configdialog.ui" line="1185"/>
         <source>Show occasional project support reminders</source>
         <translation>Alkalmankénti projekttámogatási emlékeztetők megjelenítése</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1269"/>
-        <location filename="../dialogs/configdialog.ui" line="1285"/>
+        <location filename="../dialogs/configdialog.ui" line="1221"/>
+        <location filename="../dialogs/configdialog.ui" line="1237"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specifies the maximum number of decimal places shown for query execution time. Up to 9 digits (nanoseconds) can be configured. Trailing zeros are automatically trimmed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Megadja a lekérdezés végrehajtási idejénél megjelenített tizedesjegyek maximális számát. Legfeljebb 9 számjegy (nanoszekundum) konfigurálható. A záró nullák automatikusan levágásra kerülnek.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1272"/>
+        <location filename="../dialogs/configdialog.ui" line="1224"/>
         <source>Execution time precision (decimal places)</source>
         <translation>Végrehajtási idő pontossága (tizedesjegyek)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1298"/>
+        <location filename="../dialogs/configdialog.ui" line="1250"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If enabled, lines longer than the editor width will be wrapped, so horizontal scrolling will not be needed.&lt;/p&gt;&lt;p&gt;This option defines the global default, while individual SQL editor windows can override it locally.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ha engedélyezve van, a szerkesztő szélességénél hosszabb sorok tördelve lesznek, így nem lesz szükség vízszintes görgetésre.&lt;/p&gt;&lt;p&gt;Ez a beállítás a globális alapértelmezést határozza meg, míg az egyes SQL-szerkesztő ablakok helyileg felülbírálhatják azt.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1311"/>
+        <location filename="../dialogs/configdialog.ui" line="1263"/>
         <source>Disable blinking text cursor</source>
         <translation>Villogó szövegkurzor letiltása</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1359"/>
+        <location filename="../dialogs/configdialog.ui" line="1311"/>
         <source>Trigger assistant after typing a dot</source>
         <translation>Segéd aktiválása pont beírása után</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1369"/>
+        <location filename="../dialogs/configdialog.ui" line="1321"/>
         <source>When enabled, invoking code completion in an empty editor shows code snippets first instead of syntax suggestions. Invoking code completion again switches to syntax suggestions (and vice versa).</source>
         <translation>Ha engedélyezve van, az üres szerkesztőben meghívott kódkiegészítés először kódrészleteket jelenít meg szintaktikai javaslatok helyett. A kódkiegészítés ismételt meghívása szintaktikai javaslatokra vált (és fordítva).</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1372"/>
+        <location filename="../dialogs/configdialog.ui" line="1324"/>
         <source>Prefer snippets in empty editor</source>
         <translation>Kódrészletek előnyben részesítése üres szerkesztőben</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1385"/>
+        <location filename="../dialogs/configdialog.ui" line="1337"/>
         <source>History</source>
         <translation>Előzmények</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1394"/>
+        <location filename="../dialogs/configdialog.ui" line="1346"/>
         <source>Query history size:</source>
         <translation>Lekérdezési előzmények mérete:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1420"/>
-        <location filename="../dialogs/configdialog.ui" line="1430"/>
+        <location filename="../dialogs/configdialog.ui" line="1372"/>
+        <location filename="../dialogs/configdialog.ui" line="1382"/>
         <source>&lt;p&gt;Maximum number of query parameters (:param, @param, $param, ?) stored in history. When you re-use parameter with the same name/position, Letos will pre-initialize it with most recent memorized value (you will still be able to change it). Value of 1000 should be sufficient.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Az előzményekben tárolt lekérdezési paraméterek (:param, @param, $param, ?) maximális száma. Ha ugyanazt a nevű/pozíciójú paramétert újra használja, a Letos előzetesen kitölti a legutóbb megjegyzett értékkel (ezt továbbra is módosíthatja). Az 1000-es érték elegendő kell legyen.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1764"/>
+        <location filename="../dialogs/configdialog.ui" line="1716"/>
         <source>Number foreground</source>
         <translation>Szám előtérszíne</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2034"/>
+        <location filename="../dialogs/configdialog.ui" line="1986"/>
         <source>BLOB value foreground</source>
         <translation>BLOB érték előtérszíne</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2340"/>
+        <location filename="../dialogs/configdialog.ui" line="2292"/>
         <source>Matched parenthesis foreground</source>
         <translation>Illeszkedő zárójel előtérszíne</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2448"/>
-        <location filename="../dialogs/configdialog.ui" line="2556"/>
+        <location filename="../dialogs/configdialog.ui" line="2400"/>
+        <location filename="../dialogs/configdialog.ui" line="2508"/>
         <source>Reset to defaults</source>
         <translation>Alapértelmezések visszaállítása</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2474"/>
+        <location filename="../dialogs/configdialog.ui" line="2426"/>
         <source>Filter shortcuts by name or key combination</source>
         <translation>Gyorsbillentyűk szűrése név vagy billentyűkombináció szerint</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2518"/>
+        <location filename="../dialogs/configdialog.ui" line="2470"/>
         <source>Action</source>
         <translation>Művelet</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2523"/>
+        <location filename="../dialogs/configdialog.ui" line="2475"/>
         <source>Key combination</source>
         <translation>Billentyűkombináció</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2597"/>
-        <location filename="../dialogs/configdialog.ui" line="3112"/>
+        <location filename="../dialogs/configdialog.ui" line="2549"/>
+        <location filename="../dialogs/configdialog.ui" line="3199"/>
         <source>Language</source>
         <translation>Nyelv</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2603"/>
+        <location filename="../dialogs/configdialog.ui" line="2555"/>
         <source>Changing language requires application restart to take effect.</source>
         <translation>A nyelv módosításának érvénybe lépéséhez az alkalmazás újraindítása szükséges.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2623"/>
+        <location filename="../dialogs/configdialog.ui" line="2575"/>
         <source>User interface</source>
         <translation type="unfinished">User interface</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2629"/>
-        <location filename="../dialogs/configdialog.ui" line="2639"/>
+        <location filename="../dialogs/configdialog.ui" line="2581"/>
+        <location filename="../dialogs/configdialog.ui" line="2591"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2632"/>
+        <location filename="../dialogs/configdialog.ui" line="2584"/>
         <source>Interface scale</source>
         <translation type="unfinished">Interface scale</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2649"/>
+        <location filename="../dialogs/configdialog.ui" line="2601"/>
         <source>Toolbar icon size</source>
         <translation type="unfinished">Toolbar icon size</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2669"/>
+        <location filename="../dialogs/configdialog.ui" line="2621"/>
         <source>&lt;p&gt;Compact layout reduces all margins and spacing on the UI to minimum, making space for displaying more data. It makes the interface a little bit less aesthetic, but allows to display more data at once.&lt;/p&gt;</source>
         <translation>&lt;p&gt;A kompakt elrendezés a felhasználói felületen minden margót és térközt minimálisra csökkent, így több adat megjelenítésének ad helyet. Ettől a felület kissé kevésbé esztétikus lesz, de egyszerre több adat jeleníthető meg.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2672"/>
+        <location filename="../dialogs/configdialog.ui" line="2624"/>
         <source>Use compact layout</source>
         <translation>Kompakt elrendezés használata</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2688"/>
+        <location filename="../dialogs/configdialog.ui" line="2640"/>
+        <source>Icon set</source>
+        <translation type="unfinished">Icon set</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2646"/>
+        <source>License</source>
+        <translation type="unfinished">License</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2653"/>
+        <source>Choose icon set (requires restart)</source>
+        <translation type="unfinished">Choose icon set (requires restart)</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2725"/>
+        <source>Description</source>
+        <translation type="unfinished">Description</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2735"/>
+        <source>Author</source>
+        <translation type="unfinished">Author</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2749"/>
+        <source>URL</source>
+        <translation type="unfinished">URL</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.ui" line="2783"/>
         <source>Main window dock areas</source>
         <translation>Főablak dokkolási területei</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2694"/>
+        <location filename="../dialogs/configdialog.ui" line="2789"/>
         <source>Left and right areas occupy corners</source>
         <translation>A bal és jobb területek elfoglalják a sarkokat</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2714"/>
+        <location filename="../dialogs/configdialog.ui" line="2805"/>
         <source>Top and bottom areas occupy corners</source>
         <translation>A felső és alsó területek elfoglalják a sarkokat</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2646"/>
-        <location filename="../dialogs/configdialog.ui" line="2656"/>
+        <location filename="../dialogs/configdialog.ui" line="2598"/>
+        <location filename="../dialogs/configdialog.ui" line="2608"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Expressed in percentage of default size.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Az alapértelmezett méret százalékában kifejezve.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2836"/>
+        <location filename="../dialogs/configdialog.ui" line="2923"/>
         <source>Hide built-in plugins</source>
         <translation>Beépített bővítmények elrejtése</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2865"/>
+        <location filename="../dialogs/configdialog.ui" line="2952"/>
         <source>Current style:</source>
         <translation>Jelenlegi stílus:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2882"/>
+        <location filename="../dialogs/configdialog.ui" line="2742"/>
+        <location filename="../dialogs/configdialog.ui" line="2969"/>
         <source>Preview</source>
         <translation>Előnézet</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="2892"/>
+        <location filename="../dialogs/configdialog.ui" line="2979"/>
         <source>Enabled</source>
         <translation>Engedélyezve</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3068"/>
+        <location filename="../dialogs/configdialog.ui" line="3155"/>
         <source>Disabled</source>
         <translation>Letiltva</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3117"/>
+        <location filename="../dialogs/configdialog.ui" line="3204"/>
         <source>Active formatter plugin</source>
         <translation>Aktív formázó bővítmény</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3155"/>
+        <location filename="../dialogs/configdialog.ui" line="3242"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tip:&lt;/span&gt; In addition to the settings available here, font sizes can also be adjusted dynamically in most interface elements by holding &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; and scrolling the &lt;span style=&quot; font-weight:700;&quot;&gt;mouse wheel&lt;/span&gt; over the element whose font size you want to change.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;Tipp:&lt;/span&gt; Az itt elérhető beállításokon kívül a betűméretek a legtöbb felületi elemen dinamikusan is módosíthatók: tartsa lenyomva a &lt;span style=&quot; font-weight:700;&quot;&gt;Ctrl&lt;/span&gt; billentyűt, és görgesse az &lt;span style=&quot; font-weight:700;&quot;&gt;egérgörgőt&lt;/span&gt; azon az elemen, amelynek betűméretét módosítani szeretné.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3174"/>
+        <location filename="../dialogs/configdialog.ui" line="3261"/>
         <source>SQL editor font</source>
         <translation>SQL-szerkesztő betűtípusa</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3190"/>
+        <location filename="../dialogs/configdialog.ui" line="3277"/>
         <source>Database list font</source>
         <translation>Adatbázislista betűtípusa</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3206"/>
+        <location filename="../dialogs/configdialog.ui" line="3293"/>
         <source>Database list additional label font</source>
         <translation>Adatbázislista kiegészítő címkéjének betűtípusa</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3222"/>
+        <location filename="../dialogs/configdialog.ui" line="3309"/>
         <source>Data view font</source>
         <translation>Adatnézet betűtípusa</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="3238"/>
+        <location filename="../dialogs/configdialog.ui" line="3325"/>
         <source>Status field font</source>
         <translation>Állapotmező betűtípusa</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.ui" line="1356"/>
+        <location filename="../dialogs/configdialog.ui" line="1308"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If this option is enabled, the code assistant will be triggered in cases, when user types for example &lt;span style=&quot; font-weight:700;&quot;&gt;tableName.&lt;/span&gt; to propose columns of the table. If the option is disabled, user will have to hit the assistant hotkey explicitly.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ha ez az opció engedélyezve van, a kódsegéd akkor aktiválódik, amikor a felhasználó például beírja: &lt;span style=&quot; font-weight:700;&quot;&gt;táblaNév.&lt;/span&gt;, hogy javasolja a tábla oszlopait. Ha az opció le van tiltva, a felhasználónak kifejezetten meg kell nyomnia a segéd gyorsbillentyűjét.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="447"/>
+        <location filename="../dialogs/configdialog.cpp" line="467"/>
         <source>The new interface scale will be applied after restarting Letos.</source>
         <translation type="unfinished">The new interface scale will be applied after restarting Letos.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1144"/>
+        <location filename="../dialogs/configdialog.cpp" line="825"/>
+        <source>Restart the application to apply the new icon set.</source>
+        <translation type="unfinished">Restart the application to apply the new icon set.</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/configdialog.cpp" line="1175"/>
         <source>Description:</source>
         <comment>plugin details</comment>
         <translation>Leírás:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1145"/>
+        <location filename="../dialogs/configdialog.cpp" line="1176"/>
         <source>Category:</source>
         <comment>plugin details</comment>
         <translation>Kategória:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1146"/>
+        <location filename="../dialogs/configdialog.cpp" line="1177"/>
         <source>Version:</source>
         <comment>plugin details</comment>
         <translation>Verzió:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1147"/>
+        <location filename="../dialogs/configdialog.cpp" line="1178"/>
         <source>Author:</source>
         <comment>plugin details</comment>
         <translation>Szerző:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1149"/>
+        <location filename="../dialogs/configdialog.cpp" line="1180"/>
         <source>Internal name:</source>
         <comment>plugin details</comment>
         <translation>Belső név:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1150"/>
+        <location filename="../dialogs/configdialog.cpp" line="1181"/>
         <source>Dependencies:</source>
         <comment>plugin details</comment>
         <translation>Függőségek:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1151"/>
+        <location filename="../dialogs/configdialog.cpp" line="1182"/>
         <source>Conflicts:</source>
         <comment>plugin details</comment>
         <translation>Ütközések:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1152"/>
+        <location filename="../dialogs/configdialog.cpp" line="1183"/>
         <source>File:</source>
         <comment>plugin details</comment>
         <translation>Fájl:</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1157"/>
+        <location filename="../dialogs/configdialog.cpp" line="1188"/>
         <source>Plugin details</source>
         <translation>Bővítmény részletei</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1778"/>
+        <location filename="../dialogs/configdialog.cpp" line="1888"/>
         <source>Plugins are loaded/unloaded immediately when checked/unchecked, but modified list of plugins to load at startup is not saved until you commit the whole configuration dialog.</source>
         <translation>A bővítmények bejelöléskor/kijelöléskor azonnal betöltődnek/kiürülnek, de az indításkor betöltendő bővítmények módosított listája csak a teljes konfigurációs párbeszédablak jóváhagyásakor kerül mentésre.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1836"/>
+        <location filename="../dialogs/configdialog.cpp" line="1946"/>
         <source>%1 (built-in)</source>
         <comment>plugins manager in configuration dialog</comment>
         <translation>%1 (beépített)</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1878"/>
+        <location filename="../dialogs/configdialog.cpp" line="1988"/>
         <source>Details</source>
         <translation>Részletek</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1892"/>
+        <location filename="../dialogs/configdialog.cpp" line="2002"/>
         <source>No plugins in this category.</source>
         <translation>Nincsenek bővítmények ebben a kategóriában.</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1992"/>
-        <location filename="../dialogs/configdialog.cpp" line="2021"/>
+        <location filename="../dialogs/configdialog.cpp" line="2102"/>
+        <location filename="../dialogs/configdialog.cpp" line="2131"/>
         <source>Add new data type</source>
         <translation>Új adattípus hozzáadása</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="1996"/>
-        <location filename="../dialogs/configdialog.cpp" line="2025"/>
+        <location filename="../dialogs/configdialog.cpp" line="2106"/>
+        <location filename="../dialogs/configdialog.cpp" line="2135"/>
         <source>Rename selected data type</source>
         <translation>Kijelölt adattípus átnevezése</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2000"/>
-        <location filename="../dialogs/configdialog.cpp" line="2029"/>
+        <location filename="../dialogs/configdialog.cpp" line="2110"/>
+        <location filename="../dialogs/configdialog.cpp" line="2139"/>
         <source>Delete selected data type</source>
         <translation>Kijelölt adattípus törlése</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2113"/>
+        <location filename="../dialogs/configdialog.cpp" line="2223"/>
         <source>Clear hotkey for this action</source>
         <translation>A művelet gyorsbillentyűjének törlése</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2125"/>
+        <location filename="../dialogs/configdialog.cpp" line="2235"/>
         <source>Restore original hotkey for this action</source>
         <translation>A művelet eredeti gyorsbillentyűjének visszaállítása</translation>
     </message>
     <message>
-        <location filename="../dialogs/configdialog.cpp" line="2167"/>
+        <location filename="../dialogs/configdialog.cpp" line="2277"/>
         <source>Here you can configure colors for code syntax highlighting. They are shared across different languages - not only for SQL, but also JavaScript and others. By default a theme-based color is used. To define your own color, enable a custom color by selecting a checkbox next to a particular color.</source>
         <translation>Itt konfigurálhatja a kód szintaxiskiemelésének színeit. Ezek különböző nyelvek között megosztottak – nem csak SQL-hez, hanem JavaScripthez és másokhoz is. Alapértelmezetten témaalapú szín használatos. Saját szín megadásához engedélyezze az egyéni színt az adott szín melletti jelölőnégyzet bejelölésével.</translation>
     </message>
@@ -2422,7 +2458,7 @@ Más oldalak böngészése a sorszámlálás befejezése után lesz lehetséges.
     </message>
     <message>
         <location filename="../dialogs/dbdialog.ui" line="45"/>
-        <location filename="../dialogs/dbdialog.cpp" line="194"/>
+        <location filename="../dialogs/dbdialog.cpp" line="196"/>
         <source>File</source>
         <translation>Fájl</translation>
     </message>
@@ -2437,110 +2473,110 @@ Más oldalak böngészése a sorszámlálás befejezése után lesz lehetséges.
         <translation>Új adatbázisfájl létrehozása</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="89"/>
+        <location filename="../dialogs/dbdialog.ui" line="85"/>
         <source>Name (on the list)</source>
         <translation>Név (a listán)</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="117"/>
+        <location filename="../dialogs/dbdialog.ui" line="113"/>
         <source>Change</source>
         <translation>Módosítás</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="127"/>
+        <location filename="../dialogs/dbdialog.ui" line="123"/>
         <source>Options</source>
         <translation>Beállítások</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="133"/>
+        <location filename="../dialogs/dbdialog.ui" line="129"/>
         <source>&lt;p&gt;Enable this if you want the database to be stored in configuration file and restored every time Letos is started.&lt;/p&gt;</source>
         <extracomment>aasfd</extracomment>
         <translation>&lt;p&gt;Engedélyezze ezt, ha azt szeretné, hogy az adatbázis a konfigurációs fájlban legyen tárolva, és a Letos minden indításakor vissza legyen állítva.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="136"/>
+        <location filename="../dialogs/dbdialog.ui" line="132"/>
         <source>Permanent (keep it in configuration)</source>
         <translation>Állandó (megtartás a konfigurációban)</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.ui" line="180"/>
+        <location filename="../dialogs/dbdialog.ui" line="176"/>
         <source>Test connection</source>
         <translation>Kapcsolat tesztelése</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="355"/>
+        <location filename="../dialogs/dbdialog.cpp" line="357"/>
         <source>Browse</source>
         <translation>Tallózás</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="528"/>
+        <location filename="../dialogs/dbdialog.cpp" line="530"/>
         <source>Database type not selected.</source>
         <translation>Nincs kiválasztva adatbázistípus.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="535"/>
+        <location filename="../dialogs/dbdialog.cpp" line="537"/>
         <source>Database path not specified.</source>
         <translation>Az adatbázis elérési útja nincs megadva.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="568"/>
+        <location filename="../dialogs/dbdialog.cpp" line="570"/>
         <source>Enter an unique database name.</source>
         <translation>Adjon meg egyedi adatbázisnevet.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="578"/>
+        <location filename="../dialogs/dbdialog.cpp" line="580"/>
         <source>This name is already in use. Please enter unique name.</source>
         <translation>Ez a név már használatban van. Adjon meg egyedi nevet.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="585"/>
+        <location filename="../dialogs/dbdialog.cpp" line="587"/>
         <source>&lt;p&gt;Automatic name generation was disabled, because the name was edited manually. To restore automatic generation please erase contents of the name field.&lt;/p&gt;</source>
         <translation>&lt;p&gt;Az automatikus névgenerálás le lett tiltva, mert a nevet kézzel szerkesztették. Az automatikus generálás visszaállításához törölje a névmező tartalmát.&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="594"/>
+        <location filename="../dialogs/dbdialog.cpp" line="596"/>
         <source>Enter a database file path.</source>
         <translation>Adja meg az adatbázisfájl elérési útját.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="600"/>
+        <location filename="../dialogs/dbdialog.cpp" line="602"/>
         <source>You&apos;re using a relative file path, which will be resolved to &quot;%1&quot; according to the application&apos;s working directory. It&apos;s always better to use absolute file path to avoid unexpected database location.</source>
         <translation>Relatív fájlelérési utat használ, amely az alkalmazás munkakönyvtára alapján erre lesz feloldva: &quot;%1&quot;. A váratlan adatbázis-hely elkerüléséhez mindig jobb abszolút fájlelérési utat használni.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="610"/>
+        <location filename="../dialogs/dbdialog.cpp" line="612"/>
         <source>This database is already on the list under name: %1</source>
         <translation>Ez az adatbázis már szerepel a listán ezen a néven: %1</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="632"/>
+        <location filename="../dialogs/dbdialog.cpp" line="634"/>
         <source>Select a database type.</source>
         <translation>Válasszon adatbázistípus.</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="657"/>
+        <location filename="../dialogs/dbdialog.cpp" line="659"/>
         <source>Automatic</source>
         <comment>database name</comment>
         <translation>Automatikus</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="658"/>
+        <location filename="../dialogs/dbdialog.cpp" line="660"/>
         <source>Change</source>
         <comment>database name</comment>
         <translation>Módosítás</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="667"/>
+        <location filename="../dialogs/dbdialog.cpp" line="669"/>
         <source>(empty)</source>
         <translation>(üres)</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="837"/>
+        <location filename="../dialogs/dbdialog.cpp" line="839"/>
         <source>Choose a location for the new database file</source>
         <translation>Válasszon helyet az új adatbázisfájlnak</translation>
     </message>
     <message>
-        <location filename="../dialogs/dbdialog.cpp" line="838"/>
+        <location filename="../dialogs/dbdialog.cpp" line="840"/>
         <source>Browse for existing database file on local computer</source>
         <translation>Meglévő adatbázisfájl tallózása a helyi számítógépen</translation>
     </message>
@@ -2624,7 +2660,7 @@ Más oldalak böngészése a sorszámlálás befejezése után lesz lehetséges.
         <translation>Adatbázisok</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2556"/>
+        <location filename="../dbtree/dbtree.cpp" line="2565"/>
         <source>Filter by name</source>
         <translation>Szűrés név szerint</translation>
     </message>
@@ -2875,7 +2911,7 @@ Más oldalak böngészése a sorszámlálás befejezése után lesz lehetséges.
     </message>
     <message>
         <location filename="../dbtree/dbtree.cpp" line="190"/>
-        <location filename="../dbtree/dbtree.cpp" line="1938"/>
+        <location filename="../dbtree/dbtree.cpp" line="1947"/>
         <source>Erase table data</source>
         <translation>Táblaadatok törlése</translation>
     </message>
@@ -2931,140 +2967,140 @@ Más oldalak böngészése a sorszámlálás befejezése után lesz lehetséges.
         <translation>Lekérdezés generálása nézethez</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1326"/>
-        <location filename="../dbtree/dbtree.cpp" line="1329"/>
+        <location filename="../dbtree/dbtree.cpp" line="1334"/>
+        <location filename="../dbtree/dbtree.cpp" line="1337"/>
         <source>Create group</source>
         <translation>Csoport létrehozása</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1326"/>
+        <location filename="../dbtree/dbtree.cpp" line="1334"/>
         <source>Group name</source>
         <translation>Csoport neve</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1329"/>
+        <location filename="../dbtree/dbtree.cpp" line="1337"/>
         <source>Entry with name %1 already exists in group %2.</source>
         <translation>A %1 nevű bejegyzés már létezik a %2 csoportban.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1366"/>
+        <location filename="../dbtree/dbtree.cpp" line="1374"/>
         <source>Delete group</source>
         <translation>Csoport törlése</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1367"/>
+        <location filename="../dbtree/dbtree.cpp" line="1375"/>
         <source>Are you sure you want to delete groups: %1?
 All objects from these groups will be moved to respective parent groups.</source>
         <translation>Biztosan törölni szeretné a következő csoportokat: %1?
 E csoportok összes objektuma a megfelelő szülőcsoportba kerül át.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1499"/>
+        <location filename="../dbtree/dbtree.cpp" line="1507"/>
         <source>Are you sure you want to remove database &apos;%1&apos; from the list?</source>
         <translation>Biztosan el szeretné távolítani a &apos;%1&apos; adatbázist a listáról?</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1507"/>
+        <location filename="../dbtree/dbtree.cpp" line="1515"/>
         <source>Are you sure you want to remove following databases from the list:
 %1</source>
         <translation>Biztosan el szeretné távolítani a következő adatbázisokat a listáról:
 %1</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1509"/>
+        <location filename="../dbtree/dbtree.cpp" line="1517"/>
         <source>Remove database</source>
         <translation>Adatbázis eltávolítása</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1564"/>
-        <location filename="../dbtree/dbtree.cpp" line="1769"/>
+        <location filename="../dbtree/dbtree.cpp" line="1572"/>
+        <location filename="../dbtree/dbtree.cpp" line="1777"/>
         <source>Cannot import, because no import plugin is loaded.</source>
         <translation>Nem lehet importálni, mert nincs betöltve importáló bővítmény.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1584"/>
-        <location filename="../dbtree/dbtree.cpp" line="1744"/>
-        <location filename="../dbtree/dbtree.cpp" line="1813"/>
+        <location filename="../dbtree/dbtree.cpp" line="1592"/>
+        <location filename="../dbtree/dbtree.cpp" line="1752"/>
+        <location filename="../dbtree/dbtree.cpp" line="1822"/>
         <source>Cannot export, because no export plugin is loaded.</source>
         <translation>Nem lehet exportálni, mert nincs betöltve exportáló bővítmény.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1859"/>
+        <location filename="../dbtree/dbtree.cpp" line="1868"/>
         <source>Vacuum (%1)</source>
         <translation>Vákuumozás (%1)</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1873"/>
+        <location filename="../dbtree/dbtree.cpp" line="1882"/>
         <source>Integrity check (%1)</source>
         <translation>Integritás-ellenőrzés (%1)</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1909"/>
+        <location filename="../dbtree/dbtree.cpp" line="1918"/>
         <source>Reset autoincrement</source>
         <translation>Automatikus növekmény visszaállítása</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1909"/>
+        <location filename="../dbtree/dbtree.cpp" line="1918"/>
         <source>Are you sure you want to reset autoincrement value for table &apos;%1&apos;?</source>
         <translation>Biztosan vissza szeretné állítani az automatikus növekmény értékét a &apos;%1&apos; táblához?</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1916"/>
+        <location filename="../dbtree/dbtree.cpp" line="1925"/>
         <source>An error occurred while trying to reset autoincrement value for table &apos;%1&apos;: %2</source>
         <translation>Hiba történt az automatikus növekmény értékének visszaállítása közben a &apos;%1&apos; táblához: %2</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1918"/>
+        <location filename="../dbtree/dbtree.cpp" line="1927"/>
         <source>Autoincrement value for table &apos;%1&apos; has been reset successfully.</source>
         <translation>A &apos;%1&apos; tábla automatikus növekmény értéke sikeresen vissza lett állítva.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1938"/>
+        <location filename="../dbtree/dbtree.cpp" line="1947"/>
         <source>Are you sure you want to delete all data from table(s): %1?</source>
         <translation>Biztosan törölni szeretné az összes adatot a táblá(k)ból: %1?</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1950"/>
+        <location filename="../dbtree/dbtree.cpp" line="1959"/>
         <source>An error occurred while trying to delete data from table &apos;%1&apos;: %2</source>
         <translation>Hiba történt az adatok törlése közben a &apos;%1&apos; táblából: %2</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="1954"/>
+        <location filename="../dbtree/dbtree.cpp" line="1963"/>
         <source>All data has been deleted for table &apos;%1&apos;.</source>
         <translation>A &apos;%1&apos; tábla összes adata törölve lett.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2093"/>
+        <location filename="../dbtree/dbtree.cpp" line="2102"/>
         <source>Following objects will be deleted: %1.</source>
         <translation>A következő objektumok törölve lesznek: %1.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2096"/>
+        <location filename="../dbtree/dbtree.cpp" line="2105"/>
         <source>Following databases will be removed from list: %1.</source>
         <translation>A következő adatbázisok el lesznek távolítva a listáról: %1.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2099"/>
+        <location filename="../dbtree/dbtree.cpp" line="2108"/>
         <source>Remainig objects from deleted group will be moved in place where the group used to be.</source>
         <translation>A törölt csoportból megmaradó objektumok arra a helyre kerülnek, ahol a csoport volt.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2101"/>
+        <location filename="../dbtree/dbtree.cpp" line="2110"/>
         <source>%1&lt;br&gt;&lt;br&gt;Are you sure you want to continue?</source>
         <translation>%1&lt;br&gt;&lt;br&gt;Biztosan folytatni szeretné?</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2103"/>
+        <location filename="../dbtree/dbtree.cpp" line="2112"/>
         <source>Delete objects</source>
         <translation>Objektumok törlése</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2582"/>
+        <location filename="../dbtree/dbtree.cpp" line="2591"/>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Connected.&lt;/p&gt;&lt;p&gt;Click here to disconnect, or middle-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Kapcsolódva.&lt;/p&gt;&lt;p&gt;Kattintson ide a leválasztáshoz, vagy kattintson középső gombbal az adatbázisra.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtree.cpp" line="2590"/>
+        <location filename="../dbtree/dbtree.cpp" line="2599"/>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;Disconnected.&lt;/p&gt;&lt;p&gt;Click here to connect, or double-click on the database.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Leválasztva.&lt;/p&gt;&lt;p&gt;Kattintson ide a kapcsolódáshoz, vagy kattintson duplán az adatbázisra.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -3099,148 +3135,148 @@ E csoportok összes objektuma a megfelelő szülőcsoportba kerül át.</transla
 <context>
     <name>DbTreeModel</name>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="493"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="494"/>
         <source>Database: %1</source>
         <comment>dbtree tooltip</comment>
         <translation>Adatbázis: %1</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="494"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="495"/>
         <source>URI:</source>
         <comment>dbtree tooltip</comment>
         <translation>URI:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="498"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="499"/>
         <source>Format:</source>
         <comment>dbtree tooltip</comment>
         <translation>Formátum:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="501"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="502"/>
         <source>File size:</source>
         <comment>dbtree tooltip</comment>
         <translation>Fájlméret:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="504"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="505"/>
         <source>Encoding:</source>
         <comment>dbtree tooltip</comment>
         <translation>Kódolás:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="509"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="510"/>
         <source>Error:</source>
         <comment>dbtree tooltip</comment>
         <translation>Hiba:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="513"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="514"/>
         <source>Double-click to edit this database</source>
         <comment>dbtree tooltip</comment>
         <translation>Kattintson duplán az adatbázis szerkesztéséhez</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="515"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="516"/>
         <source>Double-click to connect to this database</source>
         <comment>dbtree tooltip</comment>
         <translation>Kattintson duplán az adatbázishoz való kapcsolódáshoz</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="525"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="526"/>
         <source>Table : %1</source>
         <comment>dbtree tooltip</comment>
         <translation>Tábla : %1</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="548"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="549"/>
         <source>Columns (%1):</source>
         <comment>dbtree tooltip</comment>
         <translation>Oszlopok (%1):</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="551"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="552"/>
         <source>Indexes (%1):</source>
         <comment>dbtree tooltip</comment>
         <translation>Indexek (%1):</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="554"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="555"/>
         <source>Triggers (%1):</source>
         <comment>dbtree tooltip</comment>
         <translation>Triggerek (%1):</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1342"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1343"/>
         <source>Copy</source>
         <translation>Másolás</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1343"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1344"/>
         <source>Move</source>
         <translation>Áthelyezés</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1345"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1346"/>
         <source>Include data</source>
         <translation>Adatok belefoglalása</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1346"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1347"/>
         <source>Include indexes</source>
         <translation>Indexek belefoglalása</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1347"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1348"/>
         <source>Include triggers</source>
         <translation>Triggerek belefoglalása</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1349"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1350"/>
         <source>Abort</source>
         <translation>Megszakítás</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1408"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1409"/>
         <source>Could not add dropped database file &apos;%1&apos; automatically. Manual setup is necessary.</source>
         <translation>Nem sikerült automatikusan hozzáadni a bedobott &apos;%1&apos; adatbázisfájlt. Kézi beállítás szükséges.</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1487"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1488"/>
         <source>Referenced tables</source>
         <translation>Hivatkozott táblák</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1488"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1489"/>
         <source>Do you want to include following referenced tables as well:
 %1</source>
         <translation>Szeretné a következő hivatkozott táblákat is belefoglalni:
 %1</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1497"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1498"/>
         <source>Name conflict</source>
         <translation>Névütközés</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1498"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1499"/>
         <source>Following object already exists in the target database.
 Please enter new, unique name, or press &apos;%1&apos; to abort the operation:</source>
         <translation>A következő objektum már létezik a céladatbázisban.
 Adjon meg új, egyedi nevet, vagy nyomja meg a &apos;%1&apos; gombot a művelet megszakításához:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1511"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1512"/>
         <source>SQL statements conversion</source>
         <translation>SQL-utasítások konverziója</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1519"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1520"/>
         <source>Following error occurred while converting SQL statements to the target SQLite version:</source>
         <translation>A következő hiba történt az SQL-utasítások cél SQLite-verzióra konvertálása közben:</translation>
     </message>
     <message>
-        <location filename="../dbtree/dbtreemodel.cpp" line="1520"/>
+        <location filename="../dbtree/dbtreemodel.cpp" line="1521"/>
         <source>Would you like to ignore those errors and proceed?</source>
         <translation>Szeretné figyelmen kívül hagyni ezeket a hibákat, és folytatni?</translation>
     </message>
@@ -3917,70 +3953,70 @@ Adjon meg új, egyedi nevet, vagy nyomja meg a &apos;%1&apos; gombot a művelet 
         <translation>Exportálási formátum beállításai</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="69"/>
+        <location filename="../dialogs/exportdialog.cpp" line="70"/>
         <source>Cancel</source>
         <translation>Mégse</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="197"/>
-        <location filename="../dialogs/exportdialog.cpp" line="221"/>
-        <location filename="../dialogs/exportdialog.cpp" line="246"/>
-        <location filename="../dialogs/exportdialog.cpp" line="271"/>
+        <location filename="../dialogs/exportdialog.cpp" line="198"/>
+        <location filename="../dialogs/exportdialog.cpp" line="222"/>
+        <location filename="../dialogs/exportdialog.cpp" line="247"/>
+        <location filename="../dialogs/exportdialog.cpp" line="272"/>
         <source>Select database to export.</source>
         <translation>Válassza ki az exportálandó adatbázist.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="198"/>
+        <location filename="../dialogs/exportdialog.cpp" line="199"/>
         <source>Select table to export.</source>
         <translation>Válassza ki az exportálandó táblát.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="222"/>
+        <location filename="../dialogs/exportdialog.cpp" line="223"/>
         <source>Select view to export.</source>
         <translation>Válassza ki az exportálandó nézetet.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="247"/>
+        <location filename="../dialogs/exportdialog.cpp" line="248"/>
         <source>Enter valid query to export.</source>
         <translation>Adjon meg érvényes exportálandó lekérdezést.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="272"/>
+        <location filename="../dialogs/exportdialog.cpp" line="273"/>
         <source>Select at least one object to export.</source>
         <translation>Válasszon legalább egy exportálandó objektumot.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="295"/>
+        <location filename="../dialogs/exportdialog.cpp" line="296"/>
         <source>You must provide a file name to export to.</source>
         <translation>Meg kell adnia egy fájlnevet, amelybe exportálni szeretne.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="302"/>
+        <location filename="../dialogs/exportdialog.cpp" line="303"/>
         <source>Path you provided is an existing directory. You cannot overwrite it.</source>
         <translation>A megadott elérési út egy létező könyvtár. Nem írhatja felül.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="308"/>
+        <location filename="../dialogs/exportdialog.cpp" line="309"/>
         <source>The directory &apos;%1&apos; does not exist.</source>
         <translation>A &apos;%1&apos; könyvtár nem létezik.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="314"/>
+        <location filename="../dialogs/exportdialog.cpp" line="315"/>
         <source>The file &apos;%1&apos; exists and will be overwritten.</source>
         <translation>A &apos;%1&apos; fájl létezik, és felül lesz írva.</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="555"/>
+        <location filename="../dialogs/exportdialog.cpp" line="556"/>
         <source>All files (*)</source>
         <translation>Minden fájl (*)</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="558"/>
+        <location filename="../dialogs/exportdialog.cpp" line="559"/>
         <source>Pick file to export to</source>
         <translation>Válassza ki az exportálás célfájlját</translation>
     </message>
     <message>
-        <location filename="../dialogs/exportdialog.cpp" line="985"/>
+        <location filename="../dialogs/exportdialog.cpp" line="986"/>
         <source>Internal error during export. This is a bug. Please report it.</source>
         <translation>Belső hiba történt exportálás közben. Ez programhiba. Kérjük, jelentse.</translation>
     </message>
@@ -4364,6 +4400,14 @@ Adjon meg új, egyedi nevet, vagy nyomja meg a &apos;%1&apos; gombot a művelet 
     </message>
 </context>
 <context>
+    <name>IconManager</name>
+    <message>
+        <location filename="../iconmanager.cpp" line="295"/>
+        <source>Mix of icons from various sources, including svgrepo.com and other open-source icon sets.</source>
+        <translation type="unfinished">Mix of icons from various sources, including svgrepo.com and other open-source icon sets.</translation>
+    </message>
+</context>
+<context>
     <name>ImportDialog</name>
     <message>
         <location filename="../dialogs/importdialog.ui" line="14"/>
@@ -4426,42 +4470,42 @@ Adjon meg új, egyedi nevet, vagy nyomja meg a &apos;%1&apos; gombot a művelet 
         <translation>Adatforrás beállításai</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="131"/>
+        <location filename="../dialogs/importdialog.cpp" line="132"/>
         <source>Cancel</source>
         <translation>Mégse</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="162"/>
+        <location filename="../dialogs/importdialog.cpp" line="163"/>
         <source>If you type table name that doesn&apos;t exist, it will be created.</source>
         <translation>Ha olyan táblanevet ad meg, amely nem létezik, létre lesz hozva.</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="162"/>
+        <location filename="../dialogs/importdialog.cpp" line="163"/>
         <source>Enter the table name</source>
         <translation>Adja meg a tábla nevét</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="180"/>
+        <location filename="../dialogs/importdialog.cpp" line="181"/>
         <source>Select import plugin.</source>
         <translation>Válasszon importáló bővítményt.</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="189"/>
+        <location filename="../dialogs/importdialog.cpp" line="190"/>
         <source>You must provide a file to import from.</source>
         <translation>Meg kell adnia egy fájlt, amelyből importál.</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="196"/>
+        <location filename="../dialogs/importdialog.cpp" line="197"/>
         <source>The file &apos;%1&apos; does not exist.</source>
         <translation>A &apos;%1&apos; fájl nem létezik.</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="202"/>
+        <location filename="../dialogs/importdialog.cpp" line="203"/>
         <source>Path you provided is a directory. A regular file is required.</source>
         <translation>A megadott útvonal könyvtár. Normál fájl szükséges.</translation>
     </message>
     <message>
-        <location filename="../dialogs/importdialog.cpp" line="395"/>
+        <location filename="../dialogs/importdialog.cpp" line="396"/>
         <source>Pick file to import from</source>
         <translation>Válassza ki az importálandó fájlt</translation>
     </message>
@@ -7627,12 +7671,12 @@ Az ilyen törlés végleges lesz. Biztosan törölni szeretné őket?</translati
         <translation>Állapot</translation>
     </message>
     <message>
-        <location filename="../statusfield.cpp" line="190"/>
+        <location filename="../statusfield.cpp" line="191"/>
         <source>Copy</source>
         <translation>Másolás</translation>
     </message>
     <message>
-        <location filename="../statusfield.cpp" line="197"/>
+        <location filename="../statusfield.cpp" line="198"/>
         <source>Clear</source>
         <translation>Törlés</translation>
     </message>
