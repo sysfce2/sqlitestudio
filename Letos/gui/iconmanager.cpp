@@ -48,7 +48,7 @@ void IconManager::scanIconSet(const QString& dirPath)
 {
 
     QDir dir(dirPath);
-    QFile metaFile = dir.filePath("meta.json");
+    QFile metaFile(dir.filePath("meta.json"));
     if (!metaFile.exists())
     {
         qWarning() << "Icon set" << dir.dirName() << "does not contain meta.json file, skipping.";
