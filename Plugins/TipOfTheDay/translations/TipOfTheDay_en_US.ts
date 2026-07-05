@@ -11,7 +11,7 @@
     <message>
         <location filename="../tipofthedayconfig.ui" line="23"/>
         <source>Get up-to-date tips online</source>
-        <translation>Get up-to-date tips online</translation>
+        <translation>Retrieve up-to-date tips online</translation>
     </message>
     <message>
         <location filename="../tipofthedayconfig.ui" line="36"/>
@@ -26,7 +26,7 @@
     <message>
         <location filename="../tipofthedayconfig.ui" line="52"/>
         <source>Show Tip of the Day on startup</source>
-        <translation>Show Tip of the Day on startup</translation>
+        <translation>Show the Tip of the Day at startup</translation>
     </message>
 </context>
 <context>
@@ -45,19 +45,19 @@
         <location filename="../tipofthedaydialog.cpp" line="24"/>
         <source>Configure</source>
         <comment>tip of the day dialog</comment>
-        <translation>Configure</translation>
+        <translation>Settings</translation>
     </message>
     <message>
         <location filename="../tipofthedaydialog.cpp" line="25"/>
         <source>« Previous</source>
         <comment>tip of the day dialog</comment>
-        <translation>« Previous</translation>
+        <translation>« Back</translation>
     </message>
     <message>
         <location filename="../tipofthedaydialog.cpp" line="26"/>
         <source>Next »</source>
         <comment>tip of the day dialog</comment>
-        <translation>Next »</translation>
+        <translation>Forward »</translation>
     </message>
 </context>
 <context>
@@ -65,17 +65,17 @@
     <message>
         <location filename="../tipofthedayplugin.cpp" line="20"/>
         <source>Tip of the Day...</source>
-        <translation>Tip of the Day...</translation>
+        <translation>Tip of the Day…</translation>
     </message>
     <message>
         <location filename="../tipofthedayplugin.cpp" line="89"/>
         <source>Could not download tips from the internet. Letos will use locally stored tips instead.</source>
-        <translation>Could not download tips from the internet. Letos will use locally stored tips instead.</translation>
+        <translation>Tips could not be downloaded from the internet. Letos will use locally stored tips instead.</translation>
     </message>
     <message>
         <location filename="../tipofthedayplugin.cpp" line="188"/>
         <source>&lt;b&gt;Quick tip:&lt;/b&gt; %1 - &lt;a href=&quot;%2&quot;&gt;Learn more&lt;/a&gt;</source>
-        <translation>&lt;b&gt;Quick tip:&lt;/b&gt; %1 - &lt;a href=&quot;%2&quot;&gt;Learn more&lt;/a&gt;</translation>
+        <translation>&lt;b&gt;Tip:&lt;/b&gt; %1 - &lt;a href=&quot;%2&quot;&gt;Read more&lt;/a&gt;</translation>
     </message>
 </context>
 </TS>
