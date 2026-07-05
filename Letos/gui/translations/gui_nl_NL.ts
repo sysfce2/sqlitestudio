@@ -1817,23 +1817,23 @@
     <message>
       <location filename="../dialogs/configdialog.ui" line="2575"/>
       <source>User interface</source>
-      <translation type="unfinished">User interface</translation>
+      <translation>Gebruikersinterface</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2581"/>
       <location filename="../dialogs/configdialog.ui" line="2591"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Past de schaal van de applicatie-interface aan. Wijzigingen worden van kracht nadat de applicatie opnieuw is gestart.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2584"/>
       <source>Interface scale</source>
-      <translation type="unfinished">Interface scale</translation>
+      <translation>Interfaceschaal</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2601"/>
       <source>Toolbar icon size</source>
-      <translation type="unfinished">Toolbar icon size</translation>
+      <translation>Pictogramgrootte werkbalk</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2621"/>
@@ -1848,32 +1848,32 @@
     <message>
       <location filename="../dialogs/configdialog.ui" line="2640"/>
       <source>Icon set</source>
-      <translation type="unfinished">Icon set</translation>
+      <translation>Pictogrammenset</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2646"/>
       <source>License</source>
-      <translation type="unfinished">License</translation>
+      <translation>Licentie</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2653"/>
       <source>Choose icon set (requires restart)</source>
-      <translation type="unfinished">Choose icon set (requires restart)</translation>
+      <translation>Pictogrammenset kiezen (opnieuw opstarten vereist)</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2725"/>
       <source>Description</source>
-      <translation type="unfinished">Description</translation>
+      <translation>Beschrijving</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2735"/>
       <source>Author</source>
-      <translation type="unfinished">Author</translation>
+      <translation>Auteur</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2749"/>
       <source>URL</source>
-      <translation type="unfinished">URL</translation>
+      <translation>URL-adres</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2783"/>
@@ -1965,12 +1965,12 @@
     <message>
       <location filename="../dialogs/configdialog.cpp" line="467"/>
       <source>The new interface scale will be applied after restarting Letos.</source>
-      <translation type="unfinished">The new interface scale will be applied after restarting Letos.</translation>
+      <translation>De nieuwe interfaceschaal wordt toegepast nadat Letos opnieuw is gestart.</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.cpp" line="825"/>
       <source>Restart the application to apply the new icon set.</source>
-      <translation type="unfinished">Restart the application to apply the new icon set.</translation>
+      <translation>Start de applicatie opnieuw om de nieuwe pictogrammenset toe te passen.</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.cpp" line="1175"/>
@@ -3097,12 +3097,12 @@ Alle objecten uit deze groepen worden naar de respectieve bovenliggende groepen 
     <message>
       <location filename="../dbtree/dbtree.cpp" line="2293"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync enabled.&lt;/p&gt;&lt;p&gt;Click to disable.&lt;/p&gt;&lt;p&gt;The list follows the active window and automatically selects and reveals the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</source>
-      <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync enabled.&lt;/p&gt;&lt;p&gt;Click to disable.&lt;/p&gt;&lt;p&gt;The list follows the active window and automatically selects and reveals the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
+      <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Lijstsynchronisatie ingeschakeld.&lt;/p&gt;&lt;p&gt;Klik om uit te schakelen.&lt;/p&gt;&lt;p&gt;De lijst volgt het actieve venster en selecteert en toont automatisch het bijbehorende databaseobject.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.cpp" line="2308"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync disabled.&lt;/p&gt;&lt;p&gt;Click to enable.&lt;/p&gt;&lt;p&gt;When enabled, the object tree will follow the active editor and automatically select the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</source>
-      <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync disabled.&lt;/p&gt;&lt;p&gt;Click to enable.&lt;/p&gt;&lt;p&gt;When enabled, the object tree will follow the active editor and automatically select the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
+      <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Lijstsynchronisatie uitgeschakeld.&lt;/p&gt;&lt;p&gt;Klik om in te schakelen.&lt;/p&gt;&lt;p&gt;Wanneer ingeschakeld volgt de objectenboom de actieve editor en selecteert automatisch het bijbehorende databaseobject.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.cpp" line="2591"/>
@@ -4414,7 +4414,7 @@ Voer een nieuwe, unieke naam in, of druk op &apos;%1&apos; om de bewerking af te
     <message>
       <location filename="../iconmanager.cpp" line="295"/>
       <source>Mix of icons from various sources, including svgrepo.com and other open-source icon sets.</source>
-      <translation type="unfinished">Mix of icons from various sources, including svgrepo.com and other open-source icon sets.</translation>
+      <translation>Mix van pictogrammen uit verschillende bronnen, waaronder svgrepo.com en andere opensource-pictogrammensets.</translation>
     </message>
   </context>
   <context>
