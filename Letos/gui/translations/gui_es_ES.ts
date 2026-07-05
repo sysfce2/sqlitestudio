@@ -1817,23 +1817,23 @@
     <message>
       <location filename="../dialogs/configdialog.ui" line="2575"/>
       <source>User interface</source>
-      <translation type="unfinished">User interface</translation>
+      <translation>Interfaz de usuario</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2581"/>
       <location filename="../dialogs/configdialog.ui" line="2591"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Adjusts the scale of the application interface. Changes take effect after restarting the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ajusta la escala de la interfaz de la aplicación. Los cambios surten efecto después de reiniciar la aplicación.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2584"/>
       <source>Interface scale</source>
-      <translation type="unfinished">Interface scale</translation>
+      <translation>Escala de la interfaz</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2601"/>
       <source>Toolbar icon size</source>
-      <translation type="unfinished">Toolbar icon size</translation>
+      <translation>Tamaño de los iconos de la barra de herramientas</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2621"/>
@@ -1848,32 +1848,32 @@
     <message>
       <location filename="../dialogs/configdialog.ui" line="2640"/>
       <source>Icon set</source>
-      <translation type="unfinished">Icon set</translation>
+      <translation>Conjunto de iconos</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2646"/>
       <source>License</source>
-      <translation type="unfinished">License</translation>
+      <translation>Licencia</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2653"/>
       <source>Choose icon set (requires restart)</source>
-      <translation type="unfinished">Choose icon set (requires restart)</translation>
+      <translation>Elegir conjunto de iconos (requiere reiniciar)</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2725"/>
       <source>Description</source>
-      <translation type="unfinished">Description</translation>
+      <translation>Descripción</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2735"/>
       <source>Author</source>
-      <translation type="unfinished">Author</translation>
+      <translation>Autor</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2749"/>
       <source>URL</source>
-      <translation type="unfinished">URL</translation>
+      <translation>Dirección URL</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.ui" line="2783"/>
@@ -1965,12 +1965,12 @@
     <message>
       <location filename="../dialogs/configdialog.cpp" line="467"/>
       <source>The new interface scale will be applied after restarting Letos.</source>
-      <translation type="unfinished">The new interface scale will be applied after restarting Letos.</translation>
+      <translation>La nueva escala de la interfaz se aplicará después de reiniciar Letos.</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.cpp" line="825"/>
       <source>Restart the application to apply the new icon set.</source>
-      <translation type="unfinished">Restart the application to apply the new icon set.</translation>
+      <translation>Reinicie la aplicación para aplicar el nuevo conjunto de iconos.</translation>
     </message>
     <message>
       <location filename="../dialogs/configdialog.cpp" line="1175"/>
@@ -3097,12 +3097,12 @@ Todos los objetos de estos grupos se moverán a los grupos padre correspondiente
     <message>
       <location filename="../dbtree/dbtree.cpp" line="2293"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync enabled.&lt;/p&gt;&lt;p&gt;Click to disable.&lt;/p&gt;&lt;p&gt;The list follows the active window and automatically selects and reveals the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</source>
-      <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync enabled.&lt;/p&gt;&lt;p&gt;Click to disable.&lt;/p&gt;&lt;p&gt;The list follows the active window and automatically selects and reveals the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
+      <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Sincronización de la lista activada.&lt;/p&gt;&lt;p&gt;Haga clic para desactivarla.&lt;/p&gt;&lt;p&gt;La lista sigue la ventana activa y selecciona y muestra automáticamente el objeto de base de datos correspondiente.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.cpp" line="2308"/>
       <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync disabled.&lt;/p&gt;&lt;p&gt;Click to enable.&lt;/p&gt;&lt;p&gt;When enabled, the object tree will follow the active editor and automatically select the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</source>
-      <translation type="unfinished">&lt;html&gt;&lt;body&gt;&lt;p&gt;List sync disabled.&lt;/p&gt;&lt;p&gt;Click to enable.&lt;/p&gt;&lt;p&gt;When enabled, the object tree will follow the active editor and automatically select the corresponding database object.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
+      <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;Sincronización de la lista desactivada.&lt;/p&gt;&lt;p&gt;Haga clic para activarla.&lt;/p&gt;&lt;p&gt;Cuando está activada, el árbol de objetos seguirá el editor activo y seleccionará automáticamente el objeto de base de datos correspondiente.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
     </message>
     <message>
       <location filename="../dbtree/dbtree.cpp" line="2591"/>
@@ -4414,7 +4414,7 @@ Introduzca un nombre nuevo y único, o pulse &apos;%1&apos; para cancelar la ope
     <message>
       <location filename="../iconmanager.cpp" line="295"/>
       <source>Mix of icons from various sources, including svgrepo.com and other open-source icon sets.</source>
-      <translation type="unfinished">Mix of icons from various sources, including svgrepo.com and other open-source icon sets.</translation>
+      <translation>Mezcla de iconos de varias fuentes, incluido svgrepo.com y otros conjuntos de iconos de código abierto.</translation>
     </message>
   </context>
   <context>
