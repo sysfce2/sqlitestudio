@@ -30,7 +30,6 @@ const ExtendedPalette& Style::extendedPalette() const
 
 void Style::setStyle(QStyle *style, const QString &styleName)
 {
-    qDebug() << "set style" << style->name() << styleName;
     setBaseStyle(style);
 
     QApplication::setPalette(initialPalette); // reset palette, cause styles don't provide
