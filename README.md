@@ -8,7 +8,7 @@ This project was previously known as SQLiteStudio. The name was changed to avoid
 
 - If your OS package manager has a package for Letos, you may want to use it:
 
-  [![Packaging status](https://repology.org/badge/vertical-allrepos/sqlitestudio.svg?columns=2&exclude_unsupported=true)](https://repology.org/project/sqlitestudio/versions)
+  [![Packaging status](https://repology.org/badge/vertical-allrepos/letos.svg)](https://repology.org/project/letos/versions)
 - Most recent packages are available at Releases page: https://github.com/pawelsalawa/letos/releases
 - Older versions (3.x.x) can be fetched from [this dropbox folder](https://www.dropbox.com/sh/ao4nz2qjfsz2yuy/AABwiiss3do7n0wNecuk-uyna?dl=0)
 - Legacy versions (2.x.x) & Windows development dependencies [can be found here](https://www.dropbox.com/sh/iyilxtepgswpdlm/AADmYlJ4QRYWn_eo9u4fPn0Aa?dl=0).
