@@ -271,6 +271,7 @@ jobs:
                     -DQRC_EXTRA_ICONSETS=../../icons8/icons8.qrc
                 cmake --build . --verbose
                 cmake --install . --verbose
+                rm -rf ../../icons8
 
             - name: Compile Plugins
               working-directory: output/build-plugins
