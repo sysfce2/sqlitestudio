@@ -562,7 +562,7 @@ void MainWindow::restoreSession()
         {
 #ifdef Q_OS_WIN
             setStyle("fusion");
-#elif Q_OS_MACX
+#elif Q_OS_MACOS
             setStyle("macos");
             THEME_TUNER->tuneCurrentTheme();
 #else
