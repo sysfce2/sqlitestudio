@@ -126,6 +126,8 @@ class GUI_API_EXPORT SqlQueryView : public QTableView, public ExtActionContainer
                 QSize sectionSizeFromContents(int section) const override;
                 void mousePressEvent(QMouseEvent *e) override;
                 void mouseDoubleClickEvent(QMouseEvent *e) override;
+                void mouseMoveEvent(QMouseEvent *e) override;
+                void leaveEvent(QEvent* e) override;
 
             private:
                 void handleSectionResize(int logicalIndex, int oldSize, int newSize);
@@ -157,6 +159,7 @@ class GUI_API_EXPORT SqlQueryView : public QTableView, public ExtActionContainer
 
         constexpr static const char* mimeDataId = "application/x-letos-data-view-data";
         constexpr static const int minHeaderWidth = 15;
+        constexpr static const int separatorTolerance = 8;
 
         SqlQueryItemDelegate* itemDelegate = nullptr;
         SqlQueryItemDelegate* pinnedViewItemDelegate = nullptr;

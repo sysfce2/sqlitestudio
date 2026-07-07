@@ -79,9 +79,10 @@ void DbTree::init()
     ui->setupUi(this);
     initDndTypes();
 
+
     QGridLayout* layout = dynamic_cast<QGridLayout*>(ui->dockWidgetContents->layout());
     layout->setVerticalSpacing(3);
-    layout->setContentsMargins(0, 0, 0, 0);
+    layout->setContentsMargins(3, 0, 3, 0);
 
     fileExecutor = new SqlFileExecutor(this);
 

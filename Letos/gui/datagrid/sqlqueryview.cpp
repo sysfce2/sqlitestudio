@@ -1572,12 +1572,38 @@ void SqlQueryView::Header::mousePressEvent(QMouseEvent *e)
         }
     }
 
+    // Expanded separator tolerance for both hover and press/grab
     if (e->button() == Qt::LeftButton)
     {
         lastSectionSizes.clear();
         int sectionCount = count();
         for (int i = 0; i < sectionCount; i++)
             lastSectionSizes[i] = sectionSize(i);
+
+        int x = e->pos().x();
+
+        // Find nearest section boundary (right edge of section i)
+        int foundBoundary = -1;
+        int boundaryX = 0;
+        for (int i = 0; i < sectionCount; ++i)
+        {
+            int b = sectionPosition(i) + sectionSize(i);
+            if (qAbs(x - b) <= separatorTolerance)
+            {
+                foundBoundary = i;
+                boundaryX = b;
+                break;
+            }
+        }
+
+        if (foundBoundary >= 0)
+        {
+            // Synthesize a mouse press exactly on the separator so QHeaderView starts resizing
+            QMouseEvent synthetic(QEvent::MouseButtonPress, QPoint(boundaryX, e->pos().y()), e->globalPosition().toPoint(), Qt::LeftButton, e->buttons(), e->modifiers());
+            QHeaderView::mousePressEvent(&synthetic);
+            e->accept();
+            return;
+        }
 
         int section = logicalIndexAt(e->pos());
         if (section >= 0 && CFG_UI.General.SingleColumnClickSort.get() && !e->modifiers().testFlag(Qt::AltModifier))
@@ -1596,20 +1622,30 @@ void SqlQueryView::Header::mouseDoubleClickEvent(QMouseEvent* e)
 
     if (e->button() == Qt::LeftButton)
     {
+        int x = e->pos().x();
+        int sectionCount = count();
+        // Find nearest section boundary (right edge of section i)
+        int foundBoundary = -1;
+        for (int i = 0; i < sectionCount; ++i)
+        {
+            int b = sectionPosition(i) + sectionSize(i);
+            if (qAbs(x - b) <= separatorTolerance)
+            {
+                foundBoundary = i;
+                break;
+            }
+        }
+
+        if (foundBoundary >= 0)
+        {
+            qobject_cast<SqlQueryView*>(parentWidget())->resizeColumnToContents(foundBoundary);
+            e->accept();
+            return;
+        }
+
         int section = logicalIndexAt(e->pos());
         if (section >= 0)
         {
-            // Adjust column size if clicked on separator
-            int x = e->pos().x();
-            int right = sectionPosition(section) + sectionSize(section);
-            const int separatorTolerance = 4;
-            if (qAbs(x - right) <= separatorTolerance)
-            {
-                qobject_cast<SqlQueryView*>(parentWidget())->resizeColumnToContents(section);
-                e->accept();
-                return;
-            }
-
             // Double-clicked on the section - sort the column if configured to do so
             if (CFG_UI.General.SingleColumnClickSort.get())
                 e->accept();
@@ -1620,6 +1656,43 @@ void SqlQueryView::Header::mouseDoubleClickEvent(QMouseEvent* e)
         return;
     }
     QHeaderView::mouseDoubleClickEvent(e);
+}
+
+void SqlQueryView::Header::mouseMoveEvent(QMouseEvent *e)
+{
+    // Only change cursor on hover (no drag buttons pressed)
+    if (!(e->buttons() & Qt::LeftButton))
+    {
+        int x = e->pos().x();
+        int sectionCount = count();
+        bool nearBoundary = false;
+
+        for (int i = 0; i < sectionCount; ++i)
+        {
+            int b = sectionPosition(i) + sectionSize(i);
+            if (qAbs(x - b) <= separatorTolerance)
+            {
+                nearBoundary = true;
+                break;
+            }
+        }
+
+        if (nearBoundary)
+            setCursor(Qt::SplitHCursor);
+        else
+            unsetCursor();
+
+        e->accept();
+        return;
+    }
+
+    QHeaderView::mouseMoveEvent(e);
+}
+
+void SqlQueryView::Header::leaveEvent(QEvent* e)
+{
+    unsetCursor();
+    QHeaderView::leaveEvent(e);
 }
 
 void SqlQueryView::Header::handleSectionResize(int logicalIndex, int oldSize, int newSize)

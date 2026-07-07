@@ -1,5 +1,8 @@
 # ChangeLog
 
+### 4.0.2
+- BIGFIX: #5755 Grid View column header separator is now easier to grab or double-click.
+
 ### 4.0.1
 - ADDED: #5402 User Interface scaling can be now configured for whole application from the configuration dialog (Look & Feel page).
 - ADDED: Letos can now use different icon sets. It's configurable. For now the open source repository contains only the default icon set, while official letos.org builds will include a set from Icons8 (https://icons8.com). These are proprietary icons and Icons8 team granted the license to Letos project.
