@@ -1,5 +1,5 @@
 env:
-    QT_VERSION: '6.5.3'
+    QT_VERSION: '6.11.1'
     TCL_VERSION: '8.6.17'
     PYTHON_VERSION: '3.13'
     ICU_VERSION: '76.1'
