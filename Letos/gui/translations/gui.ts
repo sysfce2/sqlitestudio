@@ -7448,42 +7448,42 @@ Such deletion will be permanent. Are you sure you want to delete them?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="1193"/>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1189"/>
         <source>Pin column</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="1220"/>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1216"/>
         <source>Column renderer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="1227"/>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1223"/>
         <source>Default</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="1383"/>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1379"/>
         <source>Trim pasted text?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="1384"/>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1380"/>
         <source>The pasted text contains leading or trailing white space. Trim it automatically?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="1392"/>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1388"/>
         <source>Paste &quot;NULL&quot; as null value?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="1393"/>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1389"/>
         <source>The pasted text contains &quot;NULL&quot; literals. Do you want to consider them as NULL values?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../datagrid/sqlqueryview.cpp" line="1521"/>
+        <location filename="../datagrid/sqlqueryview.cpp" line="1517"/>
         <source>Edit value</source>
         <translation type="unfinished"></translation>
     </message>
